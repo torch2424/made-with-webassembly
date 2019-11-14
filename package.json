@@ -4,10 +4,13 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "dev": "preact watch",
-    "build": "preact build",
+    "build": "run-s showcase:build preact:build",
+    "dev": "run-s preact:dev",
+    "lint": "eslint src",
     "serve": "preact serve",
-    "lint": "eslint src"
+    "showcase:build": "node showcase-build.js",
+    "preact:dev": "preact watch",
+    "preact:build": "preact build"
   },
   "eslintConfig": {
     "extends": "eslint-config-synacor"
@@ -20,6 +23,7 @@
     "eslint-config-synacor": "^1.1.0",
     "if-env": "^1.0.0",
     "mkdirp": "^0.5.1",
+    "npm-run-all": "^4.1.5",
     "preact-cli": "^2.0.0",
     "recursive-copy": "^2.0.10",
     "recursive-readdir": "^2.2.2",
