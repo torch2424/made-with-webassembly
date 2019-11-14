@@ -19,7 +19,11 @@
     "eslint": "^4.5.0",
     "eslint-config-synacor": "^1.1.0",
     "if-env": "^1.0.0",
-    "preact-cli": "^2.0.0"
+    "mkdirp": "^0.5.1",
+    "preact-cli": "^2.0.0",
+    "recursive-copy": "^2.0.10",
+    "recursive-readdir": "^2.2.2",
+    "showdown": "^1.9.1"
   },
   "dependencies": {
     "fuse.js": "^3.4.5",

@@ -1,3 +1,7 @@
+# Build files
+dist/
+build/
+
 # System Files
 .DS_Store
 
