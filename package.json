@@ -22,6 +22,7 @@
     "preact-cli": "^2.0.0"
   },
   "dependencies": {
+    "fuse.js": "^3.4.5",
     "preact": "^8.5.2",
     "preact-compat": "^3.17.0",
     "preact-render-to-string": "^4.1.0",
