@@ -1,0 +1,30 @@
+{
+  "private": true,
+  "name": "made-with-webassembly",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "dev": "preact watch",
+    "build": "preact build",
+    "serve": "preact serve",
+    "lint": "eslint src"
+  },
+  "eslintConfig": {
+    "extends": "eslint-config-synacor"
+  },
+  "eslintIgnore": [
+    "build/*"
+  ],
+  "devDependencies": {
+    "eslint": "^4.5.0",
+    "eslint-config-synacor": "^1.1.0",
+    "if-env": "^1.0.0",
+    "preact-cli": "^2.0.0"
+  },
+  "dependencies": {
+    "preact": "^8.5.2",
+    "preact-compat": "^3.17.0",
+    "preact-render-to-string": "^4.1.0",
+    "preact-virtual-list": "^0.3.1"
+  }
+}
