@@ -1,12 +1,13 @@
-import './style';
-import { Component } from 'preact';
+import "./style";
+import { Component } from "preact";
+import showcaseJson from "../dist/showcase.json";
+
+// Entry Point into the application
 
 export default class App extends Component {
-	render() {
-		return (
-			<div>
-				<h1>Hello, World!</h1>
-			</div>
-		);
-	}
+  componentDidMount() {}
+
+  render() {
+    return <div></div>;
+  }
 }

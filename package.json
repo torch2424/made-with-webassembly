@@ -6,25 +6,27 @@
   "scripts": {
     "build": "run-s showcase:build preact:build",
     "dev": "run-s preact:dev",
-    "lint": "eslint src",
+    "lint": "prettier --write src/*.js",
     "serve": "preact serve",
     "showcase:build": "node showcase-build.js",
     "preact:dev": "preact watch",
     "preact:build": "preact build"
   },
-  "eslintConfig": {
-    "extends": "eslint-config-synacor"
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
   },
-  "eslintIgnore": [
-    "build/*"
-  ],
   "devDependencies": {
     "eslint": "^4.5.0",
     "eslint-config-synacor": "^1.1.0",
+    "husky": "^3.0.9",
     "if-env": "^1.0.0",
     "mkdirp": "^0.5.1",
     "npm-run-all": "^4.1.5",
     "preact-cli": "^2.0.0",
+    "prettier": "1.19.1",
+    "pretty-quick": "^2.0.1",
     "recursive-copy": "^2.0.10",
     "recursive-readdir": "^2.2.2",
     "showdown": "^1.9.1"
@@ -34,6 +36,7 @@
     "preact": "^8.5.2",
     "preact-compat": "^3.17.0",
     "preact-render-to-string": "^4.1.0",
+    "preact-router": "^3.1.0",
     "preact-virtual-list": "^0.3.1"
   }
 }
