@@ -1,12 +1,12 @@
 import { Component } from "preact";
 import Router from "preact-router";
 
-import Header from "./components/header";
-import Footer from "./components/footer";
+import Header from "./components/header/header";
+import Footer from "./components/footer/footer";
 
-import Home from "./pages/home";
-import About from "./pages/about";
-import Project from "./pages/project";
+import Home from "./pages/home/home";
+import About from "./pages/about/about";
+import Project from "./pages/project/project";
 
 import "./style";
 import showcaseJson from "./assets/showcase.json";

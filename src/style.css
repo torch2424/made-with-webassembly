@@ -1,3 +1,9 @@
+@import url("./components/header/header.css");
+@import url("./components/footer/footer.css");
+@import url("./pages/home/home.css");
+@import url("./pages/about/about.css");
+@import url("./pages/project/project.css");
+
 :root {
   --bg-color: #fafafa;
   --color: #333333;
@@ -69,57 +75,4 @@ a:hover {
 
 .footer {
   flex-shrink: 0;
-}
-
-.nav {
-  display: flex;
-  justify-content: start;
-  align-items: center;
-
-  padding-left: 5px;
-  padding-right: 5px;
-  padding-top: 5px;
-}
-
-.nav a {
-  border-bottom: 0px;
-}
-
-.nav__title {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.nav__title img {
-  width: 50px;
-  height: 50px;
-}
-
-.nav__title h1 {
-  margin-top: 0px;
-  margin-bottom: 0px;
-  margin-left: 5px;
-  font-size: 2em;
-}
-
-.nav__right {
-  margin-left: auto;
-  margin-right: 10px;
-}
-
-.nav__link {
-  margin-left: 5px;
-  margin-right: 5px;
-  font-size: 1.5em;
-  font-weight: bold;
-}
-
-.footer {
-  min-height: 50px;
-
-  background-color: var(--color);
-  color: var(--bg-color);
-
-  padding: 5px;
 }
