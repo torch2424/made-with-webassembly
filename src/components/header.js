@@ -7,10 +7,10 @@ export default class Header extends Component {
     return (
       <div class="nav">
         <div class="nav__left">
-          <button class="nav__title">
+          <a class="nav__title">
             <img src="wasm-logo.jpg" />
             <h1>Made with WebAssembly</h1>
-          </button>
+          </a>
         </div>
         <div class="nav__right">
           <a class="nav__link">Home</a>

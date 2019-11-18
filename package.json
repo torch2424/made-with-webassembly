@@ -5,9 +5,10 @@
   "license": "MIT",
   "scripts": {
     "build": "run-s showcase:build preact:build",
-    "dev": "run-s preact:dev",
+    "dev": "run-p showcase:dev preact:dev",
     "lint": "prettier --write src/*.js",
     "serve": "preact serve",
+    "showcase:dev": "watch \"npm run showcase:build\" showcase",
     "showcase:build": "node showcase-build.js",
     "preact:dev": "preact watch",
     "preact:build": "preact build"
@@ -29,7 +30,8 @@
     "pretty-quick": "^2.0.1",
     "recursive-copy": "^2.0.10",
     "recursive-readdir": "^2.2.2",
-    "showdown": "^1.9.1"
+    "showdown": "^1.9.1",
+    "watch": "^1.0.2"
   },
   "dependencies": {
     "fuse.js": "^3.4.5",
