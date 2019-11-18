@@ -4,6 +4,6 @@ import { Component } from "preact";
 
 export default class Project extends Component {
   render() {
-    return <div class="project"></div>;
+    return <div class="project">Project</div>;
   }
 }

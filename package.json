@@ -35,10 +35,9 @@
   },
   "dependencies": {
     "fuse.js": "^3.4.5",
-    "preact": "^8.5.2",
-    "preact-compat": "^3.17.0",
-    "preact-render-to-string": "^4.1.0",
-    "preact-router": "^3.1.0",
+    "preact": "^10.0.1",
+    "preact-render-to-string": "^5.1.0",
+    "preact-router": "^3.0.0",
     "preact-virtual-list": "^0.3.1"
   }
 }
