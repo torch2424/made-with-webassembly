@@ -116,7 +116,7 @@ a:hover {
 }
 
 .footer {
-  min-height: 100px;
+  min-height: 50px;
 
   background-color: var(--color);
   color: var(--bg-color);
