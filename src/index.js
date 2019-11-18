@@ -9,7 +9,7 @@ import About from "./pages/about";
 import Project from "./pages/project";
 
 import "./style";
-import showcaseJson from "../dist/showcase.json";
+import showcaseJson from "./assets/showcase.json";
 
 // Entry Point into the application
 

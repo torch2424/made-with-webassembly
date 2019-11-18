@@ -1,6 +1,7 @@
 # Build files
-dist/
 build/
+src/assets/showcase/
+src/assets/showcase.json
 
 # System Files
 .DS_Store

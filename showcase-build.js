@@ -6,21 +6,20 @@ const recursiveReadDir = require("recursive-readdir");
 const recursiveCopy = require("recursive-copy");
 // Require our Markdown parsing
 const showdown = require("showdown");
-const showdownConverter = new showdown.Converter({metadata: true});
+const showdownConverter = new showdown.Converter({ metadata: true });
 
 // Start our building task
 const buildTask = async () => {
-
-  console.log(" ")
+  console.log(" ");
   console.log("Building showcase...");
   console.log(" ");
 
   // Create our build output folder
-  mkdirp.sync("./dist");
-  mkdirp.sync("./dist/showcase");
+  mkdirp.sync("./src/assets");
+  mkdirp.sync("./src/assets/showcase");
 
   // Recursively get all showcase markdown files
-  const showcaseFiles = await recursiveReadDir('showcase');
+  const showcaseFiles = await recursiveReadDir("showcase");
 
   // Start our metadata JSON
   const metadataJson = {};
@@ -38,14 +37,13 @@ const buildTask = async () => {
     metadataJson[name] = metadata;
 
     // Create the HTML output
-    fs.writeFileSync(`dist/showcase/${name}.html`, html);
-  }); 
+    fs.writeFileSync(`./src/assets/showcase/${name}.html`, html);
+  });
 
   // Create our showcase json (minified)
-  fs.writeFileSync(`dist/showcase.json`, JSON.stringify(metadataJson));
+  fs.writeFileSync(`./src/assets/showcase.json`, JSON.stringify(metadataJson));
 
   console.log("Done!");
   console.log(" ");
 };
 buildTask();
-
