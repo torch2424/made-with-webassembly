@@ -1,6 +1,6 @@
 {
-  "name": "made-with-webassembly",
-  "short_name": "made-with-wasm",
+  "name": "Made with WebAssembly",
+  "short_name": "Made with Wasm",
   "start_url": "/",
   "display": "standalone",
   "orientation": "portrait",

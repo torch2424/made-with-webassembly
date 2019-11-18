@@ -8,7 +8,7 @@ export default class Header extends Component {
       <nav class="nav">
         <div class="nav__left">
           <a class="nav__title" href="/">
-            <img src="wasm-logo.jpg" />
+            <img src="/assets/icon.png" alt="WebAssembly Logo" />
             <h1>Made with WebAssembly</h1>
           </a>
         </div>
