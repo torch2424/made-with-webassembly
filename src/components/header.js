@@ -5,7 +5,7 @@ import { Component } from "preact";
 export default class Header extends Component {
   render() {
     return (
-      <div class="nav">
+      <nav class="nav">
         <div class="nav__left">
           <a class="nav__title" href="/">
             <img src="wasm-logo.jpg" />
@@ -20,7 +20,7 @@ export default class Header extends Component {
             About
           </a>
         </div>
-      </div>
+      </nav>
     );
   }
 }

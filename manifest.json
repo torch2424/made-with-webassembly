@@ -1,11 +1,11 @@
 {
   "name": "made-with-webassembly",
-  "short_name": "made-with-webassembly",
+  "short_name": "made-with-wasm",
   "start_url": "/",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#fff",
-  "theme_color": "#673ab8",
+  "theme_color": "#654ff0",
   "icons": [
     {
       "src": "/assets/icon.png",

@@ -4,6 +4,6 @@ import { Component } from "preact";
 
 export default class Footer extends Component {
   render() {
-    return <div class="footer">Footer</div>;
+    return <footer class="footer">Footer</footer>;
   }
 }
