@@ -1,0 +1,17 @@
+.home {
+  display: flex;
+  flex-direction: column;
+
+  text-align: center;
+}
+
+.search-input {
+  text-align: center;
+  padding: 10px;
+  font-size: 1.25em;
+  border-radius: 5px;
+
+  box-shadow: 0px 2px 3px 1px var(--color);
+
+  margin-bottom: 10px;
+}
