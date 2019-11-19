@@ -5,7 +5,6 @@
 }
 
 .header > .nav {
-  width: 100%;
   max-width: var(--center-width);
 
   margin-left: auto;
@@ -54,8 +53,8 @@
 }
 
 .nav__link {
-  margin-left: 5px;
-  margin-right: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
   font-size: 1.5em;
   font-weight: bold;
 }
