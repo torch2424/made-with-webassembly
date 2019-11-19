@@ -21,6 +21,21 @@ export default class Header extends Component {
               About
             </a>
           </div>
+          <label for="nav__hamburger__checkbox" class="nav__hamburger">
+            <div class="nav__hamburger__line"></div>
+            <div class="nav__hamburger__line"></div>
+            <div class="nav__hamburger__line"></div>
+          </label>
+          <input type="checkbox" id="nav__hamburger__checkbox" />
+          <div class="nav__flex-break"></div>
+          <div class="nav__dropdown">
+            <a class="nav__link" href="/">
+              Home
+            </a>
+            <a class="nav__link" href="/about">
+              About
+            </a>
+          </div>
         </nav>
       </div>
     );
