@@ -9,6 +9,7 @@
   --color: #333333;
   --light-wasm-color: #9671fd;
   --dark-wasm-color: #654ff0;
+  --center-width: 850px;
 }
 
 html,
@@ -19,10 +20,7 @@ body {
 }
 
 body {
-  max-width: 850px;
   margin: 0px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 hr {
@@ -65,12 +63,20 @@ a:hover {
   flex-direction: column;
 }
 
-.page {
+.container__center {
   flex: 1;
 
-  padding-left: 5px;
-  padding-right: 5px;
-  padding-top: 5px;
+  width: 100%;
+  max-width: var(--center-width);
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
 }
 
 .footer {

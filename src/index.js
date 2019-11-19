@@ -20,13 +20,15 @@ export default class App extends Component {
     return (
       <div class="container">
         <Header></Header>
-        <main class="page">
-          <Router>
-            <Home path="/" />
-            <About path="/about" />
-            <Project path="/showcase/:project" />
-          </Router>
-        </main>
+        <div class="container__center">
+          <main class="page">
+            <Router>
+              <Home path="/" />
+              <About path="/about" />
+              <Project path="/showcase/:project" />
+            </Router>
+          </main>
+        </div>
         <Footer></Footer>
       </div>
     );

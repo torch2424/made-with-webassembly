@@ -6,3 +6,11 @@
 
   padding: 5px;
 }
+
+.footer__container {
+  width: 100%;
+  max-width: var(--center-width);
+
+  margin-left: auto;
+  margin-right: auto;
+}

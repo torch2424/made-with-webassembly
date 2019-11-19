@@ -1,3 +1,17 @@
+.header {
+  width: 100%;
+  border-bottom: 2px solid var(--color);
+  padding-bottom: 5px;
+}
+
+.header > .nav {
+  width: 100%;
+  max-width: var(--center-width);
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .nav {
   display: flex;
   justify-content: start;
@@ -16,6 +30,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.nav__title:hover {
+  border-bottom: none;
 }
 
 .nav__title img {
