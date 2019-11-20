@@ -1,8 +1,8 @@
 ---
 name: WasmBoy
-logo_url: https://camo.githubusercontent.com/a8cb9025f16a7c9f38ebaa3685fb6788e2acacbd/68747470733a2f2f66696c65732e6161726f6e7468656465762e636f6d2f242f7737367232
+logo_url: https://wasmboy.app/assets/WasmBoyCartridgeLogo.png
 source_url: https://github.com/torch2424/wasmboy
-short_description: Game Boy / Game Boy Color Emulator Library, 🎮written for WebAssembly using AssemblyScript. 🚀Shell/Debugger in Preact. ⚛️
+description: Game Boy / Game Boy Color Emulator Library, 🎮written for WebAssembly using AssemblyScript. 🚀Shell/Debugger in Preact. ⚛️
 keywords: game boy gameboy emulator assemblyscript emulation library pwa progressive web app web worker service worker benchmark javascript ts typescript type script js
 ---
 

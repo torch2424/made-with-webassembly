@@ -34,6 +34,7 @@ const buildTask = async () => {
     const metadata = showdownConverter.getMetadata();
 
     // Add the metadata
+    metadata["key"] = name;
     metadataJson[name] = metadata;
 
     // Create the HTML output

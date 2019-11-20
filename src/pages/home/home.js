@@ -12,13 +12,14 @@ export default class Home extends Component {
   constructor() {
     super();
 
-    console.log("showcase json:", showcaseJson);
-    console.log("Fuse:", Fuse);
-
     this.state = {
       search: "",
-      results: ["a", "b", "c"]
+      results: this.getRandomizedResults()
     };
+  }
+
+  getRandomizedResults() {
+    return Object.values(showcaseJson).sort(() => 0.5 - Math.random());
   }
 
   onInput(event) {
@@ -41,13 +42,36 @@ export default class Home extends Component {
           placeholder="E.g Games, Rust, Wasm By Example ..."
           onInput={event => this.onInput(event)}
         />
-        <VirtualList
-          data={this.state.results}
-          renderRow={row => <div>{row}</div>}
-          rowHeight={22}
-          overscanCount={10}
-          sync
-        />
+
+        {this.state.results.length === 0 ? (
+          <div>No results found!</div>
+        ) : (
+          <VirtualList
+            data={this.state.results}
+            renderRow={result => {
+              return (
+                <a class="search-result" href={`/project/${result.key}`}>
+                  <div class="search-result__left">
+                    {result.logo_url ? (
+                      <img src={result.logo_url} alt={`${result.name} logo`} />
+                    ) : (
+                      ""
+                    )}
+                  </div>
+                  <div class="search-result__right">
+                    <h1 class="search-result__title">{result.name}</h1>
+                    <div class="search-result__description">
+                      {result.description}
+                    </div>
+                  </div>
+                </a>
+              );
+            }}
+            rowHeight={100}
+            overscanCount={10}
+            sync
+          />
+        )}
       </div>
     );
   }

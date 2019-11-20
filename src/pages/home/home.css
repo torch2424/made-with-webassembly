@@ -15,3 +15,44 @@
 
   margin-bottom: 10px;
 }
+
+.search-result {
+  height: 88px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  padding: 5px;
+  border-bottom: 1px solid var(--color);
+}
+
+.search-result:hover {
+  border-bottom: 1px solid var(--color);
+}
+
+.search-result__left {
+  width: 88px;
+  margin-right: 10px;
+}
+
+.search-result__left img {
+  width: 75px;
+  height: 75px;
+}
+
+.search-result__right {
+  flex: 1;
+  min-width: 0;
+  text-align: left;
+}
+
+.search-result__right * {
+  margin: 0px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+  flex: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
