@@ -6,7 +6,8 @@
   "scripts": {
     "build": "run-s showcase:build preact:build",
     "dev": "run-p showcase:dev preact:dev",
-    "lint": "prettier --write src/*.js",
+    "lint": "prettier --write src/**/*.js src/**/*.css",
+    "lint:ci": "npx prettier --list-different src/**/*.js src/**/*.css",
     "serve": "preact serve",
     "showcase:dev": "watch \"npm run showcase:build\" showcase",
     "showcase:build": "node showcase-build.js",
