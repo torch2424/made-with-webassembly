@@ -1,4 +1,6 @@
 .home {
+  flex: 1;
+
   display: flex;
   flex-direction: column;
 
@@ -16,6 +18,25 @@
   margin-bottom: 10px;
 }
 
+/* 
+Make CSS Fill reaminaing Dynamic height, but still be scrollable
+https://stackoverflow.com/questions/22085498/make-a-div-fill-the-remaining-dynamic-height-and-scroll-without-javascript */
+.result-list-wrapper {
+  flex: 1;
+  position: relative;
+}
+
+.result-list {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  height: 100%;
+  width: 100%;
+
+  overflow: auto;
+}
+
 .search-result {
   height: 88px;
   display: flex;
@@ -23,6 +44,7 @@
   align-items: center;
 
   padding: 5px;
+
   border-bottom: 1px solid var(--color);
 }
 
@@ -38,6 +60,7 @@
 .search-result__left img {
   width: 75px;
   height: 75px;
+  object-fit: contain;
 }
 
 .search-result__right {

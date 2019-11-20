@@ -43,35 +43,41 @@ export default class Home extends Component {
           onInput={event => this.onInput(event)}
         />
 
-        {this.state.results.length === 0 ? (
-          <div>No results found!</div>
-        ) : (
-          <VirtualList
-            data={this.state.results}
-            renderRow={result => {
-              return (
-                <a class="search-result" href={`/project/${result.key}`}>
-                  <div class="search-result__left">
-                    {result.logo_url ? (
-                      <img src={result.logo_url} alt={`${result.name} logo`} />
-                    ) : (
-                      ""
-                    )}
-                  </div>
-                  <div class="search-result__right">
-                    <h1 class="search-result__title">{result.name}</h1>
-                    <div class="search-result__description">
-                      {result.description}
+        <div class="result-list-wrapper">
+          {this.state.results.length === 0 ? (
+            <div>No results found!</div>
+          ) : (
+            <VirtualList
+              class="result-list"
+              data={this.state.results}
+              renderRow={result => {
+                return (
+                  <a class="search-result" href={`/project/${result.key}`}>
+                    <div class="search-result__left">
+                      {result.logo_url ? (
+                        <img
+                          src={result.logo_url}
+                          alt={`${result.name} logo`}
+                        />
+                      ) : (
+                        ""
+                      )}
                     </div>
-                  </div>
-                </a>
-              );
-            }}
-            rowHeight={100}
-            overscanCount={10}
-            sync
-          />
-        )}
+                    <div class="search-result__right">
+                      <h1 class="search-result__title">{result.name}</h1>
+                      <div class="search-result__description">
+                        {result.description}
+                      </div>
+                    </div>
+                  </a>
+                );
+              }}
+              rowHeight={100}
+              overscanCount={10}
+              sync
+            />
+          )}
+        </div>
       </div>
     );
   }

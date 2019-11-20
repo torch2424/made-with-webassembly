@@ -1,0 +1,9 @@
+.all-projects ul {
+  padding-left: 0px;
+  list-style-type: none;
+}
+
+.all-projects li {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}

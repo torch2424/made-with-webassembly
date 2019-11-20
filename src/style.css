@@ -3,6 +3,7 @@
 @import url("./pages/home/home.css");
 @import url("./pages/about/about.css");
 @import url("./pages/project/project.css");
+@import url("./pages/all-projects/all-projects.css");
 
 :root {
   --bg-color: #fafafa;
@@ -45,6 +46,7 @@ hr {
 }
 
 a {
+  color: var(--color);
   text-decoration: none;
   border-bottom: 1px solid var(--color);
 }
@@ -68,6 +70,9 @@ a:hover {
 .container__center {
   flex: 1;
 
+  display: flex;
+  flex-direction: column;
+
   width: 100%;
   max-width: var(--center-width);
 
@@ -76,9 +81,13 @@ a:hover {
 }
 
 .page {
+  flex: 1;
   padding-left: 10px;
   padding-right: 10px;
   padding-top: 10px;
+
+  display: flex;
+  flex-direction: column;
 }
 
 .footer {

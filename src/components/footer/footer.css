@@ -5,6 +5,8 @@
   color: var(--bg-color);
 
   padding: 5px;
+
+  z-index: 1;
 }
 
 .footer__container {

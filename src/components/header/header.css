@@ -2,6 +2,8 @@
   width: 100%;
   border-bottom: 2px solid var(--color);
   padding-bottom: 5px;
+
+  z-index: 1;
 }
 
 .header > .nav {

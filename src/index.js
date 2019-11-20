@@ -7,6 +7,7 @@ import Footer from "./components/footer/footer";
 import Home from "./pages/home/home";
 import About from "./pages/about/about";
 import Project from "./pages/project/project";
+import AllProjects from "./pages/all-projects/all-projects";
 
 import "./style";
 
@@ -25,6 +26,7 @@ export default class App extends Component {
               <Home path="/" />
               <About path="/about" />
               <Project path="/showcase/:project" />
+              <AllProjects path="/all-projects" />
             </Router>
           </main>
         </div>
