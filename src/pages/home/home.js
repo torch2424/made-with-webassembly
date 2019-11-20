@@ -12,6 +12,11 @@ export default class Home extends Component {
   constructor() {
     super();
 
+    // Create a fuse instance
+    this.fuse = new Fuse(Object.values(showcaseJson), {
+      keys: ["name", "description", "keywords"]
+    });
+
     this.state = {
       search: "",
       results: this.getRandomizedResults()
@@ -24,9 +29,21 @@ export default class Home extends Component {
 
   onInput(event) {
     const { value } = event.target;
-    console.log("search value: ", value);
+
+    if (value === "") {
+      this.setState({
+        search: value,
+        results: this.getRandomizedResults()
+      });
+      return;
+    }
+
+    // Fuzzy search the results
+    const searchResults = this.fuse.search(value);
+
     this.setState({
-      search: value
+      search: value,
+      results: searchResults
     });
   }
 
