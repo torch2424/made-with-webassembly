@@ -77,7 +77,10 @@ export default class Home extends Component {
                           alt={`${result.name} logo`}
                         />
                       ) : (
-                        ""
+                        <img
+                          src="/assets/icon.png"
+                          alt={`Default WebAssembly Project logo`}
+                        />
                       )}
                     </div>
                     <div class="search-result__right">
