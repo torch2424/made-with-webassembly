@@ -2,11 +2,23 @@
 
 ![Travis Status](https://travis-ci.org/torch2424/made-with-webassembly.svg?branch=master) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-Made with WebAssembly is a [website](https://madewithwebassembly.com/) A showcase of awesome production applications, side projects, and use cases made with WebAssembly ( Wasm )
+Made with WebAssembly is a [website](https://madewithwebassembly.com/) A showcase of awesome production applications, side projects, and use cases made with WebAssembly ( Wasm ). 👷
 
 ![Wasm By Example Website Header](./meta/readmeBanner.png)
 
-A repo full of awesome side projects, production applications, and use cases made with webassembly
+## Table of Contents
+
+- [Motivation](#motivation)
+- [Contributing](#contributing)
+  - [General Contribution Areas](#general-contribution-areas)
+    - [Showcase Projects](#showcase-projects)
+    - [App Shell](#app-shell)
+  - [Getting Started with Your First PR](#getting-started-with-your-first-pr)
+    - [One-time Setup](#one-time-setup)
+    - [Branch (do this each time you want a new branch)](#branch-do-this-each-time-you-want-a-new-branch)
+    - [Building &amp; Running the project](#building--running-the-project)
+- [Privacy](#privacy)
+- [License](#license)
 
 ## Motivation
 
@@ -14,9 +26,41 @@ After several Twitter threads ([1](https://twitter.com/torch2424/status/11945575
 
 ## Contributing
 
-### Showcase Projects
+Thank you for wanting to contribute! PRs are definitely welcome and appreciated! Below is a guide for contributing different parts of the project, and getting started with your first PR:
 
-### App Shell
+### General Contribution Areas
+
+These are general areas of the project you may want to contribute to considering the architecture of the project:
+
+#### Showcase Projects
+
+The showcase projects are located under the `showcase/` directory in the project. Each showcase project is a markdown file, that adds metadata (E.g [1](https://stackoverflow.com/questions/42952149/how-to-add-metadata-in-github-flavoured-markdown), [2](https://stackoverflow.com/questions/44215896/markdown-metadata-format)) to help describe the project. All showcase projects are added to the `showcase.json`, and output as an HTML file, by the `showcase-build.js` build script.
+
+Contributing new projects is definitely welcome and super appreciated!
+
+To add a new project to the showcase, create a markdown file with the following metadata (See other example if you get confused, or open an issue):
+
+- `name` - The name of the project
+
+- `description` - A Short description of the project. Will be used for fuzzy searching.
+
+- `keywoards` - Space seperated list of words. This will be used for fuzzy searching.
+
+- `logo_url` (OPTIONAL) - A Url to the logo for the project
+
+- `website` (OPTIONAL) - A URL to the website for the project
+
+- `source_url` (OPTIONAL) - A URL to the Source code for the project
+
+Once you have your markdown file, you can test it in the project using `npm run dev`. And then, feel free to open a PR when the rendered showcase project markdown looks correct.
+
+If you are a project owner and want the project edited or removed, please feel free to open a PR as well, or open an issue.
+
+#### App Shell
+
+The App Shell is a [PWA](https://developers.google.com/web/progressive-web-apps) built with [Preact](https://preactjs.com/) and [Preact CLI](https://github.com/preactjs/preact-cli). The applications shell can be found under the `src/` directory.
+
+For larger ideas or new sections of the site, it is recommended to open an issue first for discussion.
 
 ### Getting Started with Your First PR
 
@@ -77,7 +121,3 @@ Google Analytics is used on Made with WebAssembly, and is only used to record [B
 ## License
 
 This work is copyright Aaron Turner and licensed under a [MIT License](https://oss.ninja/mit?organization=Aaron%20Turner).
-
-https://stackoverflow.com/questions/42952149/how-to-add-metadata-in-github-flavoured-markdown
-
-https://stackoverflow.com/questions/44215896/markdown-metadata-format
