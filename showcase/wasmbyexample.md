@@ -7,8 +7,6 @@ description: Wasm By Example is a website with a set of hands-on introduction ex
 keywords: wasm programming language learning example examples webassembly introduction tutorial
 ---
 
-# WasmByExample
-
 Wasm By Example is a website containing simple examples for how to get things done with wasm.
 
 ![WasmByExample ScreenShot](https://github.com/torch2424/wasm-by-example/raw/master/assets/readmeBanner.png)

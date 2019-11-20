@@ -69,7 +69,7 @@ export default class Home extends Component {
               data={this.state.results}
               renderRow={result => {
                 return (
-                  <a class="search-result" href={`/project/${result.key}`}>
+                  <a class="search-result" href={`/showcase/${result.key}`}>
                     <div class="search-result__left">
                       {result.logo_url ? (
                         <img

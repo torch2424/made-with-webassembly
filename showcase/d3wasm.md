@@ -7,8 +7,6 @@ description: Online demonstration running Doom 3 Demo. An experimental port of i
 keywords: games doom emscripten c c++ gaming porting 3d graphics
 ---
 
-# D3Wasm
-
 D3wasm is an experiment to port the [id Tech 4](https://en.wikipedia.org/wiki/Id_Tech_4) engine (aka. “Doom 3 Engine”) to [Emscripten](https://emscripten.org/) / [WebAssembly](https://webassembly.org/) and [WebGL](https://www.khronos.org/webgl/), allowing to run games such as [Doom 3](https://en.wikipedia.org/wiki/Doom_3) inside modern Web Browsers.
 
 ![D3Wasm ScreenShot](https://www.continuation-labs.com/projects/d3wasm/img/SC1.jpg)

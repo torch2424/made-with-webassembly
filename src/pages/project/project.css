@@ -1,0 +1,21 @@
+.project {
+  width: 100%;
+}
+
+.project__loading {
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.project img {
+  max-width: 100%;
+}
+
+.project__view {
+}
+
+.project__view__links a {
+  margin-left: 5px;
+  margin-right: 5px;
+}

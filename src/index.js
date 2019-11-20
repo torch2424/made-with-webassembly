@@ -1,6 +1,8 @@
 import { Component } from "preact";
 import Router from "preact-router";
 
+import * as loadScript from "load-script";
+
 import Header from "./components/header/header";
 import Footer from "./components/footer/footer";
 
@@ -14,7 +16,25 @@ import "./style";
 // Entry Point into the application
 
 export default class App extends Component {
-  componentDidMount() {}
+  componentDidMount() {
+    // Setup Google Analytics
+    loadScript(
+      "https://www.googletagmanager.com/gtag/js?id=UA-75362326-4",
+      function(err, script) {
+        if (!err) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag() {
+            window.dataLayer.push(arguments);
+          }
+          gtag("js", new Date());
+          gtag("config", "UA-75362326-4");
+
+          // Add analytics to window
+          window.gtag = gtag;
+        }
+      }
+    );
+  }
 
   render() {
     return (
@@ -25,7 +45,7 @@ export default class App extends Component {
             <Router>
               <Home path="/" />
               <About path="/about" />
-              <Project path="/showcase/:project" />
+              <Project path="/showcase/:id/" />
               <AllProjects path="/all-projects" />
             </Router>
           </main>

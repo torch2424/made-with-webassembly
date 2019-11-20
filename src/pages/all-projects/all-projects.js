@@ -12,7 +12,7 @@ export default class AllProjects extends Component {
       .forEach(project => {
         allProjectLinks.push(
           <li>
-            <a href={`/project/${project.key}`} class="all-projects__link">
+            <a href={`/showcase/${project.key}`} class="all-projects__link">
               {project.name}
             </a>
           </li>

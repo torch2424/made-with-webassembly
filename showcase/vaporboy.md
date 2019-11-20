@@ -7,8 +7,6 @@ description: A Gameboy / Gameboy Color Emulator PWA for Android, iOS, Windows, M
 keywords: game boy gameboy emulator assemblyscript emulation library pwa progressive web app web worker service worker benchmark javascript ts typescript type script js
 ---
 
-# VaporBoy
-
 A Gameboy / Gameboy Color Emulator PWA for Android, iOS, Windows, MacOS, and Linux. ⚛️ Powered by wasmBoy. 🎮
 
 ![VaporBoy gif video](https://github.com/torch2424/vaporBoy/raw/master/readme_assets/VaporboyWalkThrough.gif)

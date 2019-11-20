@@ -6,8 +6,6 @@ description: Game Boy / Game Boy Color Emulator Library, 🎮written for WebAsse
 keywords: game boy gameboy emulator assemblyscript emulation library pwa progressive web app web worker service worker benchmark javascript ts typescript type script js
 ---
 
-# WasmBoy
-
 WasmBoy is a Game Boy / Game Boy Color Emulator Library, 🎮written for WebAssembly using AssemblyScript. 🚀Shell/Debugger in Preact. ⚛️
 
 ![WasmBoy gif video](https://github.com/torch2424/wasmboy/blob/master/docs/images/debuggerDesktopDemo.gif?raw=true)

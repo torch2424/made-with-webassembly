@@ -6,11 +6,9 @@ description: Google Earth renders a 3D representation of Earth based primarily o
 keywords: graphics 3d google production rendering port porting app application native
 ---
 
-# Google Earth
-
 Google Earth renders a 3D representation of Earth based primarily on satellite imagery on the Web.
 
-![Google Earth Wasm ScreenShot](https://www.continuation-labs.com/projects/d3wasm/img/SC1.jpg)
+![Google Earth Wasm ScreenShot](https://web.dev/earth-webassembly/earth-wasm-big.webp)
 
 Google Earth uses emscripten to port pieces from the old native application for Google Earth, to the web! This is quite notable, as it proves that WebAssembly can bring these large C/C++ codebases using Emscripten to the web, to run impressive 3d graphics. They also highlight in their WasmSf Talk (in the additional resources), how this also allowed their code to be more portable across Google in general, because now they can have one C codebase used on different codebases and platforms!
 
@@ -19,4 +17,5 @@ If you are interested in porting C/C++ libraries, I'd highly reccomend [Ben Smit
 ## Additional Resources
 
 - [Web / Wasm Launch Article](https://blog.chromium.org/2019/06/webassembly-brings-google-earth-to-more.html)
+- [Web.dev article](https://web.dev/earth-webassembly/)
 - [Jordon Mears, Google Earth, WasmSF Talk](https://youtu.be/ms5_0wOl79I)
