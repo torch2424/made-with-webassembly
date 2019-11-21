@@ -4,7 +4,6 @@ import Router from "preact-router";
 import * as loadScript from "load-script";
 
 import Header from "./components/header/header";
-import Footer from "./components/footer/footer";
 
 import Home from "./pages/home/home";
 import About from "./pages/about/about";
@@ -50,7 +49,6 @@ export default class App extends Component {
             </Router>
           </main>
         </div>
-        <Footer></Footer>
       </div>
     );
   }

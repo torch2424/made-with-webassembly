@@ -14,17 +14,19 @@ export default class Home extends Component {
 
     // Create a fuse instance
     this.fuse = new Fuse(Object.values(showcaseJson), {
+      threshold: 0.3,
       keys: ["name", "description", "keywords"]
     });
 
+    const randomResults = Object.values(showcaseJson).sort(
+      () => 0.5 - Math.random()
+    );
+
     this.state = {
       search: "",
-      results: this.getRandomizedResults()
+      results: randomResults,
+      randomResults: randomResults
     };
-  }
-
-  getRandomizedResults() {
-    return Object.values(showcaseJson).sort(() => 0.5 - Math.random());
   }
 
   onInput(event) {
@@ -33,7 +35,7 @@ export default class Home extends Component {
     if (value === "") {
       this.setState({
         search: value,
-        results: this.getRandomizedResults()
+        results: this.state.randomResults
       });
       return;
     }
@@ -50,52 +52,58 @@ export default class Home extends Component {
   render() {
     return (
       <div class="home">
-        <h1 class="search-title">
+        <h2 class="search-title">
           Search for a use case, technology, or project:
-        </h1>
+        </h2>
         <input
           class="search-input"
           type="text"
-          placeholder="E.g Games, Rust, Wasm By Example ..."
+          placeholder="E.g Games, Rust, AssemblyScript, Wasm By Example, ..."
           onInput={event => this.onInput(event)}
         />
 
-        <div class="result-list-wrapper">
+        <div class="result-list">
+          <div>
+            <b>{this.state.results.length} projects</b>
+          </div>
+
           {this.state.results.length === 0 ? (
-            <div>No results found!</div>
+            ""
           ) : (
-            <VirtualList
-              class="result-list"
-              data={this.state.results}
-              renderRow={result => {
-                return (
-                  <a class="search-result" href={`/showcase/${result.key}`}>
-                    <div class="search-result__left">
-                      {result.logo_url ? (
-                        <img
-                          src={result.logo_url}
-                          alt={`${result.name} logo`}
-                        />
-                      ) : (
-                        <img
-                          src="/assets/icon.png"
-                          alt={`Default WebAssembly Project logo`}
-                        />
-                      )}
-                    </div>
-                    <div class="search-result__right">
-                      <h1 class="search-result__title">{result.name}</h1>
-                      <div class="search-result__description">
-                        {result.description}
+            <div class="result-list__virtual-list-wrapper">
+              <VirtualList
+                class="result-list__virtual-list"
+                data={this.state.results}
+                renderRow={result => {
+                  return (
+                    <a class="search-result" href={`/showcase/${result.key}`}>
+                      <div class="search-result__left">
+                        {result.logo_url ? (
+                          <img
+                            src={result.logo_url}
+                            alt={`${result.name} logo`}
+                          />
+                        ) : (
+                          <img
+                            src="/assets/icon.png"
+                            alt={`Default WebAssembly Project logo`}
+                          />
+                        )}
                       </div>
-                    </div>
-                  </a>
-                );
-              }}
-              rowHeight={100}
-              overscanCount={10}
-              sync
-            />
+                      <div class="search-result__right">
+                        <h1 class="search-result__title">{result.name}</h1>
+                        <div class="search-result__description">
+                          {result.description}
+                        </div>
+                      </div>
+                    </a>
+                  );
+                }}
+                rowHeight={101}
+                overscanCount={10}
+                sync
+              />
+            </div>
           )}
         </div>
       </div>

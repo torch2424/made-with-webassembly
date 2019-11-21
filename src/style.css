@@ -1,7 +1,6 @@
 @import url("../node_modules/normalize.css/normalize.css");
 
 @import url("./components/header/header.css");
-@import url("./components/footer/footer.css");
 @import url("./pages/home/home.css");
 @import url("./pages/about/about.css");
 @import url("./pages/project/project.css");

@@ -27,12 +27,11 @@ export default class Header extends Component {
             <div class="nav__hamburger__line"></div>
           </label>
           <input type="checkbox" id="nav__hamburger__checkbox" />
-          <div class="nav__flex-break"></div>
-          <div class="nav__dropdown">
-            <a class="nav__link" href="/">
+          <div class="mobile-dropdown">
+            <a class="mobile-dropdown__link" href="/">
               Home
             </a>
-            <a class="nav__link" href="/about">
+            <a class="mobile-dropdown__link" href="/about">
               About
             </a>
           </div>
