@@ -2,7 +2,8 @@
   width: 100%;
   border-bottom: 2px solid var(--color);
   padding-bottom: 5px;
-
+  padding-top: 20px;
+  padding-bottom: 20px;
   z-index: 1;
 }
 
@@ -18,10 +19,6 @@
   flex-wrap: wrap;
   justify-content: start;
   align-items: center;
-
-  padding-left: 5px;
-  padding-right: 5px;
-  padding-top: 5px;
 }
 
 .nav a {
@@ -41,6 +38,7 @@
 .nav__title img {
   width: 50px;
   height: 50px;
+  margin-right: 20px;
 }
 
 .nav__title h1 {
@@ -52,7 +50,6 @@
 
 .nav__right {
   margin-left: auto;
-  margin-right: 10px;
 }
 
 .nav__hamburger {
