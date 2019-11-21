@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "build": "run-s showcase:build preact:build",
+    "build": "run-s showcase:build preact:build netlify:build",
     "dev": "run-p showcase:dev preact:dev",
     "serve": "serve build",
     "lint": "prettier --write src/**/*.js src/**/*.css",
@@ -12,7 +12,8 @@
     "showcase:dev": "watch \"npm run showcase:build\" showcase",
     "showcase:build": "node showcase-build.js",
     "preact:dev": "preact watch",
-    "preact:build": "preact build"
+    "preact:build": "preact build",
+    "netlify:build": "cp _redirects build/"
   },
   "husky": {
     "hooks": {
