@@ -22,7 +22,7 @@ Made with WebAssembly is a [website](https://madewithwebassembly.com/) A showcas
 
 ## Motivation
 
-After several Twitter threads ([1](https://twitter.com/torch2424/status/1194557590765596673), [2](https://twitter.com/JamesLMilner/status/1151824280914731008), ...) on highlighting use cases, projects, and companies in production using WebAssembly. Myself and a few other Wasm communitty members thought it'd be a great idea to have a dedicated place to find projects using WebAssembly, and highlight what WebAssembly can be used for! We were hoping it could be easy to comb through, and provide additional context on why/how individual project are using Wasm. 👍🏾
+After several Twitter threads ([1](https://twitter.com/torch2424/status/1194557590765596673), [2](https://twitter.com/JamesLMilner/status/1151824280914731008), ...) on highlighting use cases, projects, and companies in production using WebAssembly. Myself and a few other Wasm community members thought it'd be a great idea to have a dedicated place to find projects using WebAssembly, and highlight what WebAssembly can be used for! We were hoping it could be easy to comb through, and provide additional context on why/how individual project are using Wasm. 👍🏾
 
 ## Contributing
 
