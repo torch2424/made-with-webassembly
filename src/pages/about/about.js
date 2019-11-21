@@ -61,6 +61,15 @@ export default class About extends Component {
           </a>
           , to start a discussion or propose changes there as well!
         </p>
+        <h2>Privacy</h2>
+        <p>
+          Google Analytics is used on Made with WebAssembly, and is only used to
+          record{" "}
+          <a href="https://support.google.com/analytics/answer/6004245?ref_topic=2919631">
+            Basic visit data
+          </a>
+          , as the script is only loaded.
+        </p>
         <h2>Made with WebAssembly Resources</h2>
         <ul>
           <li>
