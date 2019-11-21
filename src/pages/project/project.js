@@ -10,7 +10,6 @@ export default class Project extends Component {
     this.setState({
       loading: true
     });
-    /*
 
     const fetchProjectHtmlTask = async () => {
       const fetchResponse = await fetch(
@@ -30,7 +29,6 @@ export default class Project extends Component {
         error: true
       });
     });
-    */
   }
 
   render() {

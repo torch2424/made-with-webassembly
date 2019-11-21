@@ -11,8 +11,8 @@
     "serve": "preact serve",
     "showcase:dev": "watch \"npm run showcase:build\" showcase",
     "showcase:build": "node showcase-build.js",
-    "preact:dev": "preact watch",
-    "preact:build": "preact build"
+    "preact:dev": "preact --config src/preact.config.js watch",
+    "preact:build": "preact --config src/preact.config.js build"
   },
   "husky": {
     "hooks": {
