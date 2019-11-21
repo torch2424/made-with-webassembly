@@ -6,9 +6,9 @@
   "scripts": {
     "build": "run-s showcase:build preact:build",
     "dev": "run-p showcase:dev preact:dev",
+    "serve": "serve build",
     "lint": "prettier --write src/**/*.js src/**/*.css",
     "lint:ci": "npx prettier --list-different src/**/*.js src/**/*.css",
-    "serve": "preact serve",
     "showcase:dev": "watch \"npm run showcase:build\" showcase",
     "showcase:build": "node showcase-build.js",
     "preact:dev": "preact watch",
@@ -32,6 +32,7 @@
     "pretty-quick": "^2.0.1",
     "recursive-copy": "^2.0.10",
     "recursive-readdir": "^2.2.2",
+    "serve": "^11.2.0",
     "showdown": "^1.9.1",
     "watch": "^1.0.2"
   },

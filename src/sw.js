@@ -1,3 +1,37 @@
+// Import our showcaseJson so we can get all the keys
+import showcaseJson from "./assets/showcase.json";
+
+// Cache Images
+// https://developers.google.com/web/tools/workbox/guides/common-recipes#caching_images
+workbox.routing.registerRoute(
+  /\.(?:png|gif|jpg|jpeg|webp|svg)$/,
+  new workbox.strategies.CacheFirst({
+    cacheName: "images",
+    plugins: [
+      new workbox.expiration.Plugin({
+        maxEntries: 60,
+        maxAgeSeconds: 7 * 24 * 60 * 60 // 7 Days
+      })
+    ]
+  })
+);
+
+// Handle unversioned 3p assets, that preact-cli is not handling
+workbox.routing.registerRoute(
+  new RegExp("/assets/showcase/*.html"),
+  new workbox.strategies.NetworkFirst()
+);
+// Then, precache these assets as they are updated.
+// Since we already defined their routes, they will still follow the network first trategy
+// But be precached on initial load!
+// https://developers.google.com/web/tools/workbox/modules/workbox-precaching#serving_precached_responses
+const showcaseUrls = [];
+Object.keys(showcaseJson).forEach(key => {
+  showcaseUrls.push(`/assets/showcase/${key}.html`);
+});
+workbox.precaching.precacheAndRoute(showcaseUrls);
+
+// Original sw.js
 // From: https://raw.githubusercontent.com/preactjs/preact-cli/master/packages/cli/lib/lib/sw.js
 // https://github.com/preactjs/preact-cli/issues/816
 
@@ -64,21 +98,6 @@ workbox.routing.registerRoute(
 );
 
 workbox.precaching.precacheAndRoute(self.__precacheManifest, precacheOptions);
-
-// Cache Images
-// https://developers.google.com/web/tools/workbox/guides/common-recipes#caching_images
-workbox.routing.registerRoute(
-  /\.(?:png|gif|jpg|jpeg|webp|svg)$/,
-  new workbox.strategies.CacheFirst({
-    cacheName: "images",
-    plugins: [
-      new workbox.expiration.Plugin({
-        maxEntries: 60,
-        maxAgeSeconds: 30 * 24 * 60 * 60 // 30 Days
-      })
-    ]
-  })
-);
 
 workbox.routing.setCatchHandler(({ event }) => {
   if (isNav(event))
