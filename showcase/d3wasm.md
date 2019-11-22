@@ -13,4 +13,4 @@ D3wasm is an experiment to port the [id Tech 4](https://en.wikipedia.org/wiki/Id
 
 D3Wasm uses emscripten to port the "Doom 3 engine". This is quite notable, as it proves that WebAssembly can bring these large C/C++ codebases using Emscripten to the web, to run impressive 3d games. The [d3wasm blog post](https://www.continuation-labs.com/projects/d3wasm/) goes deep into detail on how the project works.
 
-If you are interested in porting C/C++ libraries, I'd highly reccomend [Ben Smith's (binji) SFHTML5 Talk](https://youtu.be/FQJrcX4Ae8A) on porting C projects to the web. This talk is unrealted to D3Wasm, but can help drive what goes into porting these types of applications.
+If you are interested in porting C/C++ libraries or applications, I'd highly reccomend [Ben Smith's (binji) SFHTML5 Talk](https://youtu.be/FQJrcX4Ae8A) on porting C projects to the web. This talk is unrealted to D3Wasm, but can help drive what goes into porting these types of applications.

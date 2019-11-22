@@ -15,6 +15,7 @@ export default class Home extends Component {
     // Create a fuse instance
     this.fuse = new Fuse(Object.values(showcaseJson), {
       threshold: 0.3,
+      tokenize: true,
       keys: ["name", "description", "keywords"]
     });
 
@@ -100,7 +101,7 @@ export default class Home extends Component {
                   );
                 }}
                 rowHeight={101}
-                overscanCount={10}
+                overscanCount={5}
                 sync
               />
             </div>
