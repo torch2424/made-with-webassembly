@@ -48,6 +48,45 @@ export default class About extends Component {
           for! We were hoping it could be easy to comb through, and provide
           additional context on why/how individual project are using Wasm. 👍🏾
         </p>
+        <h2>When should I generally use WebAssembly?</h2>
+        <p>
+          My favorite answer to this question is from the{" "}
+          <a href="https://docs.assemblyscript.org/faq#is-webassembly-always-faster">
+            AssemblyScript Documentation
+          </a>
+          . I'd like to provide one that is along the same lines, but remember,{" "}
+          <i>
+            this is a generalization and contains some metaphors. This section,
+            and by looking through the projects on Made With WebAssembly can
+            help you make a decision for your use case
+          </i>
+          .
+          <br />
+          <br />A good rule of thumb is:{" "}
+          <b>
+            Use WebAssembly for computationally intensive tasks, such as games,
+            image manipulation, math, physics, audio effects, etc...
+          </b>
+          .
+          <br />
+          <br />
+          You still generally want to use Javascript for a lot of things on the
+          web. Such as Dom Manipulation (modifying/building views and UIs),
+          blogs, ecommerce websites, using most Web APIs, etc...
+          <br />
+          <br />
+          I like to think about WebAssembly being another tool in a developer's
+          toolbelt. For example, a web developer's tools are HTML (Declaring
+          UI), CSS (Styling UI), JavaScript (Adding functionality to a UI), and
+          now WebAssembly (Processing heavy tasks, to give results back to the
+          UI)! In which using the "right tool for the job" is what will give you
+          the best results for your project, and help it be the best it can be!
+          <br />
+          <br />
+          If you are interested in trying out / learning WebAssembly yourself,
+          you can checkout{" "}
+          <a href="https://wasmbyexample.dev/">WasmByExample</a>.
+        </p>
         <h2>Proposing Changes to the Website</h2>
         <p>
           If you would like to add/edit/remove anything from this website,
