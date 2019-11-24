@@ -49,44 +49,124 @@ export default class About extends Component {
           additional context on why/how individual project are using Wasm. 👍🏾
         </p>
         <h2>When should I generally use WebAssembly?</h2>
-        <p>
-          My favorite answer to this question is from the{" "}
-          <a href="https://docs.assemblyscript.org/faq#is-webassembly-always-faster">
-            AssemblyScript Documentation
-          </a>
-          . I'd like to provide one that is along the same lines, but remember,{" "}
-          <i>
-            this is a generalization and contains some metaphors. This section,
-            and by looking through the projects on Made With WebAssembly can
-            help you make a decision for your use case
-          </i>
-          .
-          <br />
-          <br />A good rule of thumb is:{" "}
-          <b>
-            Use WebAssembly for computationally intensive tasks, such as games,
-            image manipulation, math, physics, audio effects, etc...
-          </b>
-          .
-          <br />
-          <br />
-          You still generally want to use Javascript for a lot of things on the
-          web. Such as Dom Manipulation (modifying/building views and UIs),
-          blogs, ecommerce websites, using most Web APIs, etc...
-          <br />
-          <br />
-          I like to think about WebAssembly being another tool in a developer's
-          toolbelt. For example, a web developer's tools are HTML (Declaring
-          UI), CSS (Styling UI), JavaScript (Adding functionality to a UI), and
-          now WebAssembly (Processing heavy tasks, to give results back to the
-          UI)! In which using the "right tool for the job" is what will give you
-          the best results for your project, and help it be the best it can be!
-          <br />
-          <br />
-          If you are interested in trying out / learning WebAssembly yourself,
-          you can checkout{" "}
-          <a href="https://wasmbyexample.dev/">WasmByExample</a>.
-        </p>
+        There are two key features of WebAssembly. <b>Performance</b> and{" "}
+        <b>Portability</b>. Here we will cover how and why these key features of
+        WebAssembly can be used effectively for your application.
+        <h3>Performance</h3>
+        When we speak about performance here, we are reffering to{" "}
+        <b>performance in JavaScript environments</b>. This is not a comparison
+        to native speeds, as that is another question in itself. My favorite
+        answer to this question is from the{" "}
+        <a href="https://docs.assemblyscript.org/faq#is-webassembly-always-faster">
+          AssemblyScript Documentation
+        </a>
+        . I'd like to provide one that is along the same lines, but remember,{" "}
+        <i>
+          this is a generalization and contains some metaphors. This section,
+          and by looking through the projects on Made With WebAssembly can help
+          you make a decision for your use case
+        </i>
+        .
+        <br />
+        <br />A good rule of thumb is:{" "}
+        <b>
+          Use WebAssembly for computationally intensive tasks, such as games,
+          image manipulation, math, physics, audio effects, etc...
+        </b>
+        .
+        <br />
+        <br />
+        You still generally want to use Javascript for a lot of things on the
+        web. Such as Dom Manipulation (modifying/building views and UIs), blogs,
+        ecommerce websites, using most Web APIs, etc...
+        <br />
+        <br />
+        I like to think about WebAssembly being another tool in a developer's
+        toolbelt. For example, a web developer's tools are HTML (Declaring UI),
+        CSS (Styling UI), JavaScript (Adding functionality to a UI), and now
+        WebAssembly (Processing heavy tasks, to give results back to the UI)! In
+        which using the "right tool for the job" is what will give you the best
+        results for your project, and help it be the best it can be!
+        <br />
+        <br />
+        If you would like to see some numbers or benchmarks on comparing
+        JavaScript and WebAssembly in a real world use case, I'd reccomend the{" "}
+        <a href="https://medium.com/@torch2424/webassembly-is-fast-a-real-world-benchmark-of-webassembly-vs-es6-d85a23f8e193">
+          WasmBoy Benchmark Article
+        </a>{" "}
+        and the{" "}
+        <a href="https://developers.google.com/web/updates/2019/02/hotpath-with-wasm">
+          Replacing a hot path in your app's JavaScript with WebAssembly
+        </a>
+        . There are many more benchamrks out there you can search for.
+        <h3>Portability</h3>
+        WebAssembly is extremely portable. This can be explained in multiple
+        scenarios:
+        <ul>
+          <li>
+            WebAssembly allows bringing other languages to JavaScript
+            environments like the web browser, and node js. For Example,
+            browsing the projects here, you will see a lot of huge C/C++
+            applications that can now run on the web, by using WebAssembly as
+            its compile target. Also, languages like Rust can have specialized
+            tooling and support for WebAssembly, to offer a great experience for
+            writing for the web, in languages that historically could not be run
+            on the web.
+          </li>
+          <li>
+            Standalone Server side runtimes like{" "}
+            <a href="https://wasmer.io/">Wasmer</a>,{" "}
+            <a href="https://github.com/bytecodealliance/wasmtime">Wasmtime</a>,
+            etc.. allow for running WebAssembly on the server, as it's own
+            application, or embedded in a host application written in a variety
+            of languages. This is great, since you can{" "}
+            <b>
+              write business logic, or computationally intensive algorithms once
+              and have a common shared implementation that is run in a
+              lightweight runtime in your applicaiton
+            </b>
+            . Also, with the{" "}
+            <a href="https://hacks.mozilla.org/2019/03/standardizing-wasi-a-webassembly-system-interface/">
+              WebAssembly System interface
+            </a>
+            , you can write entire system level applications (File manipulation,
+            servers once the standard is more developed, etc..) in just
+            WebAssembly that is then run in a runtime. And due to the sandboxing
+            nature of WebAssembly (Linear memory, capability based security,
+            etc...), WebAssembly also becomes a viable way to containerize
+            applications, as noted by{" "}
+            <a href="https://twitter.com/solomonstre/status/1111004913222324225?lang=en">
+              Solomon Hykes
+            </a>
+            , the co-creator of <a href="https://www.docker.com/">Docker</a>.
+          </li>
+          <li>
+            WebAssembly can easily be bundled and distributed. Because of this,
+            there is now the{" "}
+            <a href="https://wapm.io/">WebAssembly Package Manager (WAPM)</a>{" "}
+            which allows for publishing and distributing WebAssembly packages to
+            be run standalone on WebAssembly runtimes. Also, current packages
+            managers like <a href="https://youtu.be/iRV4VemBMzc">NPM</a> already
+            support and push for WebAssembly to be a part of their JavaScript
+            packages.
+          </li>
+        </ul>
+        TL;DR WebAssembly is portable as it provides a common ground for
+        multiple languages to come to the web, it can be run in all kinds of
+        host applications and platforms using runtimes, and WebAssembly can be
+        easily bundles into new and existing package managers.
+        <br />
+        <br />
+        Thus, you may want to use WebAssembly,{" "}
+        <b>
+          if you want your library or code to be flexible, sandboxed, and easily
+          bundled, to be shared across many platforms
+        </b>
+        .
+        <br />
+        <br />
+        If you are interested in trying out / learning WebAssembly yourself, you
+        can checkout <a href="https://wasmbyexample.dev/">WasmByExample</a>.
         <h2>Proposing Changes to the Website</h2>
         <p>
           If you would like to add/edit/remove anything from this website,

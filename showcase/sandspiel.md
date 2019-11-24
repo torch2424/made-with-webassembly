@@ -3,11 +3,11 @@ name: Sandspiel
 logo_url: https://raw.githubusercontent.com/MaxBittker/sandspiel/master/Screenshot.png
 source_url: https://github.com/MaxBittker/sandspiel
 website: https://sandspiel.club/
-description: Sanspiel is a "falling sand" game, written with Rust / WebAssembly with ~ 2 million page views monthly
+description: Sanspiel is a falling sand game, written with Rust / WebAssembly with ~ 2 million page views monthly
 keywords: game gaming sand rust particle simulation physics math falling max bittker production
 ---
 
-Sanspiel is a "falling sand" game, written with Rust / WebAssembly and ~ 2 million page views monthly. Built by [Max Bittker](https://maxbittker.com/).
+Sanspiel is a falling sand game, written with Rust / WebAssembly and ~ 2 million page views monthly. Built by [Max Bittker](https://maxbittker.com/).
 
 ![sand spiel screen shot](https://raw.githubusercontent.com/MaxBittker/sandspiel/master/Screenshot.png)
 
