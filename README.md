@@ -74,15 +74,15 @@ For larger ideas or new sections of the site, it is recommended to open an issue
 nvm install --lts
 ```
 
-4. Create your own fork of the [wasm-by-example repository](https://github.com/torch2424/wasm-by-example) by clicking "Fork" in the Web UI. During local development, this will be referred to by `git` as `origin`.
+4. Create your own fork of the [made-with-webassembly repository](https://github.com/torch2424/made-with-webassembly) by clicking "Fork" in the Web UI. During local development, this will be referred to by `git` as `origin`.
 
 5. Download your fork to a local repository.
 
 ```shell
-git clone git@github.com:<your username>/wasm-by-example.git
+git clone git@github.com:<your username>/made-with-webassembly.git
 ```
 
-6. Add an alias called `upstream` to refer to the main `torch2424/wasm-by-example` repository. Go to the root directory of the
+6. Add an alias called `upstream` to refer to the main `torch2424/made-with-webassembly` repository. Go to the root directory of the
    newly created local repository directory and run:
 
 ```shell
