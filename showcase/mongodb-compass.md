@@ -3,7 +3,7 @@ name: MongoDB Compass
 logo_url: https://webassets.mongodb.com/_com_assets/cms/movies-o2aafiup8h.png
 website: https://www.mongodb.com/products/compass
 description: MongoDB Compass is an official electron GUI for managing MongoDB.
-keywords: electron 3d mongo production application native rust
+keywords: electron 3d mongo production application native rust data analysis analyze
 ---
 
 MongoDB Compass is an official electron GUI for managing MongoDB.

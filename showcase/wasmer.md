@@ -4,7 +4,7 @@ logo_url: https://raw.githubusercontent.com/wasmerio/wasmer/master/logo.png
 source_url: https://github.com/wasmerio/wasmer
 website: https://wasmer.io/
 description: Wasmer is a universal, server-side WebAsembly runtime for WASI and the Emscripten ABI. With many language intreations, and a Wasmer-JS WASI Stack.
-keywords: runtime wasi server side server-side emscripten language python c# rust c c++ go ruby php postgres javascript js .net r swift containers docker container containerization
+keywords: runtime wasi server side server-side emscripten language python c# rust c c++ go golang ruby php postgres javascript js .net r swift containers docker container containerization
 ---
 
 Wasmer is a universal, server-side WebAsembly runtime for WASI and the Emscripten ABI. With many language intreations, and a Wasmer-JS WASI Stack.

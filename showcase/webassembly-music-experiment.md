@@ -4,7 +4,7 @@ logo_url: /assets/showcase-assets/wasm-music-experiment.jpg
 source_url: https://github.com/petersalomonsen/javascriptmusic/tree/master/wasmaudioworklet/synth1/assembly/instruments
 website: https://petersalomonsen.com/webassemblymusic/livecodev1/?gist=ea73551e352440d5f470c6af89d7fe7c
 description: WebAssembly Music Experiment by Peter Salomonsen, is a web music livecoding editor, in which the instruments are implemented in AssemblyScript.
-keywords: music audio manipulation generate performance assemblyscript cool chip tune game retro
+keywords: music audio manipulation generate performance assemblyscript cool chip tune game retro sound
 ---
 
 WebAssembly Music Experiment by Peter Salomonsen, is a web music livecoding editor, in which the instruments are implemented in AssemblyScript.

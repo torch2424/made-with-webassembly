@@ -14,7 +14,7 @@ export default class Home extends Component {
 
     // Create a fuse instance
     this.fuse = new Fuse(Object.values(showcaseJson), {
-      threshold: 0.3,
+      threshold: 0.2,
       tokenize: true,
       keys: ["name", "description", "keywords"]
     });

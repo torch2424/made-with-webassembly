@@ -3,7 +3,7 @@ name: Blazor
 logo_url: https://devblogs.microsoft.com/aspnet/wp-content/uploads/sites/16/2019/04/BrandBlazor_nohalo_1000x.png
 website: https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor
 description: Blazor allows developers to build client web apps with C#, powered by WebAssembly.
-keywords: c# .net net dot microsoft production ui user interface
+keywords: c# .net net dot microsoft production ui user interface dom
 ---
 
 Blazor allows developers to build client web apps with C#, powered by WebAssembly.
