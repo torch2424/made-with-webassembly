@@ -2,11 +2,11 @@
 name: Uno Platform
 logo_url: https://s3.amazonaws.com/uno-website-assets/wp-content/uploads/2018/08/22113759/UnoLogoSmall.png
 website: https://www.platform.uno
-description: Uno Platform allows developers to build single codebase apps for Web (via WebAssembly, iOS, Android and Windows.
-keywords: c# .net net dot microsoft xaml
+description: OSS project for building single-codebase apps for Web (via WebAssembly), iOS, Android and Windows.
+keywords: c# .net net dot microsoft xaml WinUI UWP
 ---
 
-Uno Platform allows developers to build single codebase apps for Web (via WebAssembly, iOS, Android and Windows.
+OSS project for building single-codebase apps for Web (via WebAssembly), iOS, Android and Windows.
 
 
 
