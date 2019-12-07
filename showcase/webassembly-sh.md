@@ -1,7 +1,7 @@
 ---
 name: Webassembly.sh
 logo_url: https://github.com/wasmerio/webassembly.sh/blob/master/src/assets/icon.png?raw=true
-source_url: https://github.com/wasmerio/wasmer
+source_url: https://github.com/wasmerio/webassembly.sh
 website: https://webassembly.sh/
 description: Open-source and installable PWA terminal powered by WebAssembly, WAPM, and Wasmer-JS  🖥
 keywords: runtime wasi server side server-side emscripten language python c# rust c c++ go ruby php postgres javascript js .net r swift containers docker container containerization
