@@ -112,7 +112,9 @@ git checkout -b <branch name> master
 
 #### Building & Running the project
 
-1. Make sure you have the latest packages (after you pull): `npm install` 2. To build the project, run: `npm run build` 3. To serve, and build on changes for the project, run: `npm run dev`
+1. Make sure you have the latest packages (after you pull): `npm install`
+1. To build the project, run: `npm run build`
+1. To serve, and build on changes for the project, run: `npm run dev`
 
 ## Privacy
 
