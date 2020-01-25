@@ -24,6 +24,19 @@ const buildTask = async () => {
   // Start our metadata JSON
   const metadataJson = {};
 
+  // Start our Preact Prerender JSON
+  const preactPrerenderJson = [
+    {
+      url: "/"
+    },
+    {
+      url: "/about"
+    },
+    {
+      url: "/all-projects"
+    }
+  ];
+
   showcaseFiles.forEach(file => {
     // Get the contents of the file
     const text = fs.readFileSync(file, "utf8");
@@ -37,12 +50,25 @@ const buildTask = async () => {
     metadata["key"] = name;
     metadataJson[name] = metadata;
 
+    // Add the Prerender Data
+    preactPrerenderJson.push({
+      url: `/showcase/${name}`,
+      html: html,
+      project: metadata
+    });
+
     // Create the HTML output
     fs.writeFileSync(`./src/assets/showcase/${name}.html`, html);
   });
 
   // Create our showcase json (minified)
   fs.writeFileSync(`./src/assets/showcase.json`, JSON.stringify(metadataJson));
+
+  // Create our preact prerender json (minified)
+  fs.writeFileSync(
+    `./src/prerender-urls.json`,
+    JSON.stringify(preactPrerenderJson)
+  );
 
   console.log("Done!");
   console.log(" ");

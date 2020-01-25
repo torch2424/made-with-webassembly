@@ -1,0 +1,702 @@
+[
+  { "url": "/" },
+  { "url": "/about" },
+  { "url": "/all-projects" },
+  {
+    "url": "/showcase/1password",
+    "html": "<p>1Password used WebAssembly to speed up their browser plugin</p>\n<p><img src=\"https://blog.1password.com/posts/2019/b5x1.15/DetachedWindowDragAndDrop.jpg\" alt=\"ScreenShot\" /></p>\n<p>\"With our move to WebAssembly, page filling and analysis now runs at least twice as fast as before, and those websites with a large number of fields are up to 13x faster in Chrome and up to 39x faster in Firefox! It’s blazing fast.\" — <a href=\"https://blog.1password.com/1password-x-may-2019-update/\">Blog</a></p>",
+    "project": {
+      "name": "1Password",
+      "logo_url": "https://blog.1password.com/posts/2019/b5x1.15/DetachedWindowDragAndDrop.jpg",
+      "website": "https://blog.1password.com/1password-x-may-2019-update/",
+      "description": "1Password used WebAssembly to speed up their browser plugin",
+      "keywords": "1password plugin emscripten speedup",
+      "key": "1password"
+    }
+  },
+  {
+    "url": "/showcase/UnoPlatform",
+    "html": "<p>OSS project for building single-codebase apps for Web (via WebAssembly), iOS, Android and Windows.</p>\n<h2 id=\"additionalresources\">Additional Resources</h2>\n<ul>\n<li><a href=\"https://platform.uno/docs/articles/getting-started-tutorial-1.html\">Tutorial - Get Started with Uno Platform</a></li>\n<li><a href=\"https://platform.uno/announcing-uno-platform-2-0/\">Announcing Uno Platform 2.0</a></li>\n</ul>",
+    "project": {
+      "name": "Uno Platform",
+      "logo_url": "https://s3.amazonaws.com/uno-website-assets/wp-content/uploads/2018/08/22113759/UnoLogoSmall.png",
+      "website": "https://www.platform.uno",
+      "description": "OSS project for building single-codebase apps for Web (via WebAssembly), iOS, Android and Windows.",
+      "keywords": "c# .net net dot microsoft xaml WinUI UWP",
+      "key": "UnoPlatform"
+    }
+  },
+  {
+    "url": "/showcase/ableton",
+    "html": "<p>Ableton Learning Synths is an interactive website to learn the fundamentals of synthesis.</p>\n<p><img src=\"https://cdn-resources.ableton.com/resources/filer_thumbnails/4c/55/4c555402-475d-4b83-b54c-0b97d3731add/learningsynths_blog_800x400_aw2.jpg__3333x1667_q85_crop_subsampling-2_upscale.jpg\" alt=\"Ableton Learning Synths ScreenShot\" /></p>\n<p>Ableton uses WebAssembly, as generating audio from synthesis does a ton of heavy compuation of math and alrogithms to add sound waves to then create a final sound is done using WebAssembly. This is exciting, as the performance benefits of WebAssembly relative to having to write Web Apps in Javascript, means that a <strong>whole new class of Web Applications can now be accomplished on the web</strong>! Historically native desktop apps, like Digital Audio Workstations, can now be brought to the web with a usable and delightful user experience!</p>\n<h2 id=\"additionalresources\">Additional Resources</h2>\n<ul>\n<li><a href=\"https://twitter.com/AbletonDev/status/1143880805317525506\">Ableton Dev Tweet explaining the web tech stack</a></li>\n</ul>",
+    "project": {
+      "name": "Ableton Learning Synths",
+      "logo_url": "https://i.redd.it/meg6nawssnb01.jpg",
+      "website": "https://learningsynths.ableton.com/",
+      "description": "Ableton Learning Synths is an interactive website to learn the fundamentals of synthesis.",
+      "keywords": "production threads music tools audio tool sound daw digital math",
+      "key": "ableton"
+    }
+  },
+  {
+    "url": "/showcase/arxwasm",
+    "html": "<p>Arxwasm is an experimental port of the <a href=\"http://arx-libertatis.org/\">Arx Libertatis</a> project to WebAssembly using <a href=\"https://emscripten.org/\">Emscripten</a>, allowing to run the <a href=\"https://en.wikipedia.org/wiki/Arx_Fatalis\">Arx Fatalis</a> video game (2002) in modern Web Browsers.</p>\n<p><img src=\"https://wiki.arx-libertatis.org/images/e/e5/Cinematic.jpg\" alt=\"Arx Libertatis Screenshot\" /></p>\n<p>This project uses WebAssembly as it ports the GPL Licensed Source code of the demo, using Emscripten. This is quite notable, as it proves that WebAssembly can bring these large C/C++ codebases using Emscripten to the web, to run impressive 3d games.</p>\n<p>If you are interested in porting C/C++ libraries or applications, I'd highly reccomend <a href=\"https://youtu.be/FQJrcX4Ae8A\">Ben Smith's (binji) SFHTML5 Talk</a> on porting C projects to the web. This talk is unrealted to D3Wasm, but can help drive what goes into porting these types of applications.</p>",
+    "project": {
+      "name": "Arxwasm",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/en/3/3c/Arx_Fatalis_cover.png",
+      "website": "https://wasm.continuation-labs.com/arxdemo/",
+      "source_url": "https://github.com/gabrielcuvillier/arxwasm",
+      "description": "Online demonstration running Arx Libertatis Demo. An experimental port of Arx Libertatis to Emscripten / WebAssembly.",
+      "keywords": "games emscripten c c++ gaming porting 3d graphics",
+      "key": "arxwasm"
+    }
+  },
+  {
+    "url": "/showcase/amped-studio",
+    "html": "<p>Amped Studio is a modern web based music studio and production environment.</p>\n<p><img src=\"https://ampedstudio.com/welcome/flexible-500.png\" alt=\"Amped Studio ScreenShot\" /></p>\n<p>Amped Studio uses WebAssembly, as Digital Audio Workstations do a ton of heavy compuation of math and alrogithms to add sound waves to then create a final sound. Thus, the actual logic of adding effects, samples, generating sounds, etc.. is done using WebAssembly. This is exciting, as the performance benefits of WebAssembly relative to having to write Web Apps in Javascript, means that a <strong>whole new class of Web Applications can now be accomplished on the web</strong>! Historically Native Desktop apps, like Digital Audio Workstations, can now be brought to the web with a usable and delightful user experience!</p>\n<h2 id=\"additionalresources\">Additional Resources</h2>\n<ul>\n<li><a href=\"https://www.djtimes.com/amped-up-amped-studio-2-0/\">Dj Times - Amped Up: Amped Studio 2.0</a></li>\n</ul>",
+    "project": {
+      "name": "Amped Studio",
+      "logo_url": "https://www.namm.org/sites/www.namm.org/files_public/styles/800px/public/xtra/logos/a-green.png?itok=T9A8ArJw",
+      "website": "https://ampedstudio.com/",
+      "description": "Amped Studio is a modern web based music studio and production environment.",
+      "keywords": "production threads music tools audio tool sound daw digital math",
+      "key": "amped-studio"
+    }
+  },
+  {
+    "url": "/showcase/autocad",
+    "html": "<p>AutoCAD is a design tool for creating 2D and 3D drawings.</p>\n<p><img src=\"https://www.autodesk.com/content/dam/autodesk/www/products/autocad-web-app/overview-page/descriptive-overview/autocad-web-2020-overview-video-poster-1920x1080.jpg\" alt=\"AutoCad Web app ScreenShot\" /></p>\n<p>The AutoCAD web app uses emscripten to port pieces from the &gt; 35 years old native application for AutoCAD, to the web! This is quite notable, as it proves that WebAssembly can bring these large C/C++ codebases using Emscripten to the web, to run large computationally intensive desktop applications on the web!</p>\n<p>If you are interested in porting C/C++ libraries, I'd highly reccomend <a href=\"https://youtu.be/FQJrcX4Ae8A\">Ben Smith's (binji) SFHTML5 Talk</a> on porting C projects to the web. This talk is unrealted to Google Earth, but can help drive what goes into porting these types of applications.</p>\n<h2 id=\"additionalresources\">Additional Resources</h2>\n<ul>\n<li><a href=\"https://blogs.autodesk.com/autocad/autocad-web-app-google-io-2018/\">AutoCAD at Google I/O 2018 Blog post</a></li>\n<li><a href=\"https://youtu.be/BfkL3WgOPdI\">WasmSF - AutoCAD’s journey to the web, Dania El Hassan</a></li>\n</ul>",
+    "project": {
+      "name": "AutoCAD Web App",
+      "logo_url": "https://www.autodesk.com/content/dam/autodesk/www/products/autocad-web-app/overview-page/descriptive-overview/autocad-web-2020-overview-video-poster-1920x1080.jpg",
+      "website": "https://www.autodesk.com/products/autocad-web-app/overview",
+      "description": "AutoCAD is a design tool for creating 2D and 3D drawings.",
+      "keywords": "graphics 3d 2d autodesk production rendering port porting app application native",
+      "key": "autocad"
+    }
+  },
+  {
+    "url": "/showcase/binjgb",
+    "html": "<p>Gameboy emulator implemented in C. Runs in the browser using WebAssembly.</p>\n<p><img src=\"https://github.com/binji/binjgb/raw/master/images/debugger.png\" alt=\"binjgb debugger screenshot\" /></p>\n<p>Binjgb uses Wasm for it's emulation core, which runs all of the compuationally heavy logic of emulating the GameBoy. This is written in C, and compiled to WebAssembly using <a href=\"https://emscripten.org/\">Emscripten</a>.</p>\n<p>Gameboy emulation on the web, has historically been for desktop web and high-end mobile devices that could handle heavy computation that is required for emulation. But, with WebAssembly, this type of emulation can be run faster, and thus run on lower-end devices. Which I (Aaron Turner), have personally tested Binjgb to do this, and is awesome for people who could not afford a web-enabled devices with the performance characteristics that were required the old JavaScript GameBoy emulators.</p>\n<p>Though it is not a direct WebAssembly vs. JavaScript performance compariosn. Binjgb outperforms the most popular JavaScript Gameboy emualtor, <a href=\"https://github.com/taisel/GameBoy-Online\">GameBoy Online</a>. This can be tested on the \"Enable of emulators\" on <a href=\"https://wasmboy.app/benchmark/\">WasmBoy Benchmark</a>.</p>",
+    "project": {
+      "name": "Binjgb",
+      "logo_url": "https://github.com/binji/binjgb/raw/master/images/debugger.png",
+      "source_url": "https://github.com/binji/binjgb",
+      "website": "http://binji.github.io/binjgb/",
+      "description": "Gameboy emulator implemented in C. Runs in the browser using WebAssembly.",
+      "keywords": "game boy gameboy emulator c c++ emscripten emulation library benchmark gaming",
+      "key": "binjgb"
+    }
+  },
+  {
+    "url": "/showcase/blazor",
+    "html": "<p>Blazor allows developers to build client web apps with C#, powered by WebAssembly.</p>\n<p><img src=\"https://docs.microsoft.com/en-us/aspnet/core/blazor/index/_static/blazor-webassembly.png?view=aspnetcore-3.0\" alt=\"Blazor architecture ScreenShot\" /></p>\n<p>Blazor uses WebAssembly to allow for running .NET on the Web. This shows another key feature of WebAssembly, which is it's portability. Allowing code of different languages to be run in more places (such as the web browser!). All DOM interaction is done with glue code using JavaScript. WebAssembly is used to bootstrap the .NET runtime, and run the .NET assemblies!</p>\n<h2 id=\"additionalresources\">Additional Resources</h2>\n<ul>\n<li><a href=\"https://docs.microsoft.com/en-us/aspnet/core/blazor/?view=aspnetcore-3.0\">Introduction to ASP.NET Core Blazor Article</a></li>\n<li><a href=\"https://youtu.be/0RfUPr0KrSM\">Blazor, a new framework for browser-based .NET apps - Steve Sanderson</a></li>\n</ul>",
+    "project": {
+      "name": "Blazor",
+      "logo_url": "https://devblogs.microsoft.com/aspnet/wp-content/uploads/sites/16/2019/04/BrandBlazor_nohalo_1000x.png",
+      "website": "https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor",
+      "description": "Blazor allows developers to build client web apps with C#, powered by WebAssembly.",
+      "keywords": "c# .net net dot microsoft production ui user interface dom",
+      "key": "blazor"
+    }
+  },
+  {
+    "url": "/showcase/boa",
+    "html": "<p>Boa is an experimental Javascript lexer, parser and compiler written in Rust.</p>\n<p><img src=\"https://github.com/jasonwilliams/boa/raw/master/docs/img/latestDemo.gif\" alt=\"boa usage gif\" /></p>\n<p>Boa was written for the other advantages of rust, such as memory safety. However,due to Rust having amazing tooling and support for WebAssembly. It was brought to the web. This highlights that WebAssembly allows for the portability to bring projects, both large and small, to the web. Thus, you get all the advantages of the web, such as linking. Also, JavaScript engines running in WebAssembly, have the advantage of being able to run untrusted JS code, as it is sandboxed within the WebAssembly runtime.</p>\n<h1 id=\"additionalresources\">Additional Resources</h1>\n<ul>\n<li><a href=\"https://youtu.be/_uD2pijcSi4\">Let’s build a JavaScript Engine in Rust by Jason Williams | JSConf EU 2019</a></li>\n</ul>",
+    "project": {
+      "name": "Boa",
+      "logo_url": "/assets/showcase-assets/boa.jpg",
+      "source_url": "https://github.com/jasonwilliams/boa",
+      "website": "https://jasonwilliams.github.io/boa/",
+      "description": "Boa is an experimental Javascript lexer, parser and compiler written in Rust.",
+      "keywords": "language javascript es es6 engine language rust parser compiler js java script",
+      "key": "boa"
+    }
+  },
+  {
+    "url": "/showcase/chromium-ink",
+    "html": "<p>Ink is a freehand drawing library powered by WebAssembly, that powers Google Apps like Chrome Canvas and Google Keep.</p>\n<p><img src=\"https://i1.wp.com/9to5google.com/wp-content/uploads/sites/4/2018/12/chrome-canvas-demo.png?zoom=1.2999999523162842&w=663&h=442&quality=82&strip=all&ssl=1\" alt=\"google canvas screen shot\" /></p>\n<p>Ink uses webassembly, and webassembly threads, to bring a super fast and performant experiene for users. The app has been praised for it's extremely good performance and user experience, even on low powered devices like chrome books. This is because WebAssembly is great for computationally intensive tasks, like in this case of handling realtime-input to do graphics work.</p>\n<h1 id=\"additonalresources\">Additonal Resources</h1>\n<ul>\n<li><a href=\"https://webassembly-security.com/google-keep-webassembly-module-analysis/\">Analysis of Google Keep WebAssembly module</a></li>\n</ul>",
+    "project": {
+      "name": "Ink",
+      "logo_url": "https://i1.wp.com/9to5google.com/wp-content/uploads/sites/4/2018/12/chrome-canvas-demo.png?zoom=1.2999999523162842&amp;w=663&amp;h=442&amp;quality=82&amp;strip=all&amp;ssl=1",
+      "source_url": "https://chromium.googlesource.com/chromium/src/third_party/+/5c5cea33ebab6046cd2dfc381faeb2d2d52c1486/ink",
+      "website": "https://9to5google.com/2018/12/20/google-chrome-canvas-drawing-ink/",
+      "description": "Ink is a freehand drawing library powered by WebAssembly, that powers Google Apps like Chrome Canvas and Google Keep.",
+      "keywords": "graphics drawing input rendering google production keep canvas art tool library c c++",
+      "key": "chromium-ink"
+    }
+  },
+  {
+    "url": "/showcase/cloudflar-workers",
+    "html": "<p>Cloudflare Workers provides a lightweight JavaScript and WebAssembly execution environment for serverless applications.</p>\n<p><img src=\"https://blog.cloudflare.com/content/images/2018/12/image-16.png\" alt=\"Cloudflare workers screen shot\" /></p>\n<p>Cloudflar workers uses WebAssembly, as it offers a JavaScript execution environment, that can instantiate and run WebAssembly. This is awesome, as serverless applications are usually contrained by their execution time. Meaning, tht using WebAssembly for computationally intensive tasks, rather than JavaScript, can greatly reduce execution time. This is great for both budget, as well as doing something like manipualting images on demand per a network request to a server.</p>\n<h1 id=\"additionalresources\">Additional Resources</h1>\n<ul>\n<li><a href=\"https://github.com/cloudflare/wrangler\">Wrangler - Cloudflare Workers CLI Tool</a></li>\n<li><a href=\"https://youtu.be/CMB6AlE1QuI\">Rust, WebAssembly, and the future of Serverless by Steve Klabnik</a></li>\n</ul>",
+    "project": {
+      "name": "Cloudflare Workers",
+      "logo_url": "https://res.cloudinary.com/practicaldev/image/fetch/s--Fp3OdXT5--/c_fill,f_auto,fl_progressive,h_320,q_auto,w_320/https://thepracticaldev.s3.amazonaws.com/uploads/organization/profile_image/788/7908fbf4-e280-4f73-961b-3d77b51cac1d.png",
+      "website": "https://www.cloudflare.com/products/cloudflare-workers/",
+      "description": "Cloudflare Workers provides a lightweight JavaScript and WebAssembly execution environment for serverless applications.",
+      "keywords": "runtime server side server-side serverless emscripten language rust c c++ go golang ruby javascript js assemblyscript",
+      "key": "cloudflar-workers"
+    }
+  },
+  {
+    "url": "/showcase/commanderkeen",
+    "html": "<p>Command Keen is an old school PC platformer by id software. Ported to the web with WebAssembly and Emscripten.</p>\n<p><img src=\"/assets/showcase-assets/commanderkeen.jpg\" alt=\"Command Keen screenshot\" /></p>\n<p>This project uses WebAssembly as it ports the Source code of Commander Keen, using Emscripten. This is quite notable, as it proves that WebAssembly can bring these large C/C++ codebases using Emscripten to the web, to run impressive 3d, and old school games on the web.</p>",
+    "project": {
+      "name": "Commander Keen",
+      "logo_url": "https://www.jamesfmackenzie.com/img/posts/keen.png",
+      "website": "https://www.jamesfmackenzie.com/2019/10/28/commander-keen-ported-to-webassembly/",
+      "source_url": "https://github.com/jamesfmackenzie/chocolatekeen",
+      "description": "Command Keen is an old school PC platformer by id software. Ported to the web with WebAssembly and Emscripten.",
+      "keywords": "games emscripten c c++ gaming porting old school retro graphics",
+      "key": "commanderkeen"
+    }
+  },
+  {
+    "url": "/showcase/construct-3",
+    "html": "<p>Construct 3 is a cross-platform game creator.</p>\n<p><img src=\"https://s1.construct.net/images/v721/home/new/hero.png\" alt=\"Construct 3 ScreenShot\" /></p>\n<p>\"Construct 3 uses WebAssembly for audio re-encoding in the editor. In the runtime it uses it for physics simulation, coherent noise generation and audio decoding ( for platforms that don't support opus ).\" - From the tweet listed in Additional Resources.</p>\n<p>First, this use-case shows the performance benefits of WebAssembly relative to JavaScript. The Construct editor runs in the browser, so historically, these computationally itensive tasks had to be written and run in JavaScript. Now with WebAssembly, which is great for running this type of heavy logic in tasks like audio re-encoding, this can be done faster, for a better user-experience for your users.</p>\n<p>Another great highlight here, is that WebAssembly can be used to <strong>fill the gaps in APIs or support a web enviornment may be missing</strong>. As we see here, using WebAssembly, Construct was able to build their own Opus decoding engine, which works well in browsers that don't support Opus natively!</p>\n<h2 id=\"additionalresources\">Additional Resources</h2>\n<ul>\n<li><a href=\"https://twitter.com/IainShorter/status/1158769551229816833\">Tweet by Construct engineer explaining how they use Wasm</a></li>\n</ul>",
+    "project": {
+      "name": "Construct 3",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Construct_3_Logo.svg",
+      "website": "https://www.construct.net/en",
+      "description": "Construct 3 is a cross-platform game creator.",
+      "keywords": "graphics game gaming engine gaming audio physics generate generation decoding endcoding native fill the gap missing features feature",
+      "key": "construct-3"
+    }
+  },
+  {
+    "url": "/showcase/d3wasm",
+    "html": "<p>D3wasm is an experiment to port the <a href=\"https://en.wikipedia.org/wiki/Id_Tech_4\">id Tech 4</a> engine (aka. “Doom 3 Engine”) to <a href=\"https://emscripten.org/\">Emscripten</a> / <a href=\"https://webassembly.org/\">WebAssembly</a> and <a href=\"https://www.khronos.org/webgl/\">WebGL</a>, allowing to run games such as <a href=\"https://en.wikipedia.org/wiki/Doom_3\">Doom 3</a> inside modern Web Browsers.</p>\n<p><img src=\"https://www.continuation-labs.com/projects/d3wasm/img/SC1.jpg\" alt=\"D3Wasm ScreenShot\" /></p>\n<p>D3Wasm uses emscripten to port the \"Doom 3 engine\". This is quite notable, as it proves that WebAssembly can bring these large C/C++ codebases using Emscripten to the web, to run impressive 3d games. The <a href=\"https://www.continuation-labs.com/projects/d3wasm/\">d3wasm blog post</a> goes deep into detail on how the project works.</p>\n<p>If you are interested in porting C/C++ libraries or applications, I'd highly reccomend <a href=\"https://youtu.be/FQJrcX4Ae8A\">Ben Smith's (binji) SFHTML5 Talk</a> on porting C projects to the web. This talk is unrealted to D3Wasm, but can help drive what goes into porting these types of applications.</p>",
+    "project": {
+      "name": "D3Wasm",
+      "logo_url": "https://www.continuation-labs.com/projects/d3wasm/img/SC1.jpg",
+      "website": "https://wasm.continuation-labs.com/d3demo/",
+      "source_url": "https://github.com/gabrielcuvillier/d3wasm",
+      "description": "Online demonstration running Doom 3 Demo. An experimental port of id Tech 4 engine to Emscripten / WebAssembly.",
+      "keywords": "games doom emscripten c c++ gaming porting 3d graphics",
+      "key": "d3wasm"
+    }
+  },
+  {
+    "url": "/showcase/diabloweb",
+    "html": "<p>Diabloweb is Diablo 1 for web browsers!</p>\n<p><img src=\"https://technave.com/data/files/mall/article/201907311300134091.jpg\" alt=\"Arx Libertatis Screenshot\" /></p>\n<p>This project uses WebAssembly as it ports the Source code of <a href=\"https://github.com/diasurgical/devilution\">deviloution</a>, using Emscripten. This is quite notable, as it proves that WebAssembly can bring these large C/C++ codebases using Emscripten to the web, to run impressive 3d games.</p>\n<p>If you are interested in porting C/C++ libraries or applications, I'd highly reccomend <a href=\"https://youtu.be/FQJrcX4Ae8A\">Ben Smith's (binji) SFHTML5 Talk</a> on porting C projects to the web. This talk is unrealted to D3Wasm, but can help drive what goes into porting these types of applications.</p>",
+    "project": {
+      "name": "Diabloweb",
+      "logo_url": "https://technave.com/data/files/mall/article/201907311300134091.jpg",
+      "website": "https://d07riv.github.io/diabloweb/",
+      "source_url": "https://github.com/d07RiV/diabloweb",
+      "description": "Diablo 1 for web browsers",
+      "keywords": "games emscripten c c++ gaming porting 3d graphics",
+      "key": "diabloweb"
+    }
+  },
+  {
+    "url": "/showcase/ebay",
+    "html": "<p>Ebay is an ecommerce platform, that used WebAssembly to bring barcode scanning to the mobile web app.</p>\n<p><img src=\"https://miro.medium.com/max/780/1*u1owB0nCcAgTfo9Fyb3O2Q.png\" alt=\"Ebay Wasm ScreenShot\" /></p>\n<p>Ebay used WebAssembly to bring their barcode scanning feature found in their native, Android and iOS, apps to their mobile web app! Originally, Ebay had an implementation of this feature in JavaScript, but since the task was very computationally intensive, the experience was very inaccurate, and extremely slow. But since WebAssembly is suited for these tasks, Ebay was able to port a fast, accurate Barcode scanning library written in C++, using Emscripten. Thus, they were able to bring the C++ library to the web, and offer a great user experience!</p>\n<h2 id=\"additionalresources\">Additional Resources</h2>\n<ul>\n<li><a href=\"https://medium.com/ebaytech/webassembly-at-ebay-a-real-world-use-case-ef888f38b537\">Ebay Wasm Barcode Scanner Article</a></li>\n</ul>",
+    "project": {
+      "name": "Ebay Mobile Web Barcode Scanner",
+      "logo_url": "https://miro.medium.com/max/780/1*u1owB0nCcAgTfo9Fyb3O2Q.png",
+      "website": "https://medium.com/ebaytech/webassembly-at-ebay-a-real-world-use-case-ef888f38b537",
+      "description": "Ebay is an ecommerce platform, that used WebAssembly to bring barcode scanning to the mobile web app.",
+      "keywords": "graphics image detection ecommerce native port emscripten c c++",
+      "key": "ebay"
+    }
+  },
+  {
+    "url": "/showcase/esri-client-projection",
+    "html": "<p>Esri is a geospatial mapping and analytics software company, that used WebAssembly to bring their server side client side projection engine to the web.</p>\n<p><img src=\"https://www.esri.com/arcgis-blog/wp-content/uploads/2018/04/compare-pe-gs-project.gif\" alt=\"Esri client side projection gif\" /></p>\n<p>Esri originally had a service that would be called by the client to do equation-based geographic transformations. However, they were able to bring this library to the client, with a good user experience using WebAssembly. Esri found that users would have better performance doing the computationally intensive task in WebAssembly (as WebAssembly is meant to handle this use case well), rather than waiting for the round trip call over the network. And depending on the network conditions, the slower the network, the more relatively fast the client-side WebAssembly task would be!</p>\n<h2 id=\"additionalresources\">Additional Resources</h2>\n<ul>\n<li><a href=\"https://www.esri.com/arcgis-blog/products/js-api-arcgis/mapping/introducing-the-client-side-projection-engine/\">Esri Client Side Projection Engine Article</a></li>\n</ul>",
+    "project": {
+      "name": "Esri client-side projection engine",
+      "logo_url": "https://www.esri.com/arcgis-blog/wp-content/uploads/2018/04/coordinateFormatter_3.24.gif",
+      "website": "https://www.esri.com/arcgis-blog/products/js-api-arcgis/mapping/introducing-the-client-side-projection-engine/",
+      "description": "Esri is a geospatial mapping and analytics software company, that used WebAssembly to bring their server side client side projection engine to the web.",
+      "keywords": "math earth mapping map space coordinate projection location",
+      "key": "esri-client-projection"
+    }
+  },
+  {
+    "url": "/showcase/fastq-bio",
+    "html": "<p>fastq.bio, an interactive genomics web tool for analyzing genomics data.</p>\n<p><img src=\"/assets/showcase-assets/fastq-bio.jpg\" alt=\"Fastq dot bio ScreenShot\" /></p>\n<p>fastq.bio was originally implemented as a JavaScript rewrite of a C library so that it could run in the browser. However, this approach had the potential for introducing errors and imposed a huge cost on development. With WebAssembly, they were able to port the industry standard C library so it could run in the browser. Not only did this reduce the risk for errors, but it also led to a 20X speed-up and a better user experience.</p>\n<p>The talk listed in the additional resources is highly reccomended!</p>\n<h2 id=\"additionalresources\">Additional Resources</h2>\n<ul>\n<li><a href=\"https://youtu.be/o-2PLhMVBYU\">fastq.bio, an interactive genomics web tool, Robert Aboukhalil</a></li>\n<li><a href=\"https://www.smashingmagazine.com/2019/04/webassembly-speed-web-app/\">How We Used WebAssembly To Speed Up Our Web App By 20X (Case Study)</a></li>\n</ul>",
+    "project": {
+      "name": "Fastq.bio",
+      "logo_url": "/assets/showcase-assets/fastq-bio.jpg",
+      "website": "http://www.fastq.bio/v2.0.1/index.html",
+      "description": "Genomics analysis web tool that saw a 20X speedup thanks to WebAssembly",
+      "keywords": "c c++ genomics bio analytics data analysis math emscripten infomatics production",
+      "key": "fastq-bio"
+    }
+  },
+  {
+    "url": "/showcase/figma",
+    "html": "<p>Figma is a collaborative interface design tool, powered by WebAssembly.</p>\n<p><img src=\"https://ucarecdn.com/96c762be-d03e-4137-9216-8c9c793612e7/\" alt=\"Figma Wasm ScreenShot\" /></p>\n<p>Figma uses WebAssembly, as the application was originally written in C++, and exported to Asm.js using Emscripten. However, after WebAssembly launched, they switched to WebAssembly by adding the appropriate Emscripten flags, and saw 3x performance increase!</p>\n<h2 id=\"additionalresources\">Additional Resources</h2>\n<ul>\n<li><a href=\"https://www.figma.com/blog/webassembly-cut-figmas-load-time-by-3x/\">Figma Wasm Speedup Article</a></li>\n</ul>",
+    "project": {
+      "name": "Figma",
+      "logo_url": "https://pbs.twimg.com/profile_images/1184135296566251520/TWYoDqir_400x400.png",
+      "website": "https://www.figma.com/",
+      "description": "Figma is a collaborative interface design tool, powered by WebAssembly.",
+      "keywords": "graphics 2d production rendering app application",
+      "key": "figma"
+    }
+  },
+  {
+    "url": "/showcase/funkykarts",
+    "html": "<p>Funky Karts is a mobile and web side-scrolling racing game</p>\n<p><img src=\"https://lh3.googleusercontent.com/fyTTiRty0TotqrTwO8GDahKepk_CUy2T4ggojOdpyPx_iOMjm4fOJj2yR5NQB9IhNLC35-F_grI=w640-h400-e365\" alt=\"Funky Karts\" /></p>\n<p>This project uses WebAssembly as it's game engine is written in C, and uses Emscripten to output WebAssembly to run the game on the web. In this particular project, the game already ran on the web, but only on Chrome due to it being exported to <a href=\"https://developer.chrome.com/native-client\">Native Client</a>. For this project, WebAssembly helped bring this game to all web browsers, and help it go beyond the chrome web store since they could be ensured that the WebAssembly would work, and give great performance on every brower.</p>",
+    "project": {
+      "name": "Funky Karts",
+      "logo_url": "https://www.rossis.red/wasm+fk.png",
+      "website": "https://www.rossis.red/wasm.html",
+      "description": "Funky Karts is a mobile and web side-scrolling racing game",
+      "keywords": "games emscripten c c++ gaming porting graphics",
+      "key": "funkykarts"
+    }
+  },
+  {
+    "url": "/showcase/gdevelop",
+    "html": "<p>GDevelop is an open-source, cross-platform game engine designed to be used by everyone. The app is a <strong>complete game editor</strong>, allowing to create any kind of 2D games: platformers, puzzles, shoot 'em up, strategy, 8-bit games… Games can be exported to various platforms, from iOS and Android to desktop (Windows, macOS, Linux) and as web games too.</p>\n<p><img src=\"https://gdevelop-app.com/static/landing-screen.505f42bb.png\" alt=\"GDevelop ScreenShot\" /></p>\n<p>GDevelop uses <em>Emscripten</em> to port pieces from the legacy desktop application (written in C++), to the web! This is quite notable, as it proves that WebAssembly can bring these large C/C++ codebases using Emscripten to the web. The new application is an hybrid app, with the <em>whole interface made in JavaScript</em> with React and the <em>core of the software written in C++</em>, compiled with Emscripten.</p>\n<p>This allows to reuse an existing, proven codebase while benefiting from the <em>portability</em>, <em>fast iterations</em> and <em>high delivery speed</em> of the web.</p>\n<p>If you are interested in porting C/C++ libraries, I'd highly recommend <a href=\"https://youtu.be/FQJrcX4Ae8A\">Ben Smith's (binji) SFHTML5 Talk</a> on porting C projects to the web. This talk is unrelated to GDevelop, but can help drive what goes into porting these types of applications. You can also inspect the source code of GDevelop as an example of a large app running in the browser backed by a C++ core.</p>\n<h2 id=\"additionalresources\">Additional Resources</h2>\n<ul>\n<li><a href=\"https://youtu.be/sMfNWIbWUb0\">Native Web Apps: React and WebAssembly to Rewrite Native Apps - Florian Rival | ReactiveConf 2019</a></li>\n<li><a href=\"https://slides.com/florianrival/native-web-apps-2#/\">Slides of \"Native Web Apps\" talk</a></li>\n<li><a href=\"https://github.com/4ian/GDevelop\">Source code on Github</a></li>\n<li><a href=\"https://github.com/4ian/GDevelop/tree/master/GDevelop.js\">Sources of the bindings of the C++ codebase for Emscripten</a></li>\n</ul>",
+    "project": {
+      "name": "GDevelop",
+      "logo_url": "https://gdevelop-app.com/static/landing-screen.505f42bb.png",
+      "website": "https://gdevelop-app.com/",
+      "source_url": "https://github.com/4ian/GDevelop",
+      "description": "GDevelop is an open-source, cross-platform game engine designed to be used by everyone.",
+      "keywords": "graphics game gaming engine gaming emscripten c c++",
+      "key": "gdevelop"
+    }
+  },
+  {
+    "url": "/showcase/google-earth",
+    "html": "<p>Google Earth renders a 3D representation of Earth based primarily on satellite imagery on the Web.</p>\n<p><img src=\"https://web.dev/earth-webassembly/earth-wasm-big.webp\" alt=\"Google Earth Wasm ScreenShot\" /></p>\n<p>Google Earth uses emscripten to port pieces from the old native application for Google Earth, to the web! This is quite notable, as it proves that WebAssembly can bring these large C/C++ codebases using Emscripten to the web, to run impressive 3d graphics. They also highlight in their WasmSf Talk (in the additional resources), how this also allowed their code to be more portable across Google in general, because now they can have one C codebase used on different codebases and platforms!</p>\n<p>If you are interested in porting C/C++ libraries, I'd highly reccomend <a href=\"https://youtu.be/FQJrcX4Ae8A\">Ben Smith's (binji) SFHTML5 Talk</a> on porting C projects to the web. This talk is unrealted to Google Earth, but can help drive what goes into porting these types of applications.</p>\n<h2 id=\"additionalresources\">Additional Resources</h2>\n<ul>\n<li><a href=\"https://blog.chromium.org/2019/06/webassembly-brings-google-earth-to-more.html\">Web / Wasm Launch Article</a></li>\n<li><a href=\"https://web.dev/earth-webassembly/\">Web.dev article</a></li>\n<li><a href=\"https://youtu.be/ms5_0wOl79I\">Jordon Mears, Google Earth, WasmSF Talk</a></li>\n</ul>",
+    "project": {
+      "name": "Google Earth",
+      "logo_url": "https://miro.medium.com/max/1560/0*YxeGMxX6L0I7XvXt.",
+      "website": "https://g.co/earth/beta",
+      "description": "Google Earth renders a 3D representation of Earth based primarily on satellite imagery on the Web.",
+      "keywords": "graphics 3d google production rendering port porting app application native",
+      "key": "google-earth"
+    }
+  },
+  {
+    "url": "/showcase/jqkungfu",
+    "html": "<p>A jq playground in WebAssembly.</p>\n<p><img src=\"/assets/showcase-assets/jqkungfu.png\" alt=\"ScreenShot\" /></p>\n<p>jqkungfu was built by compiling jq into WebAssembly, so that it can run in the browser.</p>\n<h2 id=\"additionalresources\">Additional Resources</h2>\n<ul>\n<li><a href=\"https://github.com/robertaboukhalil/jqkungfu\">jgkungfu repo</a></li>\n</ul>",
+    "project": {
+      "name": "jqkungfu",
+      "logo_url": "/assets/showcase-assets/jqkungfu.png",
+      "website": "http://jqkungfu.com/",
+      "description": "A jq playground in WebAssembly",
+      "keywords": "c jq json emscripten",
+      "key": "jqkungfu"
+    }
+  },
+  {
+    "url": "/showcase/js-wasm_performance_comparison",
+    "html": "<p>A performance comparison tool for fractal image calculation in JavaScript and Web Assembly</p>\n<p>You can switch between using JavaScript to perform the calculations (press 'j') or Web Assembly (press 'w')</p>\n<p>This tool creates an image of the Mandelbrot Set, then as you move the mouse pointer over the image, the corresponding Julia Set for that location is dynamically calculated and the calculation time displayed.</p>\n<p><img src=\"https://raw.githubusercontent.com/ChrisWhealy/fractal_explorer/master/img/Screenshot.png\" alt=\"Performance Comparison ScreenShot\" /></p>\n<h2 id=\"important\">IMPORTANT</h2>\n<p>The Web Assembly runtimes are quite consistent across different browsers; however, the JavaScript runtimes are not particularly consistent, and values will vary depending on the JavaScript engine your browser uses</p>\n<table border=\"1\" cellspacing=\"0\" cellpadding=\"3\">\n<tr><th>Engine</th>\n    <th>Browser</th>\n    <th>Comments</th></tr>\n<tr><td>SpiderMonkey</td>\n    <td>Firefox</td>\n    <td>Tends to be the fastest - sometimes being as fast as, or slightly faster than Web Assembly</td></tr>\n<tr><td>JavaScriptCore</td>\n    <td>Safari</td>\n    <td>Tends to be a little slower than SpiderMonkey</td></tr>\n<tr><td>V8</td>\n    <td>Brave<br>Google&nbsp;Chrome/Chromium</td>\n    <td>Tends to be slower than either SpiderMonkey or JavaScriptCore</td></tr>\n<tr><td>Chakra</td>\n    <td>Microsoft Edge</td>\n    <td>No data</td></tr>\n</table>\n<h2 id=\"additionalresources\">Additional Resources</h2>\n<ul>\n<li>The Rust part of this application can be found in this <a href=\"https://github.com/ChrisWhealy/fractal_explorer\">Git Repository</a></li>\n</ul>",
+    "project": {
+      "name": "JavaScript/WASM Performance Comparison",
+      "website": "http://whealy.com/Rust/mandelbrot.html",
+      "description": "A performance comparison tool for fractal image calculation in JavaScript and Web Assembly",
+      "keywords": "javascript wasm web assembly fractal mandelbrot julia performance comparison",
+      "key": "js-wasm_performance_comparison"
+    }
+  },
+  {
+    "url": "/showcase/lichess",
+    "html": "<p>lichess is an open source chess server, that is in Alexa's top 2000 sites. lichess uses <a href=\"https://github.com/niklasf/stockfish.wasm\">WebAssembly port of stockfish</a> for it's chess engine analysis.</p>\n<p><img src=\"https://pbs.twimg.com/media/DyQmdcRX4AAROCH.jpg\" alt=\"lichess screen shot\" /></p>",
+    "project": {
+      "name": "lichess",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Lichess_Logo.svg/1024px-Lichess_Logo.svg.png",
+      "source_url": "https://github.com/niklasf/stockfish.wasm",
+      "website": "https://lichess.org/analysis",
+      "description": "lichess is an open source chess server, that is in Alexa's top 2000 sites. lichess uses WebAssembly for it's chess engine analysis.",
+      "keywords": "game gaming emscripten c c++ chess port porting production",
+      "key": "lichess"
+    }
+  },
+  {
+    "url": "/showcase/lucet",
+    "html": "<p>Lucet is a native WebAssembly compiler and runtime. It is designed to safely execute untrusted WebAssembly programs inside your application. Uses <a href=\"https://github.com/bytecodealliance/cranelift\">Cranelift</a> for it's WebAssembly execution.</p>\n<p><img src=\"https://www.fastly.com/cimages/6pk8mg3yh2ee/4RGJh4DHD4HX2Zpa2NY1h8/87fe66f5db89c1f1b105c6306b4f2e3a/social_header_image_lucet.jpg?canvas=1200:630&width=1200&height=630&fit=bounds&bg-color=FFFFFF\" alt=\"Lucet screen shot\" /></p>\n<p>Server side runtimes for WebAssembly highlight the portability of WebAssembly. WebAssembly provides a compile target for multiple languages to be used in many different contexts. This also allows for some level of containerization of your application or library, due to the sandboxed nature of WebAssembly's linear memory, and Capability-based security model.</p>\n<p>Lucet is a project under the Bytecode Alliance, an industry partnership coming together to forge WebAssembly’s outside-the-browser future by collaborating on implementing standards and proposing new ones.</p>\n<h1 id=\"addtionalresources\">Addtional Resources</h1>\n<ul>\n<li><a href=\"https://www.fastly.com/blog/announcing-lucet-fastly-native-webassembly-compiler-runtime\">Lucet Announcement</a></li>\n<li><a href=\"https://hacks.mozilla.org/2019/11/announcing-the-bytecode-alliance/\">Bytecode Alliance Announcement</a></li>\n</ul>",
+    "project": {
+      "name": "Lucet",
+      "logo_url": "https://www.fastly.com/cimages/6pk8mg3yh2ee/4RGJh4DHD4HX2Zpa2NY1h8/87fe66f5db89c1f1b105c6306b4f2e3a/social_header_image_lucet.jpg?canvas=1200:630&amp;width=1200&amp;height=630&amp;fit=bounds&amp;bg-color=FFFFFF",
+      "website": "https://github.com/bytecodealliance/lucet/wiki",
+      "source_url": "https://github.com/bytecodealliance/lucet",
+      "description": "Lucet is a native WebAssembly compiler and runtime. It is designed to safely execute untrusted WebAssembly programs inside your application.",
+      "keywords": "runtime wasi server servers side server-side emscripten language rust c c++ containers docker container containerization assemblyscript typescript",
+      "key": "lucet"
+    }
+  },
+  {
+    "url": "/showcase/mongodb-compass",
+    "html": "<p>MongoDB Compass is an official electron GUI for managing MongoDB.</p>\n<p><img src=\"https://webassets.mongodb.com/_com_assets/cms/movies-o2aafiup8h.png\" alt=\"Mongo d b compass screen shot\" /></p>\n<p>MongoDB Compass has logic for sample field analysis. This was originally written in Javascript, but due to the limitations of Javascript. The operation could only relistically run on about 1000 documents before it got too slow. The team then proceeded to do a rewrite of their sample field analysis in Rust / Wasm. They saw a 40.33x speed increase (121000ms in Javascript, 3000ms in WebAssembly) with their new Wasm implementation. This is because <strong>Wasm is great for computationally intensive tasks</strong>. Please see the talk in Additional resources for more information.</p>\n<h1 id=\"additionalresources\">Additional Resources</h1>\n<ul>\n<li><a href=\"https://youtu.be/lLzFJenzBng\">RustConf 2019 - From Electron, to Wasm, to Rust (Aaand Back to Electron) by Irina Shestak</a></li>\n</ul>",
+    "project": {
+      "name": "MongoDB Compass",
+      "logo_url": "https://webassets.mongodb.com/_com_assets/cms/movies-o2aafiup8h.png",
+      "website": "https://www.mongodb.com/products/compass",
+      "description": "MongoDB Compass is an official electron GUI for managing MongoDB.",
+      "keywords": "electron 3d mongo production application native rust data analysis analyze",
+      "key": "mongodb-compass"
+    }
+  },
+  {
+    "url": "/showcase/near-protocol",
+    "html": "<p>Near Protocol is public blockain for builing decentralized applications using WebAssembly (AssemblyScript)</p>\n<p><img src=\"https://github.com/nearprotocol/NEARStudio/raw/master/demos/guest_book.gif\" alt=\"near studio screen shot\" /></p>\n<p>Near Protocol uses AssemblyScript as it's language of choice for writing the smart contracts on its platform. You can try it out at <a href=\"https://studio.nearprotocol.com/\">Near Studio</a>. They chose to use WebAssembly as they found it be a great way to leverage the web technology for great performance and portability. They chose to use AssemblyScript for their language as they found it to be the most portable, and easy to access by web (JavaScript) developers.</p>\n<h1 id=\"additonalresources\">Additonal Resources</h1>\n<ul>\n<li><a href=\"https://youtu.be/s6-DtXFLeyE\">WebAssembly is at the core of the decentralized web, by Evgeny Kuzyakov of Near Protocol</a></li>\n<li><a href=\"https://docs.nearprotocol.com/docs/quick-start/blockchain-prerequisite\">Near Quick Start</a></li>\n<li><a href=\"https://github.com/nearprotocol\">Near Github Org</a></li>\n</ul>",
+    "project": {
+      "name": "Near Protocol",
+      "logo_url": "https://github.com/nearprotocol/nearcore/raw/master/docs/logo.svg?sanitize=true",
+      "source_url": "https://github.com/nearprotocol/near-runtime-ts",
+      "website": "https://nearprotocol.com/",
+      "description": "Near Protocol is public blockain for builing decentralized applications using WebAssembly (AssemblyScript)",
+      "keywords": "assembly script assemblyscript block chain blockchain crypto currency cryptocurrency smart contract decentralize",
+      "key": "near-protocol"
+    }
+  },
+  {
+    "url": "/showcase/noxweb",
+    "html": "<p>Nox was ported for web browsers, including Multiplayer using <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API\">WebRTC</a>!</p>\n<p><img src=\"/assets/showcase-assets/nox-web.jpg\" alt=\"Nox Web Screenshot\" /></p>\n<p>This project uses WebAssembly as it ports the Source code of Nox, using Emscripten. This is quite notable, as it proves that WebAssembly can bring these large C/C++ codebases using Emscripten to the web, to run impressive 3d games.</p>\n<p>If you are interested in porting C/C++ libraries or applications, I'd highly reccomend <a href=\"https://youtu.be/FQJrcX4Ae8A\">Ben Smith's (binji) SFHTML5 Talk</a> on porting C projects to the web. This talk is unrealted to D3Wasm, but can help drive what goes into porting these types of applications.</p>\n<h1 id=\"additionalresources\">Additional Resources</h1>\n<ul>\n<li><a href=\"https://www.reddit.com/r/Nox/comments/bkvc0s/nox_in_a_browser_take_2/\">Reddit Thread of Nox for Web</a></li>\n</ul>",
+    "project": {
+      "name": "Nox",
+      "logo_url": "/assets/showcase-assets/nox-web.jpg",
+      "website": "https://playnox.xyz/",
+      "description": "Nox for web browsers, including Multiplayer over WebRTC",
+      "keywords": "games emscripten c c++ gaming porting 3d graphics",
+      "key": "noxweb"
+    }
+  },
+  {
+    "url": "/showcase/pajamasam3",
+    "html": "<p><a href=\"https://worldofwasm.bubbleapps.io/\">Originally form WorldOfWasm</a></p>\n<p>A shareware demo of Pajama Sam: You Are What You Eat, From Your Head To Your Feet ported to WASM/WebGL. Ported by <a href=\"https://digiplaygaming.com/\">Digiplay</a>.</p>\n<p><img src=\"/assets/showcase-assets/pajamasam3.jpg\" alt=\"Arx Libertatis Screenshot\" /></p>\n<p>This project uses WebAssembly as it ports the Source code of the ShareWare demo of Pajama Sam 3, using Emscripten. This is quite notable, as it proves that WebAssembly can bring these large C/C++ codebases using Emscripten to the web, to run impressive games.</p>\n<p>If you are interested in porting C/C++ libraries or applications, I'd highly reccomend <a href=\"https://youtu.be/FQJrcX4Ae8A\">Ben Smith's (binji) SFHTML5 Talk</a> on porting C projects to the web. This talk is unrealted to D3Wasm, but can help drive what goes into porting these types of applications.</p>",
+    "project": {
+      "name": "Pajama Sam 3",
+      "logo_url": "/assets/showcase-assets/pajamasam3.jpg",
+      "website": "https://classic-arcade.itch.io/pajama-sam-3",
+      "description: A shareware demo of Pajama Sam": "You Are What You Eat, From Your Head To Your Feet ported to WASM/WebGL.",
+      "keywords": "games emscripten c c++ gaming porting graphics",
+      "key": "pajamasam3"
+    }
+  },
+  {
+    "url": "/showcase/pdftron-webviewer",
+    "html": "<p>PDFTron WebViewer is a WebAssembly-based PDF and MS Office SDK. View, annotate, edit, automate, and more on the web.</p>\n<p><img src=\"/assets/showcase-assets/pdftron-webviewer-ui.png\" alt=\"PDFTron WebViewer UI\" /></p>\n<p>WebViewer is a WebAssembly-based SDK that brings PDF, MS Office, and video capabilities to web apps. View, annotate, edit, automate, and more. At its simplest you can view a document by passing WebViewer a document URL and a DOM element where WebViewer will be placed inside your app.</p>\n<p>WebViewer takes advantage of client side technologies like WebAssembly to quickly parse and render documents or videos completely in the browser with no server necessary.</p>\n<p>WebViewer supports PDF “Fast Web View” or Linearization, making it possible to stream large documents into a client application in similar fashion to Youtube videos. 2GB files open in 7 seconds on average when using a mobile device connected to a 4G connection.</p>\n<h2 id=\"additionalresources\">Additional Resources</h2>\n<ul>\n<li><a href=\"https://www.pdftron.com/webviewer/demo/\">WebViewer Demo App</a></li>\n<li><a href=\"https://www.pdftron.com/blog/wasm/wasm-vs-pnacl/\">WebAssembly vs PNaCl Performance Benchmark</a></li>\n<li><a href=\"https://www.pdftron.com/blog/pdf-format/what-is-pdf-linearization/\">What is PDF Linearization?</a></li>\n</ul>",
+    "project": {
+      "name": "PDFTron WebViewer",
+      "logo_url": "/assets/showcase-assets/pdftron.png",
+      "website": "https://www.pdftron.com/documentation/web",
+      "description": "Wasm-based PDF and MS Office SDK. View, annotate, edit, automate, and more.",
+      "keywords": "pdf sdk office documents video render emscripten c++ javascript pnacl word excel powerpoint annotate",
+      "key": "pdftron-webviewer"
+    }
+  },
+  {
+    "url": "/showcase/porous_absorber_calculator",
+    "html": "<p>An acoustic absorption calculator to help in the design of rooms in which acoustic accuracy is important, such as a home cinema or a recording studio.</p>\n<p><img src=\"https://raw.githubusercontent.com/ChrisWhealy/porous_absorber/master/img/rb_porous_absorber_screen1.png\" alt=\"Porous Absorber ScreenShot\" /></p>\n<p>The Porous Absorber Calculator uses WebAssembly (compiled from Rust), to create an absoprtion curve of a particular thickness of porous absorber layer (such as glass fibre or Rockwool) mounted either directly against a wall, or with an air gap between the wall and the porous layer.</p>\n<h2 id=\"additionalresources\">Additional Resources</h2>\n<ul>\n<li><p>The equations used to calculate these absorption curves are taken from the first edition of the book <a href=\"https://www.amazon.co.uk/Acoustic-Absorbers-Diffusers-Third-Trevor/dp/1498740995\"><em>\"Acoustic Absorbers and Diffusers\"</em></a> by Trevor Cox and Peter D'Antonio (now in its third edition)</p></li>\n<li><p><a href=\"https://github.com/ChrisWhealy/porous_absorber\">Git Repository</a></p></li>\n</ul>",
+    "project": {
+      "name": "Porous Absorber Calculator",
+      "website": "http://whealy.com/acoustics/PA_Calculator/index.html",
+      "description": "An acoustic absorption calculator to help in the design of home cinemas or recording studio environments",
+      "keywords": "acoustic absorption porous absorber home cinema recording studio",
+      "key": "porous_absorber_calculator"
+    }
+  },
+  {
+    "url": "/showcase/pspdfkit",
+    "html": "<p>PSPDFKit is a framework for working with PDF files on multiple platforms.</p>\n<p><img src=\"https://pbs.twimg.com/media/Dgyw2jZWsAADq2T.jpg\" alt=\"PSPDFKit benchmark ScreenShot\" /></p>\n<p>PSPDFKit uses WebAssembly, as they compile their C PDF rendering engine to WebAssembly, using Emscripten. This is awesome, as it shows off the portability of WebAssembly to bring other languages to the web. They also note that, they brought their engine to WebAssembly for their web framework, as they wanted to render documents directly on the browser, and not reuire a server. As having a browser-only solution, lowered the barrier to entry for their users. Which shows off the performance aspect of WebAssembly. JavaScript, even hyper-optimized solutions like asm.js, realtivley are slower than WebAssembly at computationally intensive tasks. WebAssembly unlocks bringing these tasks and applications that depend on these tasks to the web.</p>\n<h2 id=\"additionalresources\">Additional Resources</h2>\n<ul>\n<li><a href=\"https://pspdfkit.com/blog/2018/a-real-world-webassembly-benchmark/\">PSPDFKit - A Real-World WebAssembly Benchmark</a></li>\n<li><a href=\"https://twitter.com/giuseppegurgone/status/1171098425653415936\">Tweet explaining JavaScript Sandboxing</a></li>\n</ul>",
+    "project": {
+      "name": "PSPDFKit",
+      "logo_url": "https://pspdfkit.com/images/shared/pspdfkit-88b0e3a3.png",
+      "website": "https://www.figma.com/",
+      "description": "PSPDFKit is a framework for working with PDF files on multiple platforms.",
+      "keywords": "graphics 2d production rendering app application sandbox sand box c c++ emscripten pdf documents engine",
+      "key": "pspdfkit"
+    }
+  },
+  {
+    "url": "/showcase/qt",
+    "html": "<p>QT is a free and open-source widget toolkit for creating graphical user interfaces as well as cross-platform applications</p>\n<p><img src=\"https://www.qt.io/hs-fs/hubfs/Imported_Blog_Media/slate-wasm-1.png?width=951&height=774&name=slate-wasm-1.png\" alt=\"Q T Wasm screen shot\" /></p>\n<p>QT Uses WebAssembly as it runs it's business logic in WebAssembly, and then runs all UI and DOM Access by calling out to JavaScript. This is super exciting, as many small and large C applications use QT as their graphics library, which highlights WebAssemblys portability! As it shows that small projects can now easily have a web target avilable for them to bring their apps to the web in a language they are comfortable with!</p>\n<h1 id=\"additionalresources\">Additional Resources</h1>\n<ul>\n<li><a href=\"https://www.qt.io/blog/2018/11/19/getting-started-qt-webassembly\">Getting Started With Qt for WebAssembly</a></li>\n<li><a href=\"https://itnext.io/developing-web-apps-using-qml-and-qt-for-webassembly-aa84453f2f61\">Developing Web apps using QML and Qt for WebAssembly</a></li>\n</ul>",
+    "project": {
+      "name": "QT",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Qt_logo_2016.svg",
+      "source_url": "https://github.com/qt",
+      "website": "https://www.qt.io/qt-examples-for-webassembly",
+      "description": "QT is a free and open-source widget toolkit for creating graphical user interfaces as well as cross-platform applications",
+      "keywords": "ui c c++ user interface gui porting dom emscripten production",
+      "key": "qt"
+    }
+  },
+  {
+    "url": "/showcase/renpyweb",
+    "html": "<p>RenPy is a cross-platform game engine, with a web export (RenPyWeb) powered by WebAssembly.</p>\n<p><img src=\"https://renpy.beuc.net/cover-the_question-50.png\" alt=\"Renpy web screenshot\" /></p>\n<p>This project uses WebAssembly as it exports a web player for games made in Renpy, using Emscripten outputting WebAssembly.This means that games that traditionally could not export to the web due to slowdowns with JavaScript, may now be able to get a consistent good performance on the web for both 2d and 3d games.</p>\n<p>Please see the <a href=\"https://renpy.beuc.net/\">website</a> and <a href=\"https://github.com/renpy/renpyweb\">source code</a> for more information.</p>",
+    "project": {
+      "name": "RenPyWeb",
+      "logo_url": "https://renpy.beuc.net/renpyweb.svg",
+      "website": "https://renpy.beuc.net/",
+      "source_url": "https://github.com/renpy/renpyweb",
+      "description": "Cross-platform game engine with a web export powered by WebAssembly",
+      "keywords": "games emscripten c c++ gaming porting graphics",
+      "key": "renpyweb"
+    }
+  },
+  {
+    "url": "/showcase/rust-fern-bench",
+    "html": "<p>WebVR compatible 3D app for benchmarking fractal computation with Rust and WebAssembly.</p>\n<p><img src=\"https://github.com/w3reality/threelet/raw/master/examples/rust-fern-bench/rust-fern-bench.png\" alt=\"ScreenShot\" /></p>\n<p>Rust Fern Bench is a handy benchmark utility that can measure and visualize the performance of Rust WebAssembly in comparison with its JavaScript counterpart.</p>\n<p>The benchmark task given is to generate (thousands/millions of) WebGL vertices representing fern fractal leaves. We assign this CPU intensive task to a background Web Worker, so that we make sure this computation will not affect the app's 3D UI rendering in the main thread.</p>\n<p>Through this app, we are trying to empirically show a first step toward the future of WebVR/XR apps, where they will be orchestrating multiple Web Workers each embeding a high performance Wasm binary.</p>\n<h2 id=\"additionalresources\">Additional Resources</h2>\n<ul>\n<li><a href=\"https://en.wikipedia.org/wiki/Barnsley_fern\">Barnsley fern</a></li>\n</ul>",
+    "project": {
+      "name": "Rust Fern Bench",
+      "logo_url": "https://github.com/w3reality/threelet/raw/master/examples/rust-fern-bench/rust-fern-bench.png",
+      "website": "https://w3reality.github.io/threelet/examples/rust-fern-bench/index.html",
+      "source_url": "https://github.com/w3reality/threelet/tree/master/examples/rust-fern-bench",
+      "description": "WebVR compatible 3D app for benchmarking fractal computation with Rust and WebAssembly.",
+      "keywords": "rust wasm webvr webgl 3d fractal benchmark",
+      "key": "rust-fern-bench"
+    }
+  },
+  {
+    "url": "/showcase/rustpython",
+    "html": "<p>RustPython is a Python-3 (CPython &gt;= 3.5.0) Interpreter written in Rust. Runs in the browser using WebAssembly. Runs standalone on WebAssembly runtimes using <a href=\"https://hacks.mozilla.org/2019/03/standardizing-wasi-a-webassembly-system-interface/\">WASI</a>.</p>\n<p><img src=\"/assets/showcase-assets/rust-python.jpg\" alt=\"RustPython online demo screenshot\" /></p>\n<p>RustPython uses WebAssembly as it offers a WebAssembly build by using the great tooling for WebAssembly in the rust ecosystem. This is awesome, as it allows for running Python in JavaScript Environments! This really shows off how WebAssembly has the ability to bring more languages to the web! Also, there are WASI builds of the interpreter, meaning the interpreter can be run as a CLI tool in Server Side WebAssembly runtimes like <a href=\"https://wasmer.io/\">Wasmer</a>, <a href=\"https://wasmtime.dev/\">Wasmtime</a>, or even in the browser with <a href=\"https://github.com/wasmerio/wasmer-js\">Wasmer-JS</a>! Another thing, rustpython is distributed through <a href=\"https://wapm.io/package/rustpython\">WAPM</a>, Which highlights the portability of WebAssembly, in its ability to be easily bundled and distributed.</p>",
+    "project": {
+      "name": "RustPython",
+      "logo_url": "https://github.com/RustPython/RustPython/raw/master/logo.png",
+      "website": "https://rustpython.github.io/demo/",
+      "source_url": "https://github.com/RustPython/RustPython",
+      "description": "A Python-3 (CPython >= 3.5.0) Interpreter written in Rust",
+      "keywords": "game boy gameboy emulator assemblyscript emulation library pwa progressive web app web worker service worker benchmark javascript ts typescript type script js gaming",
+      "key": "rustpython"
+    }
+  },
+  {
+    "url": "/showcase/sandspiel",
+    "html": "<p>Sanspiel is a falling sand game, written with Rust / WebAssembly and ~ 2 million page views monthly. Built by <a href=\"https://maxbittker.com/\">Max Bittker</a>.</p>\n<p><img src=\"https://raw.githubusercontent.com/MaxBittker/sandspiel/master/Screenshot.png\" alt=\"sand spiel screen shot\" /></p>\n<p>Sandspiel uses Rust / Wasm for all of the particle simulation code. This allowed them to get the game running at a smooth 60fps, with a large total \"sandbox\" size. Whereas, they struggled with performance using other solutions in the past.</p>\n<h1 id=\"additonalresources\">Additonal Resources</h1>\n<ul>\n<li><a href=\"https://maxbittker.com/making-sandspiel\">Making Sandspiel</a></li>\n<li><a href=\"https://youtu.be/-dD-EaZ29hs\">Simulating Sand: Building Interactivity With WebAssembly by Max Bittker | JSConf EU 2019</a></li>\n<li><a href=\"https://twitter.com/maxbittker/status/1197265248555851776\">Page Views announcement on Twitter</a></li>\n</ul>",
+    "project": {
+      "name": "Sandspiel",
+      "logo_url": "https://raw.githubusercontent.com/MaxBittker/sandspiel/master/Screenshot.png",
+      "source_url": "https://github.com/MaxBittker/sandspiel",
+      "website": "https://sandspiel.club/",
+      "description": "Sanspiel is a falling sand game, written with Rust / WebAssembly with ~ 2 million page views monthly",
+      "keywords": "game gaming sand rust particle simulation physics math falling max bittker production",
+      "key": "sandspiel"
+    }
+  },
+  {
+    "url": "/showcase/soundation",
+    "html": "<p>Soundation Studio is a web Digital Audio Workstation tool for creating music online.</p>\n<p><img src=\"https://soundation.com/wp-content/uploads/2018/12/FullInterface.Straight-300x181.png\" alt=\"Soundation Studio ScreenShot\" /></p>\n<p>Soundation uses WebAssembly, as Digital Audio Workstations do a ton of heavy compuation of math and alrogithms to add sound waves to then create a final sound. Thus, the actual logic of adding effects, samples, generating sounds, etc.. is done using WebAssembly. This is exciting, as the performance benefits of WebAssembly relative to having to write Web Apps in Javascript, means that a <strong>whole new class of Web Applications can now be accomplished on the web</strong>! Historically Native Desktop apps, like Digital Audio Workstations, can now be brought to the web with a usable and delightful user experience!</p>\n<h2 id=\"additionalresources\">Additional Resources</h2>\n<ul>\n<li><a href=\"https://soundation.com/station/soundation-is-the-first-online-music-production-software-to-implement-webassembly-threads-gains-over-70-performance-improvement/\">Soundation is the first online music production software to implement WebAssembly Threads – gains over 300 % performance improvement</a></li>\n</ul>",
+    "project": {
+      "name": "Soundation",
+      "logo_url": "https://soundation.com/wp-content/uploads/2018/08/soundation-png-huge@3x.png",
+      "website": "https://soundation.com/",
+      "description": "Soundation Studio is a web Digital Audio Workstation tool for creating music online.",
+      "keywords": "production threads music tools audio tool sound daw digital math",
+      "key": "soundation"
+    }
+  },
+  {
+    "url": "/showcase/sqlite",
+    "html": "<p>SQLite compiled to WebAssembly through Emscripten</p>\n<p><img src=\"/assets/showcase-assets/sql-js.png\" alt=\"ScreenShot\" /></p>\n<p>sql.js is a port of SQLite to Webassembly, by compiling the SQLite C code with Emscripten. It uses a virtual database file stored in memory, and thus doesn't persist the changes made to the database. However, it allows you to import any existing sqlite file, and to export the created database as a JavaScript typed array.</p>\n<h2 id=\"additionalresources\">Additional Resources</h2>\n<ul>\n<li><a href=\"https://github.com/kripken/sql.js/\">sql.js repo</a></li>\n</ul>",
+    "project": {
+      "name": "sql.js",
+      "logo_url": "/assets/showcase-assets/sql-js.png",
+      "website": "http://kripken.github.io/sql.js/examples/GUI/",
+      "description": "SQLite compiled to WebAssembly through Emscripten",
+      "keywords": "c sql sqlite emscripten",
+      "key": "sqlite"
+    }
+  },
+  {
+    "url": "/showcase/squoosh",
+    "html": "<p>Squoosh is an image compression web app by Google, that allows you to dive into the advanced options provided by various image compressors.</p>\n<p><img src=\"https://cdn.netlify.com/143019fb20f93302e329664ed32f7fe9bd463a0d/34752/img/blog/featured-site-screengrab-squoosh.jpg\" alt=\"squoosh screen shot\" /></p>\n<p>Squoosh uses Emscripten, Rust, and AssemblyScript for various image codecs, and image manipulation algorithms used by the app. All of the image processing is computationally intensive and done on the users devices. WebAssembly makes this possible, by making the heavy tasks feel quick for users, with fast compression times.</p>\n<h1 id=\"additonalresources\">Additonal Resources</h1>\n<ul>\n<li><a href=\"https://youtu.be/ipNW6lJHVEs\">Complex JS-heavy Web Apps, Avoiding the Slow (Chrome Dev Summit 2018)</a></li>\n<li><a href=\"https://developers.google.com/web/updates/2019/02/hotpath-with-wasm\">Replacing a hot path in your app's JavaScript with WebAssembly</a></li>\n</ul>",
+    "project": {
+      "name": "Squoosh",
+      "logo_url": "https://squoosh.app/logo.af355.svg",
+      "source_url": "https://github.com/GoogleChromeLabs/squoosh/tree/master/src/codecs",
+      "website": "https://squoosh.app/",
+      "description": "Squoosh is an image compression web app by Google, that allows you to dive into the advanced options provided by various image compressors.",
+      "keywords": "image optimization manipulation codec rust emscripten assemblyscript google production pwa progressive web app web worker service worker",
+      "key": "squoosh"
+    }
+  },
+  {
+    "url": "/showcase/ssvm",
+    "html": "<p>SSVM is a high performance, hardware optimal Wasm Virtual Machine for AI and Blockchain applications.</p>\n<p>For different purposes, SSVM provides several tools to grant the best performance for each application.</p>\n<ul>\n<li>For AI applications, SSVM provides AI mode.</li>\n<li>SSVM-QITC can improve the performance of AI operators by leverage customized wasi to interact with <a href=\"https://github.com/ONNC/onnc-runtime\">ONNC runtime</a>.</li>\n<li>For blockchain applications, SSVM is compatible with <a href=\"https://github.com/ethereum/evmc\">Ethereum Client-VM connector API(EVMC)</a> and supports <a href=\"https://ewasm.readthedocs.io/en/mkdocs/\">Ethereum Environment Interface</a>(EEI) as a wasi extension.</li>\n<li>SSVM-EVMC implements both EVMC and EEI, which makes the integrations with Ethereum client easier.</li>\n<li>For server-side applications, SSVM provides core-wasi mode.</li>\n<li>SSVM-PROXY works with <a href=\"https://github.com/second-state/SSVMRPC\">SSVMRPC</a> service, which facilitates both code-deployment and code-execution interactions.</li>\n</ul>\n<h1 id=\"additionalresources\">Additional Resources</h1>\n<ul>\n<li><a href=\"https://github.com/ONNC\">ONNC</a></li>\n<li><a href=\"https://evmc.ethereum.org/\">EVMC</a></li>\n<li><a href=\"https://ewasm.readthedocs.io/en/mkdocs/\">Ewasm</a></li>\n<li><a href=\"https://github.com/second-state/SSVMRPC\">SSVMRPC</a></li>\n</ul>",
+    "project": {
+      "name": "SSVM",
+      "logo_url": "https://www.secondstate.io/assets/img/logo.png",
+      "website": "https://www.secondstate.io",
+      "source_url": "https://github.com/second-state/SSVM",
+      "description": "SSVM is a high performance, hardware optimal Wasm Virtual Machine for AI and Blockchain applications.",
+      "keywords": "ewasm runtime wasi server server-side c++ ethereum onnx onnc",
+      "key": "ssvm"
+    }
+  },
+  {
+    "url": "/showcase/tic-tac-toe",
+    "html": "<p>Tic tac to wasm aim to show the gap of performance between js and wasm, through implemenation of ai engine.</p>\n<p>The project use rust compiled to wasm for the ai engine and react for the ui. There is also a full js implementation of the engine.\nThe user can switch between the two implementations.</p>",
+    "project": {
+      "name": "Tic tac toe",
+      "website": "https://sepiropht.github.io/tic-tac-toe-wasm/",
+      "source_url": "https://github.com/sepiropht/tic-tac-toe-wasm/",
+      "description": "A classic game implementation in react and wasm",
+      "keywords": "game ai minmax",
+      "key": "tic-tac-toe"
+    }
+  },
+  {
+    "url": "/showcase/unity",
+    "html": "<p>Unity is a cross-platform game engine with a web export powered by WebAssembly.</p>\n<p><img src=\"https://images.techhive.com/images/article/2017/03/tanks-unity-100712791-large.jpg\" alt=\"Unity Tanks Screenshot\" /></p>\n<p>This project uses WebAssembly as it exports a web player for games made in Unity, using Emscripten outputting WebAssembly.This means that games that traditionally could not export to the web due to slowdowns with JavaScript, may now be able to get a consistent good performance on the web for both 2d and 3d games.</p>\n<h1 id=\"additionalresources\">Additional Resources</h1>\n<ul>\n<li><a href=\"https://blogs.unity3d.com/2018/08/15/webassembly-is-here/\">WebAssembly for Unity Announcement</a></li>\n<li><a href=\"https://blogs.unity3d.com/2018/09/17/webassembly-load-times-and-performance/\">Unity WebAssembly Benchmarking</a></li>\n<li><a href=\"https://wasm.bootcss.com/demo/\">Tanks Demo for Unity WebAssembly</a></li>\n</ul>",
+    "project": {
+      "name": "Unity",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Unity_Technologies_logo.svg/1200px-Unity_Technologies_logo.svg.png",
+      "website": "https://unity.com/",
+      "description": "Cross-platform game engine with a web export powered by WebAssembly",
+      "keywords": "games emscripten c c++ gaming porting 3d graphics",
+      "key": "unity"
+    }
+  },
+  {
+    "url": "/showcase/vaporboy",
+    "html": "<p>A Gameboy / Gameboy Color Emulator PWA for Android, iOS, Windows, MacOS, and Linux. ⚛️ Powered by wasmBoy. 🎮</p>\n<p><img src=\"https://github.com/torch2424/vaporBoy/raw/master/readme_assets/VaporboyWalkThrough.gif\" alt=\"VaporBoy gif video\" /></p>\n<p>VaporBoy is a PWA that wraps around <a href=\"https://github.com/torch2424/wasmBoy\">WasmBoy</a>. WasmBoy uses Wasm for it's emulation core, which runs all of the heavy logic of emulating the GameBoy. This is all placed within a web worker, for parallel computation, and leaving the main thread to respond to user input.</p>\n<p>WasmBoy directly acheived up to 60% speedup compared to the TypeScript compiled JavaScript implementation on low-end devices by using WebAssembly. Bringing emulation to low-end devices on the web. This was documented in this <a href=\"https://medium.com/@torch2424/webassembly-is-fast-a-real-world-benchmark-of-webassembly-vs-es6-d85a23f8e193\">benchmark article</a>.</p>\n<h1 id=\"additonalresources\">Additonal Resources</h1>\n<ul>\n<li><a href=\"https://youtu.be/ZlL1nduatZQ\">WebAssembly for Javascript Developers - Aaron Turner, WasmBoy & VaporBoy Author</a></li>\n</ul>",
+    "project": {
+      "name": "VaporBoy",
+      "logo_url": "https://vaporboy.net/assets/vaporboy/512/vaporboyvhs.png",
+      "website": "https://vaporboy.net/",
+      "source_url": "https://github.com/torch2424/wasmboy",
+      "description": "A Gameboy / Gameboy Color Emulator PWA for Android, iOS, Windows, MacOS, and Linux. ⚛️ Powered by wasmBoy. 🎮",
+      "keywords": "game boy gameboy emulator assemblyscript emulation library pwa progressive web app web worker service worker benchmark javascript ts typescript type script js gaming",
+      "key": "vaporboy"
+    }
+  },
+  {
+    "url": "/showcase/waforth",
+    "html": "<p>WAForth is a bootstrapping Forth interpreter and dynamic compiler for\nWebAssembly, written entirely in raw WebAssembly.</p>\n<p>Because it is written in raw WebAssembly, it has very good performance\n(even though it was not designed or intended to be fast).</p>",
+    "project": {
+      "name": "WAForth",
+      "description": "A bootstrapping dynamic Forth Interpreter/Compiler for WebAssembly",
+      "keywords": "forth compiler interpreter raw raw-wasm",
+      "website": "https://el-tramo.be/waforth",
+      "source_url": "https://github.com/remko/waforth",
+      "key": "waforth"
+    }
+  },
+  {
+    "url": "/showcase/wapm",
+    "html": "<p>WAPM is the package manager for WebAssembly. It is as an open source project to help WebAssembly developers easily share packaged modules of code.</p>\n<p><img src=\"https://miro.medium.com/max/2096/1*5-STK_P_JuNgNxRx_MgMzA.png\" alt=\"WAPM screen shot\" /></p>\n<p>WAPM really highlights the portability of WebAssembly. It shows that WebAssembly can easily be bundled into a package that can then be distributed and used across many different workflows and platforms.</p>\n<h1 id=\"additionalresources\">Additional Resources</h1>\n<ul>\n<li><a href=\"https://medium.com/wasmer/announcing-wapm-the-webassembly-package-manager-18d52fae0eea\">Announcing WAPM: The WebAssembly Package Manager</a></li>\n</ul>",
+    "project": {
+      "name": "WAPM",
+      "logo_url": "https://miro.medium.com/max/4020/1*RuMY_onp5fxJ9cQcgw-rDQ.png",
+      "source_url": "https://github.com/wasmerio/wapm-cli",
+      "website": "https://wapm.io/",
+      "description": "WAPM is the package manager for WebAssembly. It is an open source project to help WebAssembly developers easily share packaged modules of code.",
+      "keywords": "runtime wasi server servers side server-side emscripten language python c# rust c c++ go ruby php postgres javascript js .net r swift containers docker container containerization bundle package packages bundles",
+      "key": "wapm"
+    }
+  },
+  {
+    "url": "/showcase/wasm-wheel",
+    "html": "<p>The Wheel of WebAssembly aims to show the diversity of languages that compile to WebAssembly in a fun way.</p>\n<p><img src=\"https://github.com/boyanio/wasm-wheel/raw/master/assets/wasm-wheel-screenshot.jpg\" alt=\"Wheel of WebAssembly screenShot\" /></p>\n<p>Each wheel part is compiled to WebAssembly from a different language and is loaded completely independently (using JavaScript). The compiled code for each wheel part contains two functions: <code>name()</code> - returning the name of the wheel part (i.e., the programming language) and <code>feelingLucky()</code> - returning a random number from 1 to 100. The project aims to show how simple code can be compiled to WebAssembly for different programming languages.</p>\n<h2 id=\"additionalresources\">Additional Resources</h2>\n<ul>\n<li><a href=\"https://boyan.io/docker-multi-stage-builds-webassembly/\">Using Docker multi-stage builds to produce WebAssembly</a></li>\n</ul>",
+    "project": {
+      "name": "Wheel of WebAssembly",
+      "logo_url": "https://github.com/boyanio/wasm-wheel/raw/master/assets/wasm-wheel-screenshot.jpg",
+      "website": "https://boyan.io/wasm-wheel/",
+      "source_url": "https://github.com/boyanio/wasm-wheel/",
+      "description": "The Wheel of WebAssembly aims to show the diversity of languages that compile to WebAssembly in a fun way.",
+      "keywords": "wasm programming language example examples webassembly playground",
+      "key": "wasm-wheel"
+    }
+  },
+  {
+    "url": "/showcase/wasmboy",
+    "html": "<p>WasmBoy is a Game Boy / Game Boy Color Emulator Library, 🎮written for WebAssembly using AssemblyScript. 🚀Shell/Debugger in Preact. ⚛️</p>\n<p><img src=\"https://github.com/torch2424/wasmboy/blob/master/docs/images/debuggerDesktopDemo.gif?raw=true\" alt=\"WasmBoy gif video\" /></p>\n<p>WasmBoy uses Wasm for it's emulation core, which runs all of the heavy logic of emulating the GameBoy. This is all placed within a web worker, for parallel computation, and leaving the main thread to respond to user input.</p>\n<p>WasmBoy directly acheived up to 60% speedup compared to the TypeScript compiled JavaScript implementation on low-end devices by using WebAssembly. Bringing emulation to low-end devices on the web. This was documented in this <a href=\"https://medium.com/@torch2424/webassembly-is-fast-a-real-world-benchmark-of-webassembly-vs-es6-d85a23f8e193\">benchmark article</a>.</p>\n<h1 id=\"additonalresources\">Additonal Resources</h1>\n<ul>\n<li><a href=\"https://youtu.be/ZlL1nduatZQ\">WebAssembly for Javascript Developers - Aaron Turner, WasmBoy & VaporBoy Author</a></li>\n</ul>",
+    "project": {
+      "name": "WasmBoy",
+      "logo_url": "https://wasmboy.app/assets/WasmBoyCartridgeLogo.png",
+      "source_url": "https://github.com/torch2424/wasmboy",
+      "description": "Game Boy / Game Boy Color Emulator Library, 🎮written for WebAssembly using AssemblyScript. 🚀Shell/Debugger in Preact. ⚛️",
+      "keywords": "game boy gameboy emulator assemblyscript emulation library pwa progressive web app web worker service worker benchmark javascript ts typescript type script js gaming",
+      "key": "wasmboy"
+    }
+  },
+  {
+    "url": "/showcase/wasmbyexample",
+    "html": "<p>Wasm By Example is a website containing simple examples for how to get things done with wasm.</p>\n<p><img src=\"https://github.com/torch2424/wasm-by-example/raw/master/assets/readmeBanner.png\" alt=\"WasmByExample ScreenShot\" /></p>\n<p>This project is heavily inspired by <a href=\"https://gobyexample.com/\">Go By Example</a>. Wasm is still relatively young, and I thought it would be great to have a similar, hands-on / tutorial / introduction into WebAssembly for those who \"learn by doing\". If you are just getting started with WebAssembly, this is a great place to start!</p>",
+    "project": {
+      "name": "Wasm By Example",
+      "logo_url": "https://github.com/torch2424/wasm-by-example/raw/master/assets/readmeBanner.png",
+      "website": "https://wasmbyexample.dev/",
+      "source_url": "https://github.com/torch2424/wasm-by-example",
+      "description": "Wasm By Example is a website with a set of hands-on introduction examples and tutorials for WebAssembly (Wasm)",
+      "keywords": "wasm programming language learning example examples webassembly introduction tutorial",
+      "key": "wasmbyexample"
+    }
+  },
+  {
+    "url": "/showcase/wasmer",
+    "html": "<p>Wasmer is a universal, server-side WebAsembly runtime for WASI and the Emscripten ABI. With many language intreations, and a Wasmer-JS WASI Stack.</p>\n<p><img src=\"https://miro.medium.com/max/1040/1*c58ywE9rgt6SbuMnwS6EwQ.gif\" alt=\"Wasmer screen shot\" /></p>\n<p>Wasmer is a runtime for WebAssembly supporting multiple backends. This allows for running wasmer for standalone, or by embedding the runtime to run webassembly in one of your projects in <a href=\"https://github.com/wasmerio/wasmer#languages\">multiple languages</a>. Wasmer supported both the <a href=\"https://hacks.mozilla.org/2019/03/standardizing-wasi-a-webassembly-system-interface/\">WASI (WebAssembly System Interface)</a> ABI, as well as the <a href=\"https://medium.com/@syrusakbary/running-nginx-with-webassembly-6353c02c08ac\">Emscripten</a> ABI.</p>\n<p>Server side runtimes for WebAssembly highlight the portability of WebAssembly. WebAssembly provides a compile target for multiple languages to be used in many different contexts. This also allows for some level of containerization of your application or library, due to the sandboxed nature of WebAssembly's linear memory, and Capability-based security model.</p>",
+    "project": {
+      "name": "Wasmer",
+      "logo_url": "https://raw.githubusercontent.com/wasmerio/wasmer/master/logo.png",
+      "source_url": "https://github.com/wasmerio/wasmer",
+      "website": "https://wasmer.io/",
+      "description": "Wasmer is a universal, server-side WebAsembly runtime for WASI and the Emscripten ABI. With many language intreations, and a Wasmer-JS WASI Stack.",
+      "keywords": "runtime wasi server side server-side emscripten language python c# rust c c++ go golang ruby php postgres javascript js .net r swift containers docker container containerization",
+      "key": "wasmer"
+    }
+  },
+  {
+    "url": "/showcase/wasmtime",
+    "html": "<p>Wasmtime is a standalone wasm-only optimizing runtime for WebAssembly and WASI. It runs WebAssembly code outside of the Web, and can be used both as a command-line utility or as a library embedded in a larger application. Uses <a href=\"https://github.com/bytecodealliance/cranelift\">Cranelift</a> for it's WebAssembly execution.</p>\n<p><img src=\"https://hacks.mozilla.org/files/2019/11/featured-image-768x384.png\" alt=\"Wasmtime screen shot\" /></p>\n<p>Server side runtimes for WebAssembly highlight the portability of WebAssembly. WebAssembly provides a compile target for multiple languages to be used in many different contexts. This also allows for some level of containerization of your application or library, due to the sandboxed nature of WebAssembly's linear memory, and Capability-based security model.</p>\n<p>Wasmtime is a project under the Bytecode Alliance, an industry partnership coming together to forge WebAssembly’s outside-the-browser future by collaborating on implementing standards and proposing new ones.</p>\n<h1 id=\"addtionalresources\">Addtional Resources</h1>\n<ul>\n<li><a href=\"https://hacks.mozilla.org/2019/03/standardizing-wasi-a-webassembly-system-interface/\">WASI Announcement</a></li>\n<li><a href=\"https://hacks.mozilla.org/2019/11/announcing-the-bytecode-alliance/\">Bytecode Alliance Announcement</a></li>\n</ul>",
+    "project": {
+      "name": "Wasmtime",
+      "logo_url": "https://hacks.mozilla.org/files/2019/11/featured-image-768x384.png",
+      "website": "https://wasmtime.dev/",
+      "source_url": "https://github.com/bytecodealliance/wasmtime",
+      "description": "Standalone JIT-style runtime for WebAssembly, using Cranelift",
+      "keywords": "runtime wasi server servers side server-side emscripten language rust c c++ containers docker container containerization",
+      "key": "wasmtime"
+    }
+  },
+  {
+    "url": "/showcase/wavm",
+    "html": "<p>WAVM uses <a href=\"https://llvm.org/\">LLVM</a> to compile WebAssembly code to machine code with close to native performance. It can even beat native performance in some cases, thanks to the ability to generate machine code tuned for the exact CPU that is running the code.</p>\n<p><img src=\"/assets/showcase-assets/wavm.jpg\" alt=\"WAVM screen shot\" /></p>\n<p>Server side runtimes for WebAssembly highlight the portability of WebAssembly. WebAssembly provides a compile target for multiple languages to be used in many different contexts. This also allows for some level of containerization of your application or library, due to the sandboxed nature of WebAssembly's linear memory, and Capability-based security model.</p>",
+    "project": {
+      "name": "WAVM",
+      "logo_url": "/assets/showcase-assets/wavm.jpg",
+      "source_url": "https://github.com/WAVM/WAVM",
+      "description": "WAVM is a WebAssembly virtual machine, designed for use in non-web applications.",
+      "keywords": "runtime wasi server servers side server-side emscripten language rust c c++ containers docker container containerization",
+      "key": "wavm"
+    }
+  },
+  {
+    "url": "/showcase/webassembly-music-experiment",
+    "html": "<p>WebAssembly Music Experiment by Peter Salomonsen, is a web music livecoding editor, in which the instruments are implemented in AssemblyScript.</p>\n<p><img src=\"/assets/showcase-assets/wasm-music-experiment.jpg\" alt=\"wasm music experiment screen shot\" /></p>\n<p>WebAssembly Music Experiment by Peter Salomonsen, uses AssemblyScript to develop the logic and sample output of each of the available instruments in the livecoding editor. As they state in their article listed below: \"WebAssembly makes it possible to synthesize audio in real time with consistent / predictable performance.\" Meaning, due to the computationally demainding task of syntehsizing audio, JavaScript had a hard time doing this task, but it makes it a perfect fit for WebAssembly. Thus, unlocking new, high-performance functionality, for the browser!</p>\n<h1 id=\"additonalresources\">Additonal Resources</h1>\n<ul>\n<li><a href=\"https://petersalomonsen.com/articles/webassemblysynth/intro.html\">Chip music generated by WebAssembly - Article</a></li>\n<li><a href=\"https://www.youtube.com/watch?v=1NatEm5DwC8\">Video demonstration of recording output using the tool</a></li>\n<li><a href=\"https://twitter.com/WasmWeekly/status/1176948093104861185\">WasmWeekly Tweet</a></li>\n<li><a href=\"https://twitter.com/salomonsen_p/status/1195724627710038016\">Spotify link to music recorded by the tool</a></li>\n</ul>",
+    "project": {
+      "name": "WebAssembly Music Experiment - Peter Salomonsen",
+      "logo_url": "/assets/showcase-assets/wasm-music-experiment.jpg",
+      "source_url": "https://github.com/petersalomonsen/javascriptmusic/tree/master/wasmaudioworklet/synth1/assembly/instruments",
+      "website": "https://petersalomonsen.com/webassemblymusic/livecodev1/?gist=ea73551e352440d5f470c6af89d7fe7c",
+      "description": "WebAssembly Music Experiment by Peter Salomonsen, is a web music livecoding editor, in which the instruments are implemented in AssemblyScript.",
+      "keywords": "music audio manipulation generate performance assemblyscript cool chip tune game retro sound",
+      "key": "webassembly-music-experiment"
+    }
+  },
+  {
+    "url": "/showcase/webassembly-sh",
+    "html": "<p>Webassembly.sh is an Open-source and installable PWA terminal powered by WebAssembly, WAPM, and Wasmer-JS 🖥</p>\n<p><img src=\"https://github.com/wasmerio/webassembly.sh/raw/master/readme/PWADemo.gif\" alt=\"Webassembly s h p w a demo\" /></p>\n<p>WebAssembly.sh uses WebAssembly, by running WebAssembly modules that are compiled for the <a href=\"https://hacks.mozilla.org/2019/03/standardizing-wasi-a-webassembly-system-interface/\">WebAssembly System interface (WASI)</a> using <a href=\"https://github.com/wasmerio/wasmer-js\">Wasmer-JS</a>. It can then provide a shell-like interface, by running WASI compiled modules, similar like how you would on a native unix operating system. This is amazing, as it highlights how WebAssembly and WASI make existing and new projects more portable, and allow them to run on platforms that they could not before, even when using system level APIs!</p>\n<h1 id=\"additionalresources\">Additional Resources</h1>\n<ul>\n<li><a href=\"https://medium.com/wasmer/webassembly-sh-408b010c14db\">Announcement Article</a></li>\n</ul>",
+    "project": {
+      "name": "Webassembly.sh",
+      "logo_url": "https://github.com/wasmerio/webassembly.sh/blob/master/src/assets/icon.png?raw=true",
+      "source_url": "https://github.com/wasmerio/webassembly.sh",
+      "website": "https://webassembly.sh/",
+      "description": "Open-source and installable PWA terminal powered by WebAssembly, WAPM, and Wasmer-JS  🖥",
+      "keywords": "runtime wasi server side server-side emscripten language python c# rust c c++ go ruby php postgres javascript js .net r swift containers docker container containerization",
+      "key": "webassembly-sh"
+    }
+  },
+  {
+    "url": "/showcase/webm-mp4-encoder",
+    "html": "<p>An FFmpeg based webm/mp4 encoder using Wasm binaries compiled by Emscripten.</p>\n<p><img src=\"https://w3reality.github.io/async-thread-worker/examples/wasm-ffmpeg/encoder-trim.png\" alt=\"ScreenShot\" /></p>\n<p>This webm/mp4 encoder was created inspired by <a href=\"https://github.com/PaulKinlan\">PaulKinlan</a>'s article: \"Running FFMPEG with WASM in a Web Worker\".</p>\n<p>Internally, media transcoding is performed by the wasm/js output pair of <code>ffmpeg.js</code> compiled by Emscripten (specifically, mp4-to-webm conversion is done by <code>ffmpeg-webm.{wasm,js}</code>, and webm-to-mp4 by <code>ffmpeg-mp4.{wasm,js}</code>).</p>\n<p>This in-browser app will help you casually transcode video files at hand, but for videos with a larger size, it might be too slow due to FFmpeg itself not running in a multi-threaded mode. Give it a try :)</p>\n<h2 id=\"additionalresources\">Additional Resources</h2>\n<ul>\n<li><a href=\"https://paul.kinlan.me/running-ffmpeg-with-wasm-in-a-web-worker/\">Running FFMPEG with WASM in a Web Worker</a></li>\n<li><a href=\"https://github.com/Kagami/ffmpeg.js\">ffmpeg.js repo</a></li>\n</ul>",
+    "project": {
+      "name": "webm/mp4 Encoder",
+      "logo_url": "https://w3reality.github.io/async-thread-worker/examples/wasm-ffmpeg/encoder-trim.png",
+      "website": "https://w3reality.github.io/async-thread-worker/examples/wasm-ffmpeg/index.html",
+      "source_url": "https://github.com/w3reality/async-thread-worker/tree/master/examples/wasm-ffmpeg",
+      "description": "An FFmpeg based webm/mp4 encoder using Wasm binaries compiled by Emscripten.",
+      "keywords": "webm mp4 encoder converter ffmpeg emscripten worker thread",
+      "key": "webm-mp4-encoder"
+    }
+  }
+]

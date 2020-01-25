@@ -12,7 +12,7 @@
     "showcase:dev": "watch \"npm run showcase:build\" showcase",
     "showcase:build": "node showcase-build.js",
     "preact:dev": "preact watch",
-    "preact:build": "preact build",
+    "preact:build": "preact build --prerenderUrls src/prerender-urls.json",
     "netlify:build": "cp _redirects build/"
   },
   "husky": {
