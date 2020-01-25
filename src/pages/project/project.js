@@ -11,24 +11,57 @@ export default class Project extends Component {
       loading: true
     });
 
-    const fetchProjectHtmlTask = async () => {
-      const fetchResponse = await fetch(
-        `/assets/showcase/${this.props.id}.html`
-      );
-      const projectHtml = await fetchResponse.text();
+    // Check if we have pre-render data
+    let preRenderProject = undefined;
+    const preRenderScript = document.querySelector(
+      'script[type="__PREACT_CLI_DATA__"]'
+    );
+    if (preRenderScript) {
+      let preRenderScriptJson = JSON.parse(preRenderScript.innerHTML);
+      if (preRenderScriptJson.preRenderData) {
+        preRenderProject = preRenderScriptJson.preRenderData;
+      }
+    }
 
+    if (
+      preRenderProject &&
+      preRenderProject.project &&
+      preRenderProject.project.key === this.props.id
+    ) {
       this.setState({
         loading: false,
-        html: projectHtml
+        project: preRenderProject.project,
+        html: preRenderProject.html
       });
-    };
-    fetchProjectHtmlTask().catch(e => {
-      console.error(e);
-      this.setState({
-        loading: false,
-        error: true
+    } else {
+      // Fetch the project using props and the assets
+      const fetchProjectHtmlTask = async () => {
+        const fetchResponse = await fetch(
+          `/assets/showcase/${this.props.id}.html`
+        );
+        const projectHtml = await fetchResponse.text();
+
+        const project = showcaseJson[this.props.id];
+        document.title = `Made with WebAssembly - ${project.name}`;
+
+        this.setState({
+          loading: false,
+          project: project,
+          html: projectHtml
+        });
+      };
+      fetchProjectHtmlTask().catch(e => {
+        console.error(e);
+        this.setState({
+          loading: false,
+          error: true
+        });
       });
-    });
+    }
+  }
+
+  componentWillUnmount() {
+    document.title = `Made with WebAssembly`;
   }
 
   render() {
@@ -42,16 +75,18 @@ export default class Project extends Component {
       );
     } else if (this.state.error) {
       view = <h1>Error fetching the project...</h1>;
-    } else {
-      const project = showcaseJson[this.props.id];
-      console.log(project);
+    } else if (this.state.project) {
       view = (
         <div class="project__view">
-          <h1>{project.name}</h1>
+          <h1>{this.state.project.name}</h1>
           <div class="project__view__links">
-            {project.website ? <a href={project.website}>Website</a> : ""}
-            {project.source_url ? (
-              <a href={project.source_url}>Source Code</a>
+            {this.state.project.website ? (
+              <a href={this.state.project.website}>Website</a>
+            ) : (
+              ""
+            )}
+            {this.state.project.source_url ? (
+              <a href={this.state.project.source_url}>Source Code</a>
             ) : (
               ""
             )}
