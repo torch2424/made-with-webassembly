@@ -17,6 +17,9 @@ export default class Project extends Component {
       );
       const projectHtml = await fetchResponse.text();
 
+      const project = showcaseJson[this.props.id];
+      document.title = `Made with WebAssembly - ${project.name}`;
+
       this.setState({
         loading: false,
         html: projectHtml
@@ -29,6 +32,10 @@ export default class Project extends Component {
         error: true
       });
     });
+  }
+
+  componentWillUnmount() {
+    document.title = `Made with WebAssembly`;
   }
 
   render() {
@@ -44,7 +51,6 @@ export default class Project extends Component {
       view = <h1>Error fetching the project...</h1>;
     } else {
       const project = showcaseJson[this.props.id];
-      console.log(project);
       view = (
         <div class="project__view">
           <h1>{project.name}</h1>
