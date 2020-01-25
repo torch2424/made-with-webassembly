@@ -12,7 +12,7 @@ export default class Project extends Component {
     });
 
     // Check if we have pre-render data
-    let preRenderProject = {};
+    let preRenderProject = undefined;
     const preRenderScript = document.querySelector(
       'script[type="__PREACT_CLI_DATA__"]'
     );
@@ -23,7 +23,11 @@ export default class Project extends Component {
       }
     }
 
-    if (preRenderProject && preRenderProject.url === this.props.url) {
+    if (
+      preRenderProject &&
+      preRenderProject.project &&
+      preRenderProject.project.key === this.props.id
+    ) {
       this.setState({
         loading: false,
         project: preRenderProject.project,

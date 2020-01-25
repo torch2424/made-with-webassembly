@@ -39,6 +39,18 @@
     }
   },
   {
+    "url": "/showcase/amped-studio",
+    "html": "<p>Amped Studio is a modern web based music studio and production environment.</p>\n<p><img src=\"https://ampedstudio.com/welcome/flexible-500.png\" alt=\"Amped Studio ScreenShot\" /></p>\n<p>Amped Studio uses WebAssembly, as Digital Audio Workstations do a ton of heavy compuation of math and alrogithms to add sound waves to then create a final sound. Thus, the actual logic of adding effects, samples, generating sounds, etc.. is done using WebAssembly. This is exciting, as the performance benefits of WebAssembly relative to having to write Web Apps in Javascript, means that a <strong>whole new class of Web Applications can now be accomplished on the web</strong>! Historically Native Desktop apps, like Digital Audio Workstations, can now be brought to the web with a usable and delightful user experience!</p>\n<h2 id=\"additionalresources\">Additional Resources</h2>\n<ul>\n<li><a href=\"https://www.djtimes.com/amped-up-amped-studio-2-0/\">Dj Times - Amped Up: Amped Studio 2.0</a></li>\n</ul>",
+    "project": {
+      "name": "Amped Studio",
+      "logo_url": "https://www.namm.org/sites/www.namm.org/files_public/styles/800px/public/xtra/logos/a-green.png?itok=T9A8ArJw",
+      "website": "https://ampedstudio.com/",
+      "description": "Amped Studio is a modern web based music studio and production environment.",
+      "keywords": "production threads music tools audio tool sound daw digital math",
+      "key": "amped-studio"
+    }
+  },
+  {
     "url": "/showcase/arxwasm",
     "html": "<p>Arxwasm is an experimental port of the <a href=\"http://arx-libertatis.org/\">Arx Libertatis</a> project to WebAssembly using <a href=\"https://emscripten.org/\">Emscripten</a>, allowing to run the <a href=\"https://en.wikipedia.org/wiki/Arx_Fatalis\">Arx Fatalis</a> video game (2002) in modern Web Browsers.</p>\n<p><img src=\"https://wiki.arx-libertatis.org/images/e/e5/Cinematic.jpg\" alt=\"Arx Libertatis Screenshot\" /></p>\n<p>This project uses WebAssembly as it ports the GPL Licensed Source code of the demo, using Emscripten. This is quite notable, as it proves that WebAssembly can bring these large C/C++ codebases using Emscripten to the web, to run impressive 3d games.</p>\n<p>If you are interested in porting C/C++ libraries or applications, I'd highly reccomend <a href=\"https://youtu.be/FQJrcX4Ae8A\">Ben Smith's (binji) SFHTML5 Talk</a> on porting C projects to the web. This talk is unrealted to D3Wasm, but can help drive what goes into porting these types of applications.</p>",
     "project": {
@@ -49,18 +61,6 @@
       "description": "Online demonstration running Arx Libertatis Demo. An experimental port of Arx Libertatis to Emscripten / WebAssembly.",
       "keywords": "games emscripten c c++ gaming porting 3d graphics",
       "key": "arxwasm"
-    }
-  },
-  {
-    "url": "/showcase/amped-studio",
-    "html": "<p>Amped Studio is a modern web based music studio and production environment.</p>\n<p><img src=\"https://ampedstudio.com/welcome/flexible-500.png\" alt=\"Amped Studio ScreenShot\" /></p>\n<p>Amped Studio uses WebAssembly, as Digital Audio Workstations do a ton of heavy compuation of math and alrogithms to add sound waves to then create a final sound. Thus, the actual logic of adding effects, samples, generating sounds, etc.. is done using WebAssembly. This is exciting, as the performance benefits of WebAssembly relative to having to write Web Apps in Javascript, means that a <strong>whole new class of Web Applications can now be accomplished on the web</strong>! Historically Native Desktop apps, like Digital Audio Workstations, can now be brought to the web with a usable and delightful user experience!</p>\n<h2 id=\"additionalresources\">Additional Resources</h2>\n<ul>\n<li><a href=\"https://www.djtimes.com/amped-up-amped-studio-2-0/\">Dj Times - Amped Up: Amped Studio 2.0</a></li>\n</ul>",
-    "project": {
-      "name": "Amped Studio",
-      "logo_url": "https://www.namm.org/sites/www.namm.org/files_public/styles/800px/public/xtra/logos/a-green.png?itok=T9A8ArJw",
-      "website": "https://ampedstudio.com/",
-      "description": "Amped Studio is a modern web based music studio and production environment.",
-      "keywords": "production threads music tools audio tool sound daw digital math",
-      "key": "amped-studio"
     }
   },
   {
@@ -434,19 +434,6 @@
     }
   },
   {
-    "url": "/showcase/rust-fern-bench",
-    "html": "<p>WebVR compatible 3D app for benchmarking fractal computation with Rust and WebAssembly.</p>\n<p><img src=\"https://github.com/w3reality/threelet/raw/master/examples/rust-fern-bench/rust-fern-bench.png\" alt=\"ScreenShot\" /></p>\n<p>Rust Fern Bench is a handy benchmark utility that can measure and visualize the performance of Rust WebAssembly in comparison with its JavaScript counterpart.</p>\n<p>The benchmark task given is to generate (thousands/millions of) WebGL vertices representing fern fractal leaves. We assign this CPU intensive task to a background Web Worker, so that we make sure this computation will not affect the app's 3D UI rendering in the main thread.</p>\n<p>Through this app, we are trying to empirically show a first step toward the future of WebVR/XR apps, where they will be orchestrating multiple Web Workers each embeding a high performance Wasm binary.</p>\n<h2 id=\"additionalresources\">Additional Resources</h2>\n<ul>\n<li><a href=\"https://en.wikipedia.org/wiki/Barnsley_fern\">Barnsley fern</a></li>\n</ul>",
-    "project": {
-      "name": "Rust Fern Bench",
-      "logo_url": "https://github.com/w3reality/threelet/raw/master/examples/rust-fern-bench/rust-fern-bench.png",
-      "website": "https://w3reality.github.io/threelet/examples/rust-fern-bench/index.html",
-      "source_url": "https://github.com/w3reality/threelet/tree/master/examples/rust-fern-bench",
-      "description": "WebVR compatible 3D app for benchmarking fractal computation with Rust and WebAssembly.",
-      "keywords": "rust wasm webvr webgl 3d fractal benchmark",
-      "key": "rust-fern-bench"
-    }
-  },
-  {
     "url": "/showcase/rustpython",
     "html": "<p>RustPython is a Python-3 (CPython &gt;= 3.5.0) Interpreter written in Rust. Runs in the browser using WebAssembly. Runs standalone on WebAssembly runtimes using <a href=\"https://hacks.mozilla.org/2019/03/standardizing-wasi-a-webassembly-system-interface/\">WASI</a>.</p>\n<p><img src=\"/assets/showcase-assets/rust-python.jpg\" alt=\"RustPython online demo screenshot\" /></p>\n<p>RustPython uses WebAssembly as it offers a WebAssembly build by using the great tooling for WebAssembly in the rust ecosystem. This is awesome, as it allows for running Python in JavaScript Environments! This really shows off how WebAssembly has the ability to bring more languages to the web! Also, there are WASI builds of the interpreter, meaning the interpreter can be run as a CLI tool in Server Side WebAssembly runtimes like <a href=\"https://wasmer.io/\">Wasmer</a>, <a href=\"https://wasmtime.dev/\">Wasmtime</a>, or even in the browser with <a href=\"https://github.com/wasmerio/wasmer-js\">Wasmer-JS</a>! Another thing, rustpython is distributed through <a href=\"https://wapm.io/package/rustpython\">WAPM</a>, Which highlights the portability of WebAssembly, in its ability to be easily bundled and distributed.</p>",
     "project": {
@@ -457,6 +444,19 @@
       "description": "A Python-3 (CPython >= 3.5.0) Interpreter written in Rust",
       "keywords": "game boy gameboy emulator assemblyscript emulation library pwa progressive web app web worker service worker benchmark javascript ts typescript type script js gaming",
       "key": "rustpython"
+    }
+  },
+  {
+    "url": "/showcase/rust-fern-bench",
+    "html": "<p>WebVR compatible 3D app for benchmarking fractal computation with Rust and WebAssembly.</p>\n<p><img src=\"https://github.com/w3reality/threelet/raw/master/examples/rust-fern-bench/rust-fern-bench.png\" alt=\"ScreenShot\" /></p>\n<p>Rust Fern Bench is a handy benchmark utility that can measure and visualize the performance of Rust WebAssembly in comparison with its JavaScript counterpart.</p>\n<p>The benchmark task given is to generate (thousands/millions of) WebGL vertices representing fern fractal leaves. We assign this CPU intensive task to a background Web Worker, so that we make sure this computation will not affect the app's 3D UI rendering in the main thread.</p>\n<p>Through this app, we are trying to empirically show a first step toward the future of WebVR/XR apps, where they will be orchestrating multiple Web Workers each embeding a high performance Wasm binary.</p>\n<h2 id=\"additionalresources\">Additional Resources</h2>\n<ul>\n<li><a href=\"https://en.wikipedia.org/wiki/Barnsley_fern\">Barnsley fern</a></li>\n</ul>",
+    "project": {
+      "name": "Rust Fern Bench",
+      "logo_url": "https://github.com/w3reality/threelet/raw/master/examples/rust-fern-bench/rust-fern-bench.png",
+      "website": "https://w3reality.github.io/threelet/examples/rust-fern-bench/index.html",
+      "source_url": "https://github.com/w3reality/threelet/tree/master/examples/rust-fern-bench",
+      "description": "WebVR compatible 3D app for benchmarking fractal computation with Rust and WebAssembly.",
+      "keywords": "rust wasm webvr webgl 3d fractal benchmark",
+      "key": "rust-fern-bench"
     }
   },
   {
