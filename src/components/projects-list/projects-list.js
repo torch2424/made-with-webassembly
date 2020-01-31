@@ -48,11 +48,12 @@ export default class ProjectsList extends Component {
                       {this.props.showDateAdded ? (
                         <div class="project-list__project__date">
                           Date Added:{" "}
-                          {new Date(
-                            project.createdDate
-                          ).toLocaleDateString(undefined, {
-                            dateStyle: "short"
-                          })}
+                          {new Date(project.createdDate).toLocaleDateString(
+                            undefined,
+                            {
+                              dateStyle: "short"
+                            }
+                          )}
                         </div>
                       ) : (
                         ""
