@@ -92,6 +92,14 @@ export default class Project extends Component {
             )}
           </div>
           <div dangerouslySetInnerHTML={{ __html: this.state.html }}></div>
+          <div>
+            <b>
+              Date Added:{" "}
+              {new Date(
+                this.state.project.createdDate
+              ).toLocaleDateString(undefined, { dateStyle: "short" })}
+            </b>
+          </div>
         </div>
       );
     }

@@ -1,6 +1,6 @@
 import { Component } from "preact";
 
-import VirtualList from "preact-virtual-list";
+import ProjectsList from "../../components/projects-list/projects-list";
 
 import * as Fuse from "fuse.js";
 
@@ -63,50 +63,7 @@ export default class Home extends Component {
           onInput={event => this.onInput(event)}
         />
 
-        <div class="result-list">
-          <div>
-            <b>{this.state.results.length} projects</b>
-          </div>
-
-          {this.state.results.length === 0 ? (
-            ""
-          ) : (
-            <div class="result-list__virtual-list-wrapper">
-              <VirtualList
-                class="result-list__virtual-list"
-                data={this.state.results}
-                renderRow={result => {
-                  return (
-                    <a class="search-result" href={`/showcase/${result.key}`}>
-                      <div class="search-result__left">
-                        {result.logo_url ? (
-                          <img
-                            src={result.logo_url}
-                            alt={`${result.name} logo`}
-                          />
-                        ) : (
-                          <img
-                            src="/assets/icon.png"
-                            alt={`Default WebAssembly Project logo`}
-                          />
-                        )}
-                      </div>
-                      <div class="search-result__right">
-                        <h1 class="search-result__title">{result.name}</h1>
-                        <div class="search-result__description">
-                          {result.description}
-                        </div>
-                      </div>
-                    </a>
-                  );
-                }}
-                rowHeight={101}
-                overscanCount={5}
-                sync
-              />
-            </div>
-          )}
-        </div>
+        <ProjectsList projects={this.state.results} />
       </div>
     );
   }

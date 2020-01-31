@@ -1,10 +1,12 @@
 @import url("../node_modules/normalize.css/normalize.css");
 
 @import url("./components/header/header.css");
+@import url("./components/projects-list/projects-list.css");
 @import url("./pages/home/home.css");
 @import url("./pages/about/about.css");
 @import url("./pages/project/project.css");
 @import url("./pages/all-projects/all-projects.css");
+@import url("./pages/new-projects/new-projects.css");
 
 :root {
   --bg-color: #fafafa;

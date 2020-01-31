@@ -1,0 +1,13 @@
+.new-projects {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.new-projects__title,
+.new-projects__description {
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
