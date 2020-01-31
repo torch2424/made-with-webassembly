@@ -18,6 +18,7 @@
 
 html,
 body {
+  font-size: 16px;
   font-family: sans-serif, system-ui, serif;
 
   background-color: var(--bg-color);
@@ -27,6 +28,18 @@ body {
 
 body {
   margin: 0px;
+}
+
+h1 {
+  font-size: 1.5em;
+}
+
+h2 {
+  font-size: 1.25em;
+}
+
+h3 {
+  font-size: 16px;
 }
 
 hr {

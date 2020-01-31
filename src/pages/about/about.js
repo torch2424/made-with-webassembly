@@ -234,6 +234,27 @@ export default class About extends Component {
             for compiling C / C++ to WebAssembly and WASI.
           </li>
         </ul>
+        <h2>WebAssembly Logo</h2>
+        <p>
+          Just a quick shoutout to{" "}
+          <a
+            href="https://github.com/carlosbaraza"
+            rel="noopener"
+            target="_blank"
+          >
+            Carlos Baraza
+          </a>
+          . Who created the{" "}
+          <a
+            target="_blank"
+            rel="noopener"
+            href="https://github.com/carlosbaraza/web-assembly-logo"
+          >
+            WebAssembly Logo
+          </a>{" "}
+          under a Creative Commons Universal license. The logo is used in the
+          site favicon and title header.
+        </p>
       </div>
     );
   }

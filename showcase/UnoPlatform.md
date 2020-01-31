@@ -8,8 +8,6 @@ keywords: c# .net net dot microsoft xaml WinUI UWP
 
 OSS project for building single-codebase apps for Web (via WebAssembly), iOS, Android and Windows.
 
-
-
 ## Additional Resources
 
 - [Tutorial - Get Started with Uno Platform](https://platform.uno/docs/articles/getting-started-tutorial-1.html)
