@@ -39,6 +39,9 @@ const buildTask = async () => {
     },
     {
       url: "/all-projects"
+    },
+    {
+      url: "/new-projects"
     }
   ];
 
