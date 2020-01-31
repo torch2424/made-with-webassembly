@@ -9,6 +9,7 @@ import Home from "./pages/home/home";
 import About from "./pages/about/about";
 import Project from "./pages/project/project";
 import AllProjects from "./pages/all-projects/all-projects";
+import NewProjects from "./pages/new-projects/new-projects";
 
 import "./style";
 
@@ -46,6 +47,7 @@ export default class App extends Component {
               <About path="/about" />
               <Project path="/showcase/:id/" />
               <AllProjects path="/all-projects" />
+              <NewProjects path="/new-projects" />
             </Router>
           </main>
         </div>

@@ -17,6 +17,9 @@ export default class Header extends Component {
             <a class="nav__link" href="/">
               Home
             </a>
+            <a class="nav__link" href="/new-projects">
+              New Projects
+            </a>
             <a class="nav__link" href="/about">
               About
             </a>
