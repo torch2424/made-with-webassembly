@@ -1,5 +1,5 @@
 /showcase/:project /showcase/:project/index.html 200
 /about /about/index.html 200
-/all-projects /all-projects/all-projects/index.html 200
+/all-projects /all-projects/index.html 200
 /new-projects /new-projects/index.html 200
 /* /index.html 200
