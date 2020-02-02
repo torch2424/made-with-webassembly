@@ -17,19 +17,16 @@ export default class About extends Component {
         <p>
           Made with WebAssembly is a project by{" "}
           <a href="https://aaronthedev.com/">Aaron Turner (torch2424)</a> with
-          help from <a href="https://www.loxodrome.io/">James Milner</a> and
-          some{" "}
-          <a href="https://github.com/torch2424/made-with-webassembly/graphs/contributors">
-            amazing Contributors
-          </a>
-          .
-          <br />
-          <br />
-          With some additonal input from{" "}
+          help from <a href="https://www.loxodrome.io/">James Milner</a>,{" "}
           <a href="https://twitter.com/beriberikix">
             Jonathan Beri (beriberikix)
           </a>{" "}
-          and <a href="https://twitter.com/AlexStLouis10">Alex St. Louis</a>.
+          and some{" "}
+          <a href="https://github.com/torch2424/made-with-webassembly/graphs/contributors">
+            amazing Contributors
+          </a>
+          . With some additonal input from{" "}
+          <a href="https://twitter.com/AlexStLouis10">Alex St. Louis</a>.
         </p>
         <h2>Motivation</h2>
         <p>
