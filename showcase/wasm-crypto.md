@@ -8,8 +8,6 @@ keywords: crypto cryptography assemblyscript
 
 Authentication and key exchange protocols
 
-![ScreenShot](https://miro.medium.com/max/1600/0*mjxME2hyuHuAtHeo)
-
 A WebAssembly (via AssemblyScript) set of cryptographic primitives for building authentication and key exchange protocols.
 
 ## Additional Resources

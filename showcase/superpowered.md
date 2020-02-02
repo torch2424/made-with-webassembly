@@ -1,6 +1,6 @@
 ---
 name: Superpowered
-logo_url: https://www.stickpng.com/assets/images/584830b5cef1014c0b5e4a9c.png
+logo_url: https://superpowered.com/images/new-assets/superpowered-logo-black.svg
 website: https://superpowered.com/js-wasm-overview
 source_url: https://github.com/superpoweredSDK/web-audio-javascript-webassembly-SDK-interactive-audio
 description: Low-latency, interactive audio in the browser

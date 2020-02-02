@@ -1,6 +1,6 @@
 ---
 name: vlc.js
-logo_url: https://www.stickpng.com/assets/images/584830b5cef1014c0b5e4a9c.png
+logo_url: https://upload.wikimedia.org/wikipedia/commons/e/e6/VLC_Icon.svg
 website: https://www.videolan.org/vlc/
 source_url: https://code.videolan.org/jbk/vlc.js
 description: A full multimedia framework and player in the web browser
