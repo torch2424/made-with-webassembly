@@ -10,6 +10,6 @@ Wasm3 is a tiny, universal and blazingly fast WebAssembly interpreter written in
 
 ![Wasm3 screenshot](https://raw.githubusercontent.com/vshymanskyy/Wasm3_RGB_Lamp/master/extra/photos.jpg)
 
-Wasm3 allows running WebAssembly **everywhere** (supports a wide range of architectures). In fact, it can run on network equipment, routers, modems, microcontrollers, IoT devices, and much more. Wasm3 can be embedded into any desktop or smartphone application and serve as a scripting engine. Or, it can be used to achieve WebAssembly self-hosting (literally, running WebAssembly on top of WebAssembly).
+Wasm3 allows running WebAssembly **everywhere** (supports a wide range of architectures). In fact, it can run on network equipment, routers, modems, microcontrollers, IoT devices, game consoles and much more. Wasm3 can be embedded into any desktop or smartphone application and serve as a scripting engine. Or, it can be used to achieve WebAssembly self-hosting (literally, running WebAssembly on top of WebAssembly).
 
 **Have fun 😉**
