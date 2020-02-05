@@ -3,7 +3,7 @@ name: Wasm3
 logo_url: https://raw.githubusercontent.com/wasm3/wasm3/master/extra/logo.png
 source_url: https://github.com/wasm3/wasm3
 description: A tiny, universal and blazingly fast WebAssembly interpreter written in C 🚀
-keywords: fast high performance interpreter runtime wasi server side server-side rust c c++ cpp assemblyscript go tinygo swift ios android routers network equipment embedded mcu microcontroller esp32 esp8266 arm aarch64 mips riscv risc-v xtensa iot internet-of-things docker container sandbox
+keywords: fast tiny small high performance interpreter runtime wasi server side server-side rust c c++ cpp assemblyscript go tinygo swift ios android routers network equipment embedded mcu microcontroller esp32 esp8266 arm aarch64 mips riscv risc-v xtensa iot internet-of-things docker container sandbox
 ---
 
 Wasm3 is a tiny, universal and blazingly fast WebAssembly interpreter written in C 🚀
