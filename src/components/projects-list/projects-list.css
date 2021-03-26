@@ -4,10 +4,10 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: center;
+  align-items: start;
 }
 
-/* 
+/*
 Make CSS Fill reaminaing Dynamic height, but still be scrollable
 https://stackoverflow.com/questions/22085498/make-a-div-fill-the-remaining-dynamic-height-and-scroll-without-javascript */
 .project-list__virtual-list-wrapper {
@@ -28,7 +28,7 @@ https://stackoverflow.com/questions/22085498/make-a-div-fill-the-remaining-dynam
 }
 
 .project-list__project {
-  height: 80px;
+  min-height: 80px;
   width: 95%;
   display: flex;
   justify-content: flex-start;
@@ -64,7 +64,17 @@ https://stackoverflow.com/questions/22085498/make-a-div-fill-the-remaining-dynam
   margin-bottom: 5px;
 
   flex: 1;
+}
+
+.project-list__project__title {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+.project-list__project__description {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
 }

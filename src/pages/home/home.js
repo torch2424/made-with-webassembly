@@ -63,6 +63,10 @@ export default class Home extends Component {
           onInput={event => this.onInput(event)}
         />
 
+        <div class="search-stats">
+          <b>{this.state.results.length} projects</b>
+        </div>
+
         <ProjectsList projects={this.state.results} />
       </div>
     );
