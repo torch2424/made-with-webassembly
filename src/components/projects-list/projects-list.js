@@ -7,10 +7,6 @@ export default class ProjectsList extends Component {
   render() {
     return (
       <div class="project-list">
-        <div>
-          <b>{this.props.projects.length} projects</b>
-        </div>
-
         {this.props.projects.length === 0 ? (
           ""
         ) : (
