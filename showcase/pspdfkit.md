@@ -1,7 +1,7 @@
 ---
 name: PSPDFKit
 logo_url: https://pspdfkit.com/images/shared/pspdfkit-88b0e3a3.png
-website: https://www.figma.com/
+website: https://pspdfkit.com/
 description: PSPDFKit is a framework for working with PDF files on multiple platforms.
 keywords: graphics 2d production rendering app application sandbox sand box c c++ emscripten pdf documents engine
 ---
