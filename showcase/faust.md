@@ -1,5 +1,5 @@
 ---
-name: Faust and Faust IDE
+name: Faust IDE
 logo_url: https://raw.githubusercontent.com/grame-cncm/faustwebsite/master/mkdocs/docs/community/logos/img/LOGO_FAUST_SIMPLE_ORANGE.png
 source_url: https://github.com/grame-cncm/faustide
 description: The Faust (Functional Audio Stream) compiler running in a browser
