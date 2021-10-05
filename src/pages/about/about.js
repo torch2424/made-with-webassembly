@@ -9,7 +9,7 @@ export default class About extends Component {
         <h1>About</h1>
         <h2>Made with WebAssembly</h2>
         <p>
-          Made with WebAssebmly is an Open Source showcase of awesome production
+          Made with WebAssembly is an Open Source showcase of awesome production
           applications, side projects, and use cases made with WebAssembly (
           Wasm ). 👷
         </p>
@@ -25,7 +25,7 @@ export default class About extends Component {
           <a href="https://github.com/torch2424/made-with-webassembly/graphs/contributors">
             amazing Contributors
           </a>
-          . With some additonal input from{" "}
+          . With some additional input from{" "}
           <a href="https://twitter.com/AlexStLouis10">Alex St. Louis</a>.
         </p>
         <h2>Motivation</h2>
@@ -39,7 +39,7 @@ export default class About extends Component {
             2
           </a>
           , ...) on highlighting use cases, projects, and companies in
-          production using WebAssembly. Myself and a few other Wasm communitty
+          production using WebAssembly. Myself and a few other Wasm community
           members thought it'd be a great idea to have a dedicated place to find
           projects using WebAssembly, and highlight what WebAssembly can be used
           for! We were hoping it could be easy to comb through, and provide
@@ -50,7 +50,7 @@ export default class About extends Component {
         <b>Portability</b>. Here we will cover how and why these key features of
         WebAssembly can be used effectively for your application.
         <h3>Performance</h3>
-        When we speak about performance here, we are reffering to{" "}
+        When we speak about performance here, we are referring to{" "}
         <b>performance in JavaScript environments</b>. This is not a comparison
         to native speeds, as that is another question in itself. My favorite
         answer to this question is from the{" "}
@@ -87,7 +87,7 @@ export default class About extends Component {
         <br />
         <br />
         If you would like to see some numbers or benchmarks on comparing
-        JavaScript and WebAssembly in a real world use case, I'd reccomend the{" "}
+        JavaScript and WebAssembly in a real world use case, I'd recommend the{" "}
         <a href="https://medium.com/@torch2424/webassembly-is-fast-a-real-world-benchmark-of-webassembly-vs-es6-d85a23f8e193">
           WasmBoy Benchmark Article
         </a>{" "}
@@ -95,7 +95,7 @@ export default class About extends Component {
         <a href="https://developers.google.com/web/updates/2019/02/hotpath-with-wasm">
           Replacing a hot path in your app's JavaScript with WebAssembly
         </a>
-        . There are many more benchamrks out there you can search for.
+        . There are many more benchmarks out there you can search for.
         <h3>Portability</h3>
         WebAssembly is extremely portable. This can be explained in multiple
         scenarios:
@@ -114,13 +114,13 @@ export default class About extends Component {
             Standalone Server side runtimes like{" "}
             <a href="https://wasmer.io/">Wasmer</a>,{" "}
             <a href="https://github.com/bytecodealliance/wasmtime">Wasmtime</a>,
-            etc.. allow for running WebAssembly on the server, as it's own
+            etc.. allow for running WebAssembly on the server, as its own
             application, or embedded in a host application written in a variety
             of languages. This is great, since you can{" "}
             <b>
               write business logic, or computationally intensive algorithms once
               and have a common shared implementation that is run in a
-              lightweight runtime in your applicaiton
+              lightweight runtime in your application
             </b>
             . Also, with the{" "}
             <a href="https://hacks.mozilla.org/2019/03/standardizing-wasi-a-webassembly-system-interface/">
