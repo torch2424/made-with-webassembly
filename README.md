@@ -44,7 +44,7 @@ To add a new project to the showcase, create a markdown file with the following 
 
 - `description` - A Short description of the project. Will be used for fuzzy searching.
 
-- `keywoards` - Space seperated list of words. This will be used for fuzzy searching.
+- `keywords` - Space separated list of words. This will be used for fuzzy searching.
 
 - `logo_url` (OPTIONAL) - A Url to the logo for the project
 
