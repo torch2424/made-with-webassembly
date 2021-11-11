@@ -1,6 +1,6 @@
 ---
 name: Wasmer
-logo_url: https://raw.githubusercontent.com/wasmerio/wasmer/master/logo.png
+logo_url: https://avatars.githubusercontent.com/u/44205449?s=200&v=4
 source_url: https://github.com/wasmerio/wasmer
 website: https://wasmer.io/
 description: Wasmer is a universal, server-side WebAsembly runtime for WASI and the Emscripten ABI. With many language intreations, and a Wasmer-JS WASI Stack.

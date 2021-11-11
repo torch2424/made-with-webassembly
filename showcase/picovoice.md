@@ -1,6 +1,6 @@
 ---
 name: Picovoice
-logo_url: https://picovoice.ai/assets/images/pv_wordmark.png
+logo_url: https://avatars.githubusercontent.com/u/37164515?s=200&v=4
 website: https://picovoice.ai/
 source_url: https://github.com/Picovoice/web-voice-processor
 description: Private voice AI

@@ -1,6 +1,6 @@
 ---
 name: Pion
-logo_url: https://pion.ly/img/pion-logo.svg
+logo_url: https://avatars.githubusercontent.com/u/38192892?s=200&v=4
 website: https://pion.ly/
 source_url: https://github.com/pion/webrtc
 description: Pure Go implementation of the WebRTC API

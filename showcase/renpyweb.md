@@ -1,6 +1,6 @@
 ---
 name: RenPyWeb
-logo_url: https://renpy.beuc.net/renpyweb.svg
+logo_url: https://avatars.githubusercontent.com/u/1900740?s=200&v=4
 website: https://renpy.beuc.net/
 source_url: https://github.com/renpy/renpyweb
 description: Cross-platform game engine with a web export powered by WebAssembly

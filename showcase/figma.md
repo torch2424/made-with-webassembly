@@ -1,6 +1,6 @@
 ---
 name: Figma
-logo_url: https://pbs.twimg.com/profile_images/1184135296566251520/TWYoDqir_400x400.png
+logo_url: https://avatars.githubusercontent.com/u/5155369?s=200&v=4
 website: https://www.figma.com/
 description: Figma is a collaborative interface design tool, powered by WebAssembly.
 keywords: graphics 2d production rendering app application

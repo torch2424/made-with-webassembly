@@ -1,6 +1,6 @@
 ---
 name: Redis
-logo_url: https://www.stickpng.com/assets/images/584830b5cef1014c0b5e4a9c.png
+logo_url: https://pbs.twimg.com/profile_images/1427657682626961410/aJp7nOdu_400x400.jpg
 website: https://medium.com/fluence-network/porting-redis-to-webassembly-with-clang-wasi-af99b264ca8
 source_url: https://github.com/fluencelabs/redis
 description: Porting Redis to WebAssembly with Clang/WASI

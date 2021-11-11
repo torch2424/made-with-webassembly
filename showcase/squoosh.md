@@ -1,6 +1,6 @@
 ---
 name: Squoosh
-logo_url: https://squoosh.app/logo.af355.svg
+logo_url: https://squoosh.app/c/icon-demo-logo-326ed9b6.png
 source_url: https://github.com/GoogleChromeLabs/squoosh/tree/master/src/codecs
 website: https://squoosh.app/
 description: Squoosh is an image compression web app by Google, that allows you to dive into the advanced options provided by various image compressors.

@@ -1,6 +1,6 @@
 ---
 name: GDevelop
-logo_url: https://gdevelop-app.com/static/landing-screen.505f42bb.png
+logo_url: https://raw.githubusercontent.com/4ian/GDevelop/master/Core/docs/images/gdlogo.png
 website: https://gdevelop-app.com/
 source_url: https://github.com/4ian/GDevelop
 description: GDevelop is an open-source, cross-platform game engine designed to be used by everyone.

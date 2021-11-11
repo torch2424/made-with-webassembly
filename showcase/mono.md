@@ -1,6 +1,6 @@
 ---
 name: Mono
-logo_url: https://www.mono-project.com/images/mono-gorilla.svg
+logo_url: https://avatars.githubusercontent.com/u/53395?s=200&v=4
 website: https://www.mono-project.com/
 source_url: https://github.com/mono/mono
 description: Mono open source ECMA CLI, C# and .NET implementation

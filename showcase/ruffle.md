@@ -1,6 +1,6 @@
 ---
 name: Ruffle
-logo_url: https://camo.githubusercontent.com/155b70fcb807787450561a70a898326746497618/68747470733a2f2f727566666c652e72732f6173736574732f6c6f676f2e706e67
+logo_url: https://ruffle.rs/assets/logo.svg
 website: https://ruffle.rs/
 source_url: https://github.com/ruffle-rs/ruffle
 description: A Flash Player emulator written in Rust
