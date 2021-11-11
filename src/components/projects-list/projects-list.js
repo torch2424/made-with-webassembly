@@ -59,7 +59,7 @@ export default class ProjectsList extends Component {
                 );
               }}
               rowHeight={101}
-              overscanCount={10}
+              overscanCount={20}
               sync
             />
           </div>

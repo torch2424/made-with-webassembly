@@ -1,6 +1,6 @@
 ---
 name: Near Protocol
-logo_url: https://github.com/nearprotocol/nearcore/raw/master/docs/logo.svg?sanitize=true
+logo_url: https://avatars.githubusercontent.com/u/7613128?s=200&v=4
 source_url: https://github.com/nearprotocol/near-runtime-ts
 website: https://nearprotocol.com/
 description: Near Protocol is public blockain for builing decentralized applications using WebAssembly (AssemblyScript)

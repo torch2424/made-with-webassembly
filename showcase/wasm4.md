@@ -1,6 +1,6 @@
 ---
 name: WASM-4
-logo_url: https://wasm4/img/logo.png
+logo_url: https://wasm4.org/img/logo.png
 source_url: https://github.com/aduros/wasm4
 website: https://wasm4.org
 description: WASM-4 is a virtual game console for building retro games directly in WebAssembly.
@@ -25,18 +25,18 @@ language that compiles to WebAssembly.
 
 ## Key Features
 
-* **No Glue Code**: If you've ever tried to write even a simple "Hello World"
+- **No Glue Code**: If you've ever tried to write even a simple "Hello World"
   with WebAssembly before, you'll know it usually involves writing a bunch of
   JS and HTML glue. WASM-4 removes all of that, games interface directly with
   the system through a small API.
 
-* **Minimalist**: Fantasy consoles force developers to work with limited resources.
+- **Minimalist**: Fantasy consoles force developers to work with limited resources.
   This makes them simple to learn, and easier to focus on finishing your game.
 
-* **Language Agnostic**: Use any programming language, as long as it can compile to WebAssembly. Out of
+- **Language Agnostic**: Use any programming language, as long as it can compile to WebAssembly. Out of
   the box we currently support: AssemblyScript, C/C++, Rust, Go.
 
-* **Portable**: WASM-4 is designed to run on any device that can execute WebAssembly, even outside of
+- **Portable**: WASM-4 is designed to run on any device that can execute WebAssembly, even outside of
   the web! We're planning a lightweight implementation written in C that will run even on a potato.
 
 ## 🚀 60 Second Quickstart

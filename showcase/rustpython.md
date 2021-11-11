@@ -1,6 +1,6 @@
 ---
 name: RustPython
-logo_url: https://github.com/RustPython/RustPython/raw/master/logo.png
+logo_url: https://avatars.githubusercontent.com/u/39710557?s=200&v=4
 website: https://rustpython.github.io/demo/
 source_url: https://github.com/RustPython/RustPython
 description: A Python-3 (CPython >= 3.5.0) Interpreter written in Rust

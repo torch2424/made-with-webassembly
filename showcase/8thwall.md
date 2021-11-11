@@ -1,6 +1,6 @@
 ---
 name: 8th Wall
-logo_url: https://www.8thwall.com/img/8thWallLogo-Grad.png
+logo_url: https://pbs.twimg.com/profile_images/1270033233300713472/uPL5o2aF_400x400.jpg
 website: https://www.8thwall.com/
 description: 8th Wall enables developers to create, collaborate and publish Web AR experiences that run directly in a mobile web browser.
 keywords: production ar vr xr webar webvr webxr reality virtual augmented games mobile

@@ -1,6 +1,6 @@
 ---
 name: Binjgb
-logo_url: https://github.com/binji/binjgb/raw/master/images/debugger.png
+logo_url: https://github.com/binji/binjgb/raw/main/images/debugger.png
 source_url: https://github.com/binji/binjgb
 website: http://binji.github.io/binjgb/
 description: Gameboy emulator implemented in C. Runs in the browser using WebAssembly.
@@ -9,7 +9,7 @@ keywords: game boy gameboy emulator c c++ emscripten emulation library benchmark
 
 Gameboy emulator implemented in C. Runs in the browser using WebAssembly.
 
-![binjgb debugger screenshot](https://github.com/binji/binjgb/raw/master/images/debugger.png)
+![binjgb debugger screenshot](https://github.com/binji/binjgb/raw/main/images/debugger.png)
 
 Binjgb uses Wasm for it's emulation core, which runs all of the compuationally heavy logic of emulating the GameBoy. This is written in C, and compiled to WebAssembly using [Emscripten](https://emscripten.org/).
 
