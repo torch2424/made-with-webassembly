@@ -12,4 +12,6 @@ A simple app that plots the Mandelbrot Set. As you move your mouse pointer over 
 
 The app was written not only as an exercise in learning to code in WebAssembly Text, but also to see how small a program could be created to perform the computationally intensive task of plotting fractal images.
 
+A detailed description of how to write this app can be found in this [tutorial](https://awesome.red-badger.com/chriswhealy/plotting-fractals-in-webassembly)
+
 I think the results are very positive since the resulting binary occupies only 493 bytes!
