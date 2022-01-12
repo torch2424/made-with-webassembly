@@ -86,7 +86,7 @@ git clone git@github.com:<your username>/made-with-webassembly.git
    newly created local repository directory and run:
 
 ```shell
-git remote add upstream git@github.com:torch2424/wasm-by-example.git
+git remote add upstream git@github.com:torch2424/made-with-webassembly.git
 ```
 
 7. Fetch data from the `upstream` remote:
