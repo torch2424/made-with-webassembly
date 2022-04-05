@@ -1,6 +1,6 @@
 ---
 name: OpenCascade.js
-logo_url: https://github.com/donalffons/opencascade.js/blob/master/images/logo%20no%20text.svg
+logo_url: https://raw.githubusercontent.com/donalffons/opencascade.js/master/images/logo%20no%20text.svg
 website: https://ocjs.org/
 source_url: https://github.com/donalffons/opencascade.js
 description: Port of the OpenCascade CAD library to JavaScript and WebAssembly via Emscripten.
