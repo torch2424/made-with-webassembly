@@ -2,13 +2,37 @@
   width: 100%;
   border-bottom: 2px solid var(--color);
   padding-bottom: 5px;
-  padding-top: 20px;
   padding-bottom: 20px;
   z-index: 1;
 }
 
+.header > .announcements {
+  padding: 10px;
+
+  color: var(--bg-color);
+  background-color: var(--dark-wasm-color);
+}
+
+.header > .announcements > p {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+  max-width: var(--center-width);
+  font-size: 14px;
+  text-align: center;
+}
+
+.header > .announcements a {
+  color: var(--bg-color);
+  border-bottom: 1px solid var(--bg-color);
+}
+
 .header > .nav {
   max-width: var(--center-width);
+  margin-top: 10px;
 
   margin-left: auto;
   margin-right: auto;
