@@ -1,6 +1,6 @@
 ---
 name: gotemplate.io
-logo_url: /assets/showcase-assets/gotemplate-logo.png
+logo_url: https://gotemplate.io/images/logo.png
 website: https://gotemplate.io/
 description: Quicky test and visualize your Go templates live.
 keywords: go golang template preview live visualize
