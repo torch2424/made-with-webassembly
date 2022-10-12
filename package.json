@@ -25,7 +25,7 @@
     "eslint-config-synacor": "^1.1.0",
     "husky": "^3.0.9",
     "if-env": "^1.0.0",
-    "mkdirp": "^0.5.1",
+    "mkdirp": "^0.5.6",
     "npm-run-all": "^4.1.5",
     "preact-cli": "^3.0.0-rc.6",
     "preact-cli-plugin-async": "^2.0.0",
