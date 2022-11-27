@@ -54,7 +54,7 @@ export default class About extends Component {
         <b>performance in JavaScript environments</b>. This is not a comparison
         to native speeds, as that is another question in itself. My favorite
         answer to this question is from the{" "}
-        <a href="https://docs.assemblyscript.org/faq#is-webassembly-always-faster">
+        <a href="https://www.assemblyscript.org/frequently-asked-questions.html#is-webassembly-faster-than-javascript">
           AssemblyScript Documentation
         </a>
         . I'd like to provide one that is along the same lines, but remember,{" "}
