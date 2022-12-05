@@ -22,7 +22,7 @@
     }
   },
   "devDependencies": {
-    "eslint": "^4.19.1",
+    "eslint": "^8.29.0",
     "eslint-config-synacor": "^1.1.0",
     "husky": "^3.0.9",
     "if-env": "^1.0.0",
