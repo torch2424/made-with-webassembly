@@ -11,8 +11,9 @@
     "lint:ci": "npx prettier --list-different src/**/*.js src/**/*.css",
     "showcase:dev": "watch \"npm run showcase:build\" showcase",
     "showcase:build": "node showcase-build.js",
-    "preact:dev": "preact watch",
-    "preact:build": "preact build --prerenderUrls src/prerender-urls.json",
+    "Legacy-SLL-Env-Var": "See: https://github.com/preactjs/preact-cli/issues/1748",
+    "preact:dev": "NODE_OPTIONS=--openssl-legacy-provider preact watch",
+    "preact:build": "NODE_OPTIONS=--openssl-legacy-provider preact build --prerenderUrls src/prerender-urls.json",
     "netlify:build": "cp _redirects build/"
   },
   "husky": {
@@ -21,21 +22,21 @@
     }
   },
   "devDependencies": {
-    "eslint": "^4.5.0",
+    "eslint": "^4.19.1",
     "eslint-config-synacor": "^1.1.0",
     "husky": "^3.0.9",
     "if-env": "^1.0.0",
     "mkdirp": "^0.5.6",
     "npm-run-all": "^4.1.5",
-    "preact-cli": "^3.0.0-rc.6",
+    "preact-cli": "^3.4.1",
     "preact-cli-plugin-async": "^2.0.0",
     "prettier": "1.19.1",
     "pretty-quick": "^2.0.1",
     "recursive-copy": "^2.0.10",
     "recursive-readdir": "^2.2.2",
-    "serve": "^11.2.0",
+    "serve": "^14.1.2",
     "showdown": "^1.9.1",
-    "watch": "^1.0.2"
+    "watch": "^0.13.0"
   },
   "dependencies": {
     "fuse.js": "^3.4.5",

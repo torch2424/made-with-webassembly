@@ -1,5 +1,8 @@
 // Import our showcaseJson so we can get all the keys
+import { precacheAndRoute } from "workbox-precaching";
 import showcaseJson from "./assets/showcase.json";
+
+precacheAndRoute(self.__WB_MANIFEST);
 
 // Cache Images
 // https://developers.google.com/web/tools/workbox/guides/common-recipes#caching_images

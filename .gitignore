@@ -3,6 +3,7 @@ build/
 src/assets/showcase/
 src/assets/showcase.json
 src/prerender-urls.json
+size-plugin.json
 
 # System Files
 .DS_Store
