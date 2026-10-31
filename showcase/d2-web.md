@@ -2,7 +2,7 @@
 name: D2-Web
 website: https://diablo2.virtastic.app
 source_url: https://github.com/Virtastic/d2-web
-description: Diablo II: Lord of Destruction 1.13c reimplemented in C++20 and compiled to 64-bit WebAssembly, playable in a browser tab with your own game files.
+description: Diablo II Lord of Destruction 1.13c reimplemented in C++20 and compiled to 64-bit WebAssembly, playable in a browser tab with your own game files.
 keywords: games emscripten c++ wasm64 gaming diablo porting
 ---
 
